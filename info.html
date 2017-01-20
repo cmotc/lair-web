@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+<title>LAIR!</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<ul>
+<li><a href="info.html">info</a></li>
+</ul>
+<ul>
+<li><a href="maps.html">maps</a></li>
+</ul>
+<ul>
+<li><a href="license.html">license</a></li>
+</ul>
+<ul>
+<li><a href="art/art.html">art</a></li>
+</ul>
+<ul>
+<li><a href="blog/blog.html">blog</a></li>
+</ul>
+<h1>LAIR!</h1>
+
+<p>LAIR! is a rogue-like dungeon crawling game that draws it's influences primarily
+from the classic 2D Legend of Zelda games(Gameplay), Teleglitch: Die More
+Edition(Aesthetically), Borderlands(Mechanically), and MMORPG's. It's been
+something I've been developing for a long time, and I'll probably never consider
+it truly done, but it's about time I start documenting how to actually play it
+now that I'm going to have a version in a week or four. Also it's capitalized
+for now because it used to be an abbreviation. That might change because it's
+not anymore.</p>
+
+<h2>Installation</h2>
+
+<h3>Debian/Ubuntu:</h3>
+
+<p>Now it's possible to build a .deb package and if you want, install it
+automatically. To build the .deb package(but not install), do</p>
+
+<pre><code>    make deb-pkg
+</code></pre>
+
+<p>or to install it automaticall just run it as root.</p>
+
+<pre><code>    sudo make deb-pkg
+</code></pre>
+
+<h3>Other Linux:</h3>
+
+<p>It's just a makefile now, just running "make" in the working directory will
+build the executable in the ./bin/ directory. After that, running "sudo make
+install" will install the executable and the configuration files, or if you'd
+prefer not to install that way, you can specify the paths to the configuration
+files via the command-line flags for now:</p>
+
+<pre><code>    ----------------------------
+         -i : display this info
+         -p : path to the image file listing
+         -s : path to the sound file listing
+         -f : path to the fonts file listing
+         -m : map size(tiny, small, medium, large, giant
+         -c : path to map generation script
+         -e : path to character generation script
+         -a : path to ai library script
+         -v : log output verbosity
+         -w : screen width
+         -h : screen height
+</code></pre>
+
+<p>which are in the <a href="https://github.com/cmotc/lairart">art repository</a>, which you
+can install with make; sudo make install.</p>
+
+<h3>Windows:</h3>
+
+<p>Very untested, like literally zero testing at all, but technically it has been
+successfully cross-compiled for Windows 32 and 64 bit using M Cross Environment.
+For now, test at your own risk.</p>
+
+<h2>Configuration(You probably don't need to read this unless you want to mod)</h2>
+
+<h3>Static Configuration</h3>
+
+<p>Static Configuration done with plain text files and a shell-script based
+launcher for the actual binary /usr/bin/LAIR on Unix, or a Lua based config file
+on Windows. You can hypothetically use either launcher to combine multiple
+configuration files together and expand the content of the game. Examples
+forthcoming, but if you've ever used sources.list.d you know what I'm about.</p>
+
+<p>As far as the actual configuration files go, it's pretty simple. Here's an
+example line.</p>
+
+<pre><code>    "Path to a file containing a resource"    "Name"    "List of tags"
+    /usr/share/lair/wall_stone_bricked/wall_stone_bricked-4.png wall stone bricked default
+</code></pre>
+
+<p>The first part is obviously a path to a png file. Followed by a space, the first
+word following the path is the name of the file. The name is also the first tag
+that can be used to produce a random tile from a specific category with the game
+engine, or it can be used to retrieve a specific tile with the game engine. So
+the first tag, the name, should be unique for things you want to refer to
+specifically, and the remaining tags could be non-unique. For more example
+configuration files, see the <a href="https://github.com/cmotc/lairart">art repository</a>.</p>
+
+<h3>Dynamic(Lua) Configuration</h3>
+
+<p>Dynamic configuration is only enabled for the Maps at this time.</p>
+
+<p>Dynamic Map configuration is done by using Lua to define what actions the game
+takes to generate effects in a particular set of circumstances. The maps inform
+the Lua virtual machine of what the state of the map is while the map is being
+generated, and this information can be used to control how the generation
+proceeds. They're fully functioning Lua scripts and can do everything Lua can
+do, but they are only run once when the game is initialized. The interface is
+a work in progress right now. Please see <a href="https://github.com/cmotc/vaLAIR/blob/master/LUA.md">LUA.md</a>
+as it changes.</p>
+
+<h2>How it works</h2>
+
+<p>The game considers every piece of content to be the same type of in-game object.
+They all have exactly the same attributes and all the same things can happen to
+each of them. The only difference between the player and the other entities is
+that the player's movement is controlled by a person and not by a scripted
+routine. Inside the entities, there are scripts that control what actions the
+entity takes depending on feedback from it's environment. That's mostly the
+unfinished part, that and networking, and I need to create some new/better
+template art, then it's going to be done. Yay.</p>
+
+<h2>God, I'm really trying to get a handle on planning all this stuff.</h2>
+
+<p>I've been making some unsatisfying version or other of this for so long that
+it's hard to keep ahold of what my goals are. Things I'm pretty sure I have left
+to do:</p>
+
+<ol>
+<li>Implement AI class, which is similar to the move class but instead of doing
+actions on events it does actions based on the execution of Lua scripts</li>
+<li>Write some example AI scripts</li>
+<li>Networked play support, with sub-tasks
+<ol>
+<li>Game Server as Group Chat?</li>
+<li>This will become clearer as I do it, I think...</li>
+</ol></li>
+<li>Low GUI Mode for running a game without a player, in order to behave like a
+server.</li>
+<li>I'm sure that there's more but I'll have to come to that.</li>
+<li>Make More Art! digitalAndy is making this alot easier.</li>
+<li>Add a few features to digitalAndy: Triangles. Adjustable Sizes. Final images
+Trimmed to minimum rectangular sizes so I can eliminate the static hitboxes.
+<ol>
+<li>Can work-around many shortcomings of digitalAndy with imageMagick. Maybe
+it should become part of a toolchain for procedural pixel art.</li>
+<li>Port digitalAndy to Android with a simple pixel-painting interface capable
+of outputting a configuration file for PC digitalAndy as well as a script.
+Do it to learn Android app development in Go.</li>
+</ol></li>
+</ol>

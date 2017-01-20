@@ -1,0 +1,8 @@
+Origin: cmotc.github.io/lair-web/lair-deb
+Label: cmotc.github.io/lair-web/lair-deb
+Codename: rolling
+Architectures: amd64 i386 source
+Components: main
+SignWith: C0CEEE297B5FE45FF610AAC6F05F85FA446C042B
+DebOverride: override.testing
+DscOverride: override.testing
