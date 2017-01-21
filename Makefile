@@ -88,11 +88,11 @@ nav:
 	echo ${N5} | markdown >> nav.html
 
 nav2:
-	echo ${N1B} | markdown > nav.html
-	echo ${N2B} | markdown >> nav.html
-	echo ${N3B} | markdown >> nav.html
-	echo ${N4B} | markdown >> nav.html
-	echo ${N5B} | markdown >> nav.html
+	echo ${N1B} | markdown > nav2.html
+	echo ${N2B} | markdown >> nav2.html
+	echo ${N3B} | markdown >> nav2.html
+	echo ${N4B} | markdown >> nav2.html
+	echo ${N5B} | markdown >> nav2.html
 
 dl:
 	echo ${N1} | markdown > nav.html
