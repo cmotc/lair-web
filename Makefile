@@ -24,6 +24,12 @@ export N3 := '  * [license](license.html)'
 export N4 := '  * [art](art/art.html)'
 export N5 := '  * [blog](blog/blog.html)'
 
+export N1B := '  * [info](../info.html)'
+export N2B := '  * [maps](../maps.html)'
+export N3B := '  * [license](../license.html)'
+export N4B := '  * [art](../art/art.html)'
+export N5B := '  * [blog](../blog/blog.html)'
+
 export D1 := '  * [windows](windows.html)'
 export D2 := '  * [debian](lair-deb/index.html)'
 
@@ -31,6 +37,7 @@ webpage:
 	make head
 	make head2
 	make nav
+	make nav2
 	cd ${WEB_PATH} && markdown README.md > ${WEB_PATH}/index.html.tmp
 	cp ${SOURCECODE_PATH}/image.gif ${WEB_PATH}/image.gif
 	cd ${WEB_PATH} && echo "![gif_image](image.gif)" | markdown >> ${WEB_PATH}/index.html.tmp
@@ -80,13 +87,20 @@ nav:
 	echo ${N4} | markdown >> nav.html
 	echo ${N5} | markdown >> nav.html
 
+nav2:
+	echo ${N1B} | markdown > nav.html
+	echo ${N2B} | markdown >> nav.html
+	echo ${N3B} | markdown >> nav.html
+	echo ${N4B} | markdown >> nav.html
+	echo ${N5B} | markdown >> nav.html
+
 dl:
 	echo ${N1} | markdown > nav.html
 	echo ${N2} | markdown >> nav.html
 
 blogtool:
 	markdown ${WEB_PATH}/blog/blog.md > ${WEB_PATH}/blog/blog.html.tmp
-	cat ${WEB_PATH}/head2.html ${WEB_PATH}/nav.html ${WEB_PATH}/blog/blog.html.tmp > ${WEB_PATH}/blog/blog.html
+	cat ${WEB_PATH}/head2.html ${WEB_PATH}/nav2.html ${WEB_PATH}/blog/blog.html.tmp > ${WEB_PATH}/blog/blog.html
 
 dustup:
 	rm ${WEB_PATH}/head.html
