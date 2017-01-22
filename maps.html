@@ -373,14 +373,18 @@ returns it, otherwise, returns zero.</p>
 <h4>Tile-Specific Data Retrieval Functions</h4>
 
 <ul>
-<li><p><strong>particle_index_byxy(x, y):</strong> pushes the tags of any particle found at pixel
-x, y into the Lua VM to the table requested_data.tags as a single string.</p></li>
-<li><p><strong>particle_coarse_index_byxy(x, y):</strong> pushes the tags of any particle found at
-tile x, y into the Lua VM to the table requested_data.tags as a single string.</p></li>
-<li><p><strong>mobile_index_byxy(x, y):</strong> pushes the tags of any particle found at pixel
-x, y into the Lua VM to the table requested_data.tags as a single string.</p></li>
-<li><p><strong>mobile_coarse_index_byxy(x, y):</strong> pushes the tags of any particle found at
-tile x, y into the Lua VM to the table requested_data.tags as a single string.</p></li>
+<li><p><strong>particle_index_byxy(x, y):</strong> Returns the tags of the particle who's
+corner is at fine x, y as a long, space-delimited string.</p></li>
+<li><p><strong>particle_coarse_index_byxy(x, y):</strong> Returns the tags of the particle
+who's corner is at coarse x, y as a long, space-delimited string.</p></li>
+<li><p><strong>is_blocked_particle_here()</strong> Detects if there is or is not a particle
+at the current location of the map generation cursor.</p></li>
+<li><p><strong>mobile_index_byxy(x, y):</strong> Returns the tags of the mobile who's corner
+is at fine x, y as a long, space-delimited string.</p></li>
+<li><p><strong>mobile_coarse_index_byxy(x, y):</strong> Returns the tags of the mobile who's
+corner is at coarse x, y as a long, space-delimited string.</p></li>
+<li><p><strong>is_blocked_mobile_here()</strong> Detects if there is or is not a particle
+at the current location of the map generation cursor.</p></li>
 </ul>
 
 <h5>*Why Tables?</h5>
