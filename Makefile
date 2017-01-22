@@ -18,12 +18,14 @@ export H4B := "<link rel=\"stylesheet\" href=\"../style.css\">"
 export H5 := "<script src=\"script.js\"></script>"
 export H6 := "</head>"
 
+export N0 := '  * [home](index.html)'
 export N1 := '  * [info](info.html)'
 export N2 := '  * [maps](maps.html)'
 export N3 := '  * [license](license.html)'
 export N4 := '  * [art](art/art.html)'
 export N5 := '  * [blog](blog/blog.html)'
 
+export N0B := '  * [home](index.html)'
 export N1B := '  * [info](../info.html)'
 export N2B := '  * [maps](../maps.html)'
 export N3B := '  * [license](../license.html)'
@@ -81,14 +83,16 @@ head2:
 	echo ${H6} >> head2.html
 
 nav:
-	echo ${N1} | markdown > nav.html
+	echo ${N0} | markdown > nav.html
+	echo ${N1} | markdown >> nav.html
 	echo ${N2} | markdown >> nav.html
 	echo ${N3} | markdown >> nav.html
 	echo ${N4} | markdown >> nav.html
 	echo ${N5} | markdown >> nav.html
 
 nav2:
-	echo ${N1B} | markdown > nav2.html
+	echo ${N0B} | markdown > nav2.html
+	echo ${N1B} | markdown >> nav2.html
 	echo ${N2B} | markdown >> nav2.html
 	echo ${N3B} | markdown >> nav2.html
 	echo ${N4B} | markdown >> nav2.html
