@@ -71,49 +71,49 @@ a dungeon generation script must contain the following 8 functions.</p>
 <h4>User-Defined Lua Functions Selecting Particle Entities</h4>
 
 <ul>
-<li><strong>map_cares_insert:()</strong>  [ <em>Returns: bool</em> ] This determines whether the map
+<li><p><strong>map_cares_insert:()</strong>  [ <em>Returns: bool</em> ] This determines whether the map
 is going to bother to insert a Particle in this square whatsoever. If the
 value is false, then none of the other selection functions will be run for
-that Particle.</li>
-<li><strong>map_image_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines what
+that Particle.</p></li>
+<li><p><strong>map_image_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines what
 attributes the image selected for the new particle should have. It returns an
 array of strings which corresponds to a set of tags. The tags will be checked
 against the game resources and a random image with all the tags will be
-retrieved.</li>
-<li><strong>map_sound_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines what
+retrieved.</p></li>
+<li><p><strong>map_sound_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines what
 attributes the sound selected for the new particle should have. It returns an
 array of strings which corresponds to a set of tags. The tags will be checked
 against the game resources and a random sound with all the tags will be
-retrieved.</li>
-<li><strong>map_fonts_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines what
+retrieved.</p></li>
+<li><p><strong>map_fonts_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines what
 attributes the font selected for the new particle should have. It returns an
 array of strings which corresponds to a set of tags. The tags will be checked
 against the game resources and a random font with all the tags will be
-retrieved.</li>
+retrieved.</p></li>
 </ul>
 
 <h4>User-Defined Lua Functions Selecting Mobile Entities</h4>
 
 <ul>
-<li><strong>mob_cares_insert:()</strong>  [ <em>Returns: bool</em> ] This determines whether the map
+<li><p><strong>mob_cares_insert:()</strong>  [ <em>Returns: bool</em> ] This determines whether the map
 is going to bother to insert a Mobile in this square whatsoever. If the value
 is false, then none of the other selection functions will be run for that
-Mobile.</li>
-<li><strong>mob_image_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines what
+Mobile.</p></li>
+<li><p><strong>mob_image_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines what
 attributes the image selected for the new mobile should have. It returns an
 array of strings which corresponds to a set of tags. The tags will be checked
 against the game resources and a random image with all the tags will be
-retrieved.</li>
-<li><strong>mob_sound_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines what
+retrieved.</p></li>
+<li><p><strong>mob_sound_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines what
 attributes the image selected for the new mobile should have. It returns an
 array of strings which corresponds to a set of tags. The tags will be checked
 against the game resources and a random image with all the tags will be
-retrieved.</li>
-<li><strong>mob_fonts_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines what
+retrieved.</p></li>
+<li><p><strong>mob_fonts_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines what
 attributes the image selected for the new mobile should have. It returns an
 array of strings which corresponds to a set of tags. The tags will be checked
 against the game resources and a random image with all the tags will be
-retrieved.</li>
+retrieved.</p></li>
 </ul>
 
 <p>These functions must be defined in your dungeon generate script in order for it
