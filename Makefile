@@ -25,7 +25,7 @@ export N3 := '  * [license](license.html)'
 export N4 := '  * [art](art/art.html)'
 export N5 := '  * [blog](blog/blog.html)'
 
-export N0B := '  * [home](index.html)'
+export N0B := '  * [home](../index.html)'
 export N1B := '  * [info](../info.html)'
 export N2B := '  * [maps](../maps.html)'
 export N3B := '  * [license](../license.html)'
