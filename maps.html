@@ -74,49 +74,55 @@ a dungeon generation script must contain the following 8 functions.</p>
 <h4>User-Defined Lua Functions Selecting Particle Entities</h4>
 
 <ul>
-<li><p><strong>map_cares_insert:()</strong>  [ <em>Returns: bool</em> ] This determines whether the map
-is going to bother to insert a Particle in this square whatsoever. If the
+<li><p><strong>map_cares_insert:()</strong>  [ <em>Returns: bool</em> ] This determines whether the
+map is going to bother to insert a Particle in this square whatsoever. If the
 value is false, then none of the other selection functions will be run for
 that Particle.</p></li>
-<li><p><strong>map_image_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines what
-attributes the image selected for the new particle should have. It returns an
-array of strings which corresponds to a set of tags. The tags will be checked
-against the game resources and a random image with all the tags will be
-retrieved.</p></li>
-<li><p><strong>map_sound_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines what
-attributes the sound selected for the new particle should have. It returns an
-array of strings which corresponds to a set of tags. The tags will be checked
-against the game resources and a random sound with all the tags will be
-retrieved.</p></li>
-<li><p><strong>map_fonts_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines what
-attributes the font selected for the new particle should have. It returns an
-array of strings which corresponds to a set of tags. The tags will be checked
-against the game resources and a random font with all the tags will be
+<li><p><strong>map_image_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines
+whatattributes the image selected for the new particle should have. It returns
+an array of strings which corresponds to a set of tags. The tags will be
+checked against the game resources and a random image with all the tags will
+be retrieved.</p></li>
+<li><p><strong>map_sound_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines
+what attributes the sound selected for the new particle should have. It
+returns an array of strings which corresponds to a set of tags. The tags will
+be checked against the game resources and a random sound with all the tags
+will be retrieved.</p></li>
+<li><p><strong>map_fonts_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines
+what attributes the font selected for the new particle should have. It returns
+an array of strings which corresponds to a set of tags. The tags will be
+checked against the game resources and a random font with all the tags will be
 retrieved.</p></li>
 </ul>
 
 <h4>User-Defined Lua Functions Selecting Mobile Entities</h4>
 
 <ul>
-<li><p><strong>mob_cares_insert:()</strong>  [ <em>Returns: bool</em> ] This determines whether the map
-is going to bother to insert a Mobile in this square whatsoever. If the value
-is false, then none of the other selection functions will be run for that
-Mobile.</p></li>
-<li><p><strong>mob_image_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines what
-attributes the image selected for the new mobile should have. It returns an
-array of strings which corresponds to a set of tags. The tags will be checked
-against the game resources and a random image with all the tags will be
+<li><p><strong>mob_cares_insert:()</strong>  [ <em>Returns: bool</em> ] This determines whether the
+map is going to bother to insert a Mobile in this square whatsoever. If the
+value is false, then none of the other selection functions will be run for
+that Mobile.</p></li>
+<li><p><strong>mob_image_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines
+what   attributes the image selected for the new mobile should have. It
+returns an array of strings which corresponds to a set of tags. The tags will
+be checked against the game resources and a random image with all the tags
+will be
 retrieved.</p></li>
-<li><p><strong>mob_sound_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines what
-attributes the image selected for the new mobile should have. It returns an
-array of strings which corresponds to a set of tags. The tags will be checked
-against the game resources and a random image with all the tags will be
+<li><p><strong>mob_sound_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines
+what attributes the image selected for the new mobile should have. It returns
+an array of strings which corresponds to a set of tags. The tags will be
+checked against the game resources and a random image with all the tags will
+be retrieved.</p></li>
+<li><p><strong>mob_fonts_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines
+what attributes the image selected for the new mobile should have. It returns
+an array of strings which corresponds to a set of tags. The tags will be
+checkedagainst the game resources and a random image with all the tags will be
 retrieved.</p></li>
-<li><p><strong>mob_fonts_decide:()</strong>  [ <em>Returns: Array of Strings</em> ] This determines what
-attributes the image selected for the new mobile should have. It returns an
-array of strings which corresponds to a set of tags. The tags will be checked
-against the game resources and a random image with all the tags will be
-retrieved.</p></li>
+<li><p><strong>mob_ai_decide:()</strong>  [ <em>Returns: String</em> ] This determines the function
+that will be run during the game for the generated mob's AI Input Loop. This
+determine's the mob's runtime behavior. The string it returns should
+correspond to the identifier of a function in ai.lua(Or the specified Mob ai
+file.)</p></li>
 </ul>
 
 <p>These functions must be defined in your dungeon generate script in order for it
@@ -133,32 +139,34 @@ or Mobile in a given place.</p>
 
 <h4>General Information: Dungeon Generator Cursor Positon, Dimensions of Room and Floor, Coarse Count</h4>
 
-<p><strong>where_in_floor_get_x():</strong> returns the current coarse(tile) X position of the
-map generation cursor on the <em>whole floor</em>.</p>
+<p><strong>where_in_floor_get_x():</strong> returns the current coarse(tile) X position of
+the map generation cursor on the <em>whole floor</em>.</p>
 
 <pre><code>    function where_in_floor_get_x()
             return tonumber(generator_coarse_x.x) + tonumber(room_coarse_x.x)
     end
 </code></pre>
 
-<p><strong>where_in_floor_get_y():</strong> returns the current coarse(tile) Y position of the
-map generation cursor on the <em>whole floor</em>.</p>
+<p><strong>where_in_floor_get_y():</strong> returns the current coarse(tile) Y position of
+the map generation cursor on the <em>whole floor</em>.</p>
 
 <pre><code>    function where_in_floor_get_y()
             return tonumber(generator_coarse_y.y) + tonumber(room_coarse_y.y)
     end
 </code></pre>
 
-<p><strong>where_in_room_gen_y():</strong> returns the current coarse(tile) X position of the
-map generation cursor on the <em>room containing the cursor's current position</em>.</p>
+<p><strong>where_in_room_gen_y():</strong> returns the current coarse(tile) X position of
+the map generation cursor on the <em>room containing the cursor's current</em>
+<em>position</em>.</p>
 
 <pre><code>    function where_in_room_gen_x()
             return generator_coarse_x.x
     end
 </code></pre>
 
-<p><strong>where_in_room_gen_y():</strong> returns the current coarse(tile) Y position of the
-map generation cursor on the <em>room containing the cursor's current position</em>.</p>
+<p><strong>where_in_room_gen_y():</strong> returns the current coarse(tile) Y position of
+the map generation cursor on the <em>room containing the cursor's current</em>
+<em>position</em>.</p>
 
 <pre><code>    function where_in_room_gen_y()
             return generator_coarse_y.y
@@ -233,16 +241,16 @@ of the room far corner on the <em>room containing the cursor's current</em>
     end
 </code></pre>
 
-<p><strong>where_is_floor_farcorner_x():</strong> returns the current Coarse(tile) X position
-of the room far corner on the <em>whole floor</em>.</p>
+<p><strong>where_is_floor_farcorner_x():</strong> returns the current Coarse(tile) X
+position of the room far corner on the <em>whole floor</em>.</p>
 
 <pre><code>    function where_is_floor_farcorner_x()
             return floor_coarse_yh.h
     end
 </code></pre>
 
-<p><strong>where_is_floor_farcorner_y():</strong> returns the current Coarse(tile) Y position
-of the room far corner on the <em>whole floor</em>.</p>
+<p><strong>where_is_floor_farcorner_y():</strong> returns the current Coarse(tile) Y
+position of the room far corner on the <em>whole floor</em>.</p>
 
 <pre><code>    function where_is_floor_farcorner_y()
             return floor_coarse_w.w
@@ -462,17 +470,71 @@ function and transform it by repeatedly feeding it to functions like this.</p>
 a thick border, then textures it, then seals the walls with a thin border, while
 leaving a vast empty space between. Minimal demo map achieved.</p>
 
+<h1>LAIR's Lua-Based Configuration for Programmable Mob Behavior</h1>
+
+<p>While the basics of the Map Generator are provided and now basically expect few
+changes to the underlying functions, there are going to be alot of features of
+the AI that will probably rapidly change. This is because we have to do one or
+more of three things right now to make the AI work. We either have to</p>
+
+<ol>
+<li>Make the AI generator select basic behavior based on the tags that the map
+generation loop used to generate the mob's appearance. That's fucking racist.</li>
+<li>Make the Map generator specify random default behavior based one one more
+function it would need to support. I don't want to get back into the map
+generator yet, but it's still imperfect and this feature will probably be
+added shortly as it's the most appealing way to specify default behavior for
+the mobs. {While writing this, I chose this solution. Here to record the fact}</li>
+<li>Make it possible to modify the default AI behavior while the game is
+running. Basically make it possible for an entity to export "tags" of it's
+current behavioral state to influence the outcome of it's behavioral function.</li>
+</ol>
+
+<p>Also, it might be of note that self-modifying code is indeed possible by putting
+the code in a separate file and having lua do_file that code within a function.
+This is not yet recommended, but it's being seriously considered.</p>
+
+<p>So without further ado, LAIR AI functions.</p>
+
+<h2>What are AI functions</h2>
+
+<p>Unlike Map functions, AI functions are not pre-defined.</p>
+
+<h2>How AI Functions are decided per-Mobile</h2>
+
+<p>They are set at runtime, during the Mob Placement phase of Map Generation, by
+the mob_ai_decide() function.</p>
+
+<h2>AI Function Helpers: Environment Information Gathering</h2>
+
+<p>TBD.</p>
+
+<h2>AI Function Hooks: Making Mobs take Actions</h2>
+
+<p>Will correspond to the move functions for players, mostly.</p>
+
+<h2>AI Examples</h2>
+
+<p>TBD.</p>
+
+<h2>LAIR AI Library</h2>
+
+<p>TBD.</p>
+
 <h2>Current Limitations</h2>
 
 <p>Because the map generator currently works from left to right, then from top to
 bottom, and because by definition all the information that the map can recieve
 has to come from entities that the map has already initialized, there is bias
-inherent in how the maps are generated. This can be solved, but it might not get
-solved for a little while because I want a prototype and that issue is fairly
-isolated.</p>
+inherent in how the maps are generated. This issue will be solved shortly by
+having 2 Map Generation loops for structural elements. This will make it easier
+to create things like hidden treasures and decorated walls and allow reductive
+map generation, which will aid in generating Mazes.</p>
 
-<p>I still haven't done the Lua configuration for AI controlled entities.</p>
+<p>I still haven't done the Lua configuration for AI controlled entities. That's
+changing slowly, it's not something I want to do too fast.</p>
 
 <p>Some of the tables are counter-intuitively or unclearly named. I'll get to it
 about the time I get to converting the Vala to standard formatting. The
-functions are the preferred way to access the variables.</p>
+functions are the preferred way to access the variables. I think they're pretty
+much consistent now so that's OK at least.</p>
