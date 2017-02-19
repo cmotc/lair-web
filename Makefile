@@ -45,7 +45,7 @@ webpage:
 	cd ${WEB_PATH} && markdown README.md > ${WEB_PATH}/index.html.tmp
 	cp ${SOURCECODE_PATH}/image.gif ${WEB_PATH}/image.gif
 	cd ${WEB_PATH} && echo "![gif_image](image.gif)" | markdown >> ${WEB_PATH}/index.html.tmp
-	cat ${WEB_PATH}/head.html ${WEB_PATH}/index.html.tmp > ${WEB_PATH}/index.html
+	cat ${WEB_PATH}/head.html ${WEB_PATH}/nav.html ${WEB_PATH}/index.html.tmp > ${WEB_PATH}/index.html
 	cd ${SOURCECODE_PATH} && markdown README.md > ${WEB_PATH}/info.html.tmp
 	cat ${WEB_PATH}/head.html ${WEB_PATH}/nav.html ${WEB_PATH}/info.html.tmp > ${WEB_PATH}/info.html
 	cd ${SOURCECODE_PATH} && markdown LUA.md > ${WEB_PATH}/maps.html.tmp
