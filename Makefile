@@ -21,7 +21,7 @@ export H6 := "</head>"
 export N0 := '  * [home](index.html)'
 export N1 := '  * [info](info.html)'
 export N2 := '  * [maps](maps.html)'
-export N3 := '  * [mobs](mobs.html)'
+export N3 := '  * [ai](mobs.html)'
 export N4 := '  * [license](license.html)'
 export N5 := '  * [art](art/art.html)'
 export N6 := '  * [blog](blog/blog.html)'
@@ -29,7 +29,7 @@ export N6 := '  * [blog](blog/blog.html)'
 export N0B := '  * [home](../index.html)'
 export N1B := '  * [info](../info.html)'
 export N2B := '  * [maps](../maps.html)'
-export N3B := '  * [mobs](../mobs.html)'
+export N3B := '  * [ai](../mobs.html)'
 export N4B := '  * [license](../license.html)'
 export N5B := '  * [art](../art/art.html)'
 export N6B := '  * [blog](../blog/blog.html)'
@@ -45,10 +45,10 @@ webpage:
 	cd ${WEB_PATH} && markdown README.md > ${WEB_PATH}/index.html.tmp
 	cp ${SOURCECODE_PATH}/image.gif ${WEB_PATH}/image.gif
 	cd ${WEB_PATH} && echo "![gif_image](image.gif)" | markdown >> ${WEB_PATH}/index.html.tmp
-	cat ${WEB_PATH}/head.html ${WEB_PATH}/nav.html ${WEB_PATH}/index.html.tmp > ${WEB_PATH}/index.html
-	cd ${SOURCECODE_PATH} && markdown README.md > ${WEB_PATH}/info.html.tmp
+	cat ${WEB_PATH}/head.html ${WEB_PATH}/index.html.tmp > ${WEB_PATH}/index.html
+	cd ${SOURCECODE_PATH} && markdown README.md  > ${WEB_PATH}/info.html.tmp
 	cat ${WEB_PATH}/head.html ${WEB_PATH}/nav.html ${WEB_PATH}/info.html.tmp > ${WEB_PATH}/info.html
-	cd ${SOURCECODE_PATH} && markdown LUA.md > ${WEB_PATH}/maps.html.tmp
+	cd ${SOURCECODE_PATH} && markdown LUA.md     > ${WEB_PATH}/maps.html.tmp
 	cat ${WEB_PATH}/head.html ${WEB_PATH}/nav.html ${WEB_PATH}/maps.html.tmp > ${WEB_PATH}/maps.html
 	cd ${SOURCECODE_PATH} && markdown LUA_MOB.md > ${WEB_PATH}/mobs.html.tmp
 	cat ${WEB_PATH}/head.html ${WEB_PATH}/nav.html ${WEB_PATH}/mobs.html.tmp > ${WEB_PATH}/mobs.html

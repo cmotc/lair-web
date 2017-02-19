@@ -3,6 +3,7 @@ LAIR!
 
   * [info](info.html)
   * [maps](maps.html)
+  * [ai](maps.html)
   * [license](license.html)
   * [art](art/art.html)
   * [blog](blog/blog.html)
