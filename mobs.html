@@ -35,7 +35,11 @@
 be aware of, and it "notices" some details about them by putting them into a
 long list of strings and then making those strings accessible in the "vision"
 global lua table. Each mob has it's own vision table and the vision table
-changes periodically.</p>
+changes periodically. The vision table contains all the information about the
+entity's surroundings that it can use to make decisions. The table can be
+accessed numerically. It's length is accessible at vision_length.l or with the
+function get_vision_length(). Each member can then be searched for information
+about the mob's surroundings and the ai script can use it to make decisions.</p>
 
 <h2>What are AI functions</h2>
 
