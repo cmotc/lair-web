@@ -16,6 +16,9 @@
 <li><a href="maps.html">maps</a></li>
 </ul>
 <ul>
+<li><a href="mobs.html">mobs</a></li>
+</ul>
+<ul>
 <li><a href="license.html">license</a></li>
 </ul>
 <ul>
@@ -81,6 +84,8 @@ can install with make; sudo make install.</p>
 successfully cross-compiled for Windows 32 and 64 bit using M Cross Environment.
 For now, test at your own risk.</p>
 
+<h3>OSX, iOS, and Android coming soon.</h3>
+
 <h2>Configuration(You probably don't need to read this unless you want to mod)</h2>
 
 <h3>Static Configuration</h3>
@@ -138,7 +143,11 @@ to do:</p>
 
 <ol>
 <li>Implement AI class, which is similar to the move class but instead of doing
-actions on events it does actions based on the execution of Lua scripts</li>
+actions on events it does actions based on the execution of Lua scripts
+<ol>
+<li>Right now it's born-but-blind. The guys will accept signals that make them
+walk and eventually run into walls.</li>
+</ol></li>
 <li>Write some example AI scripts</li>
 <li>Networked play support, with sub-tasks
 <ol>

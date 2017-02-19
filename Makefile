@@ -21,16 +21,18 @@ export H6 := "</head>"
 export N0 := '  * [home](index.html)'
 export N1 := '  * [info](info.html)'
 export N2 := '  * [maps](maps.html)'
-export N3 := '  * [license](license.html)'
-export N4 := '  * [art](art/art.html)'
-export N5 := '  * [blog](blog/blog.html)'
+export N3 := '  * [mobs](mobs.html)'
+export N4 := '  * [license](license.html)'
+export N5 := '  * [art](art/art.html)'
+export N6 := '  * [blog](blog/blog.html)'
 
 export N0B := '  * [home](../index.html)'
 export N1B := '  * [info](../info.html)'
 export N2B := '  * [maps](../maps.html)'
-export N3B := '  * [license](../license.html)'
-export N4B := '  * [art](../art/art.html)'
-export N5B := '  * [blog](../blog/blog.html)'
+export N3B := '  * [mobs](../mobs.html)'
+export N4B := '  * [license](../license.html)'
+export N5B := '  * [art](../art/art.html)'
+export N6B := '  * [blog](../blog/blog.html)'
 
 export D1 := '  * [windows](windows.html)'
 export D2 := '  * [debian](lair-deb/index.html)'
@@ -48,6 +50,8 @@ webpage:
 	cat ${WEB_PATH}/head.html ${WEB_PATH}/nav.html ${WEB_PATH}/info.html.tmp > ${WEB_PATH}/info.html
 	cd ${SOURCECODE_PATH} && markdown LUA.md > ${WEB_PATH}/maps.html.tmp
 	cat ${WEB_PATH}/head.html ${WEB_PATH}/nav.html ${WEB_PATH}/maps.html.tmp > ${WEB_PATH}/maps.html
+	cd ${SOURCECODE_PATH} && markdown LUA_MOB.md > ${WEB_PATH}/mobs.html.tmp
+	cat ${WEB_PATH}/head.html ${WEB_PATH}/nav.html ${WEB_PATH}/mobs.html.tmp > ${WEB_PATH}/mobs.html
 	cd ${SOURCECODE_PATH} && markdown COPYING.md > ${WEB_PATH}/license.html.tmp
 	cat ${WEB_PATH}/head.html ${WEB_PATH}/nav.html ${WEB_PATH}/license.html.tmp > ${WEB_PATH}/license.html
 	rm -rf ${WEB_PATH}/art
@@ -89,6 +93,7 @@ nav:
 	echo ${N3} | markdown >> nav.html
 	echo ${N4} | markdown >> nav.html
 	echo ${N5} | markdown >> nav.html
+	echo ${N6} | markdown >> nav.html
 
 nav2:
 	echo ${N0B} | markdown > nav2.html
@@ -97,6 +102,7 @@ nav2:
 	echo ${N3B} | markdown >> nav2.html
 	echo ${N4B} | markdown >> nav2.html
 	echo ${N5B} | markdown >> nav2.html
+	echo ${N6B} | markdown >> nav2.html
 
 dl:
 	echo ${N1} | markdown > nav.html
