@@ -1,5 +1,61 @@
 <h1>LAIR! Development Blog</h1>
 
+<h2>I should just draw a picture</h2>
+
+<h4>by:idk</h4>
+
+<h3>Mon Feb 20 11:28:01 EST 2017</h3>
+
+<p>I'm terrible at writing about this. It's actually simple. The idea is to pretty
+much create a scriptable way to give mobs about the same amount of information
+as a player, a memory that prioritizes survivable behavior and de-emphasizes,
+duplication, and the ability to make decisions by examining their environment
+and making decisions based on scripts. The idea is to teach AI's to play the
+game like a player. So here's the picture.</p>
+
+<pre><code>    [1] (Launch Game: Read in and check parameters, configuration files)
+       \
+        \
+         [2] (Generate Map: Loop over every cell in the map and decide what
+            \ kind of cell it is. This part of the picture TBC)
+             \
+              [4] (Mobs Think, Player Sees: In the moment just before player
+             /   \  takes a turn, mobs poll the environment and plan a move)
+            /     \
+        [4b]_______[4a] (Player Takes Turn: The player takes a turn right
+       (Mobs Do: The   \ before the mobs.)
+     plan from step 4)  \
+                         [5] (Exit: if the player decides to.)
+</code></pre>
+
+<h2>Integrated Web-Site Building</h2>
+
+<h4>by:idk</h4>
+
+<h3>Mon Feb 20 11:19:29 EST 2017</h3>
+
+<p>As I work on this documentation, I'm getting really good at re-building all the
+packages, repositories, installers, and web-sites automatically. That's pretty
+cool. Still need to get things crystallized though.</p>
+
+<h2>AI Controls Mostly Enabled, Mostly undocumented!</h2>
+
+<h4>by:idk</h4>
+
+<h3>Mon Feb 20 10:44:58 EST 2017</h3>
+
+<p>Well I've got the system for moving information from the native part of the
+engine to the scriptable part of the engine which lets me take information from
+the running game and make decisions about what to do with it from the scripted
+part of the engine, which is the model for the AI. On a per-mob basis, the
+native part of the game tests a region surrounding the mob for collisions. This
+is the mob's line-of-sight, metaphorically speaking. Everything that is in that
+region is placed in a lua table and made accessible to a function. This function
+by default is "default()" but it can also look for a function defined at map
+generation time. The return value of this function is a move that the mob is
+allowed to make. As usual, I'm mostly, but not entirely, keeping up at writing
+documentation for how to actually use it.</p>
+
 <h2>Nervously Enabling AI Controls</h2>
 
 <h4>by:idk</h4>
