@@ -35,17 +35,17 @@ Package: lair
 Version: 9.1-1
 Architecture: amd64
 Maintainer: idk <problemsolver@openmailbox.org>
-Installed-Size: 193
+Installed-Size: 197
 Depends: lua5.2, liblua5.2-0, libsdl2-2.0-0, libsdl2-gfx-1.0-0, libsdl2-image-2.0-0, libsdl2-mixer-2.0-0, libsdl2-ttf-2.0-0, libtoxav0, libtoxcore0, libtoxencryptsave0
 Provides: lair
 Homepage: https://cmotc.github.io/lair-web
 Priority: extra
 Section: games
 Filename: pool/main/l/lair/lair_9.1-1_amd64.deb
-Size: 63994
-SHA256: 55f60e03af4fad205e8c507276ceebb71fa5b7ae9b65459524f8da4d277abf99
-SHA1: d878ae938fe54228e4f5d4f5cb31976af3cb20c0
-MD5sum: 0ff2db4aef94f30aaadef71d138a0d55
+Size: 64110
+SHA256: 4e09d1e78cd0a3b6ebd37ece2d9f2a79fc3b4c5765e3d703332648e709923749
+SHA1: ea5ef6184d6b369dca080634b38c5868c05fba91
+MD5sum: 871e616c350b37764706b42a2e911a60
 Description: LAIR! Roguelike Game, version 0.9
  LAIR is a Procedurally Generated Mutliplayer Rogue-Like Game.
  It uses a library of content and a set of Lua scripts to
@@ -64,12 +64,12 @@ Homepage: https://cmotc.github.io/lair-web
 Priority: extra
 Section: debug
 Filename: pool/main/l/lair/lair-dbgsym_9.1-1_amd64.deb
-Size: 370298
-SHA256: aa5dcaef55b58ea4a5f80e72375a318f31d9f8de2f269b5809bac750740dd5e2
-SHA1: cded67f0c09bdaa40bd996880ba79119b1503596
-MD5sum: 057d481566e99ab75e7c5844af2109ae
+Size: 370320
+SHA256: 2c7f1c730153fb224d691e0f8fd2eb95da0f6666398f6e2f3bdc5e6de5f4353b
+SHA1: da72e9547ac1bccfc938ef14b0d008821e1eaa01
+MD5sum: 192b140129dfa1bbe15780747c3a8fa4
 Description: Debug symbols for lair
-Build-Ids: d58dea7c3381c5bbdcd302688c1c8eb6d04e12a3
+Build-Ids: 633ff0485bbce76759f65109092ff01e351a07ca
 
 Package: lairart
 Installed-Size: 1604
