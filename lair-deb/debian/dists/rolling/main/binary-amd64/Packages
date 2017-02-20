@@ -80,10 +80,10 @@ Provides: lairart
 Priority: extra
 Section: checkinstall
 Filename: pool/main/l/lairart/lairart_20170220-1_amd64.deb
-Size: 72634
-SHA256: 109c6e378dc7b5282df575712dc458be52930d6ad6d4616c55eb0d01e49b0636
-SHA1: 996e270943b9bb307f41ccac5cf8630ee62d882d
-MD5sum: a48676be8bb26d00866848f04f70a54a
+Size: 72666
+SHA256: 095f3532f276fee695a6b73685743a5bc08726e0695aea8356c1dd79e0bd6076
+SHA1: 54fd9db7a04cf88d9ea806888bddbdd8904c1d02
+MD5sum: a6af8b06d58f543fe188d4eb80af7af9
 Description: artistic assets for free dungeon crawler
 
 Package: pkpage

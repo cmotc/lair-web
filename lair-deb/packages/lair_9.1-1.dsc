@@ -10,11 +10,11 @@ Build-Depends: debhelper (>= 9), liblua5.2-dev, libsdl2-dev, libsdl2-gfx-dev, li
 Package-List:
  lair deb games extra arch=amd64
 Checksums-Sha1:
- 0d71a971b9706151ebfee8218efe88624788211f 4735585 lair_9.1.orig.tar.gz
+ 864fb5d1f4eb6c3cf715a46c327f36ed55478b67 4735715 lair_9.1.orig.tar.gz
  81a869805b76b04f1a08e5999fd80d8fcb1bfc4d 9836 lair_9.1-1.debian.tar.xz
 Checksums-Sha256:
- 5546d096967d0243751231c2aa05a91250722f298b2281cb115fff89e4db8c0b 4735585 lair_9.1.orig.tar.gz
+ 30da0dd4aa9edb7c6fcce294d40046842dcd7e36d4b84cd56d6f6d3ed78fd2ae 4735715 lair_9.1.orig.tar.gz
  129c46643cb7fe0edf428910fddc1ba731cca5fe9f322588f9cd2152d4720925 9836 lair_9.1-1.debian.tar.xz
 Files:
- 077ccd943fdca76371c96e599c208d52 4735585 lair_9.1.orig.tar.gz
+ becb7f651803f1c9fe001f72aa1bc5b5 4735715 lair_9.1.orig.tar.gz
  120ca09acafabb626481ab803bdefdd1 9836 lair_9.1-1.debian.tar.xz
