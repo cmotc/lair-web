@@ -73,18 +73,25 @@ Build-Ids: 633ff0485bbce76759f65109092ff01e351a07ca
 
 Package: lairart
 Installed-Size: 1604
-Maintainer: idk@fireaxe
+Maintainer: problemsolver@openmailbox.org
 Architecture: amd64
-Version: 20170220-1
+Version: 0.9-1
+Depends: libpng-tools
 Provides: lairart
 Priority: extra
-Section: checkinstall
-Filename: pool/main/l/lairart/lairart_20170220-1_amd64.deb
-Size: 72666
-SHA256: 095f3532f276fee695a6b73685743a5bc08726e0695aea8356c1dd79e0bd6076
-SHA1: 54fd9db7a04cf88d9ea806888bddbdd8904c1d02
-MD5sum: a6af8b06d58f543fe188d4eb80af7af9
-Description: artistic assets for free dungeon crawler
+Section: games
+Filename: pool/main/l/lairart/lairart_0.9-1_amd64.deb
+Size: 72994
+SHA256: 862adba25e3a632c497edf485131456f0016ab6b23f09d205b774c587c06d849
+SHA1: e95927b5ac8115b47d7ba0988f73e13d29aa60e0
+MD5sum: 35c9f822bb497e156c537a888ebe859a
+Description: LAIR! Roguelike Game(Artistic Assets), version 0.9
+ LAIR! Roguelike Game(Artistic Assets), version 0.9
+ This package contains artistic assets for LAIR!.
+ LAIR is a Procedurally Generated Mutliplayer Rogue-Like Game.
+ It uses a library of content and a set of Lua scripts to
+ generate a random map according to a more-or-less detailed and
+ flexible environment to play in.
 
 Package: pkpage
 Version: 20160727-1

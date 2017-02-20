@@ -15,23 +15,23 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- 1dfca715fff345e4fa034f4166ddfeae11b90408 961 lair_9.1-1.dsc
- 4a1e803a3ce3f544ec43c3f29bf4bf0b9cfd4cae 4735593 lair_9.1.orig.tar.gz
+ 11683303ead55ebfd8a395d9264f3d1c794a100e 961 lair_9.1-1.dsc
+ 17d555786744741d0b69fa060b98406288697f0d 4735719 lair_9.1.orig.tar.gz
  81a869805b76b04f1a08e5999fd80d8fcb1bfc4d 9836 lair_9.1-1.debian.tar.xz
  da72e9547ac1bccfc938ef14b0d008821e1eaa01 370320 lair-dbgsym_9.1-1_amd64.deb
- 24ea9f16f2f975eabd760790ad87ba7dc87897f9 10820 lair_9.1-1_amd64.buildinfo
+ 22e6187df040bf09ed7afdfb13f0a014808792d6 10820 lair_9.1-1_amd64.buildinfo
  ea5ef6184d6b369dca080634b38c5868c05fba91 64110 lair_9.1-1_amd64.deb
 Checksums-Sha256:
- 9c3d4047c78a2f9787c7ea265e64c53874baed7fd13b7ffce6327c1ecbbe9c12 961 lair_9.1-1.dsc
- 27fc5f2d8dc0247f9f9bdb3aabd2145c906a812fa15b0af4ad6c5afd83d77abf 4735593 lair_9.1.orig.tar.gz
+ b83112bd3fc507ec444abe7ea4a5a8bfd74d77a8a4ed34249548338931ef21a2 961 lair_9.1-1.dsc
+ cb2e515e512f71637f13d8d1b35e4bca2500c4a399c446c2df5f6df5fa58305d 4735719 lair_9.1.orig.tar.gz
  129c46643cb7fe0edf428910fddc1ba731cca5fe9f322588f9cd2152d4720925 9836 lair_9.1-1.debian.tar.xz
  2c7f1c730153fb224d691e0f8fd2eb95da0f6666398f6e2f3bdc5e6de5f4353b 370320 lair-dbgsym_9.1-1_amd64.deb
- 228a1227ebc8e775efd8f0906e6206bcce198f3c250adfbaa23639288b8dbd1e 10820 lair_9.1-1_amd64.buildinfo
+ 93b382dbe34e5c1801c74ed792860d8814c6e421dd208464652a80fbbdc5523e 10820 lair_9.1-1_amd64.buildinfo
  4e09d1e78cd0a3b6ebd37ece2d9f2a79fc3b4c5765e3d703332648e709923749 64110 lair_9.1-1_amd64.deb
 Files:
- 7e401a45ddba8dcf1c21ab1d27e49cba 961 games extra lair_9.1-1.dsc
- 6c49fab5b767b1e6155dd303cf1b8671 4735593 games extra lair_9.1.orig.tar.gz
+ d64dd89c8c9fc1b01f2bd9e4a2dc67da 961 games extra lair_9.1-1.dsc
+ 28d4641f9c5e1a7f6356f91d8ba9ed1c 4735719 games extra lair_9.1.orig.tar.gz
  120ca09acafabb626481ab803bdefdd1 9836 games extra lair_9.1-1.debian.tar.xz
  192b140129dfa1bbe15780747c3a8fa4 370320 debug extra lair-dbgsym_9.1-1_amd64.deb
- 037136006cb86a0e5d3d093bb405e010 10820 games extra lair_9.1-1_amd64.buildinfo
+ 093109d7c187cfc80c55a0a6c5e1573a 10820 games extra lair_9.1-1_amd64.buildinfo
  871e616c350b37764706b42a2e911a60 64110 games extra lair_9.1-1_amd64.deb
