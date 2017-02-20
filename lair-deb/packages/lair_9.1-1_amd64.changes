@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Sun, 19 Feb 2017 17:49:03 -0500
+Source: lair
+Binary: lair
+Architecture: source amd64
+Version: 9.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: idk <problemsolver@openmailbox.org>
+Changed-By: idk <idk@fireaxe.local>
+Description:
+ lair       - LAIR! Roguelike Game, version 0.9
+Changes:
+ lair (9.1-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ c1f7fb9f8f34d8a5f90b83ad0e4f58800ce89631 875 lair_9.1-1.dsc
+ 5758f7104e6f36fcfcb5bac514e47b042a319284 1872391 lair_9.1.orig.tar.gz
+ 10b0ad59014064dfe3b4fab0c43547cf65a0f82d 9316 lair_9.1-1.debian.tar.xz
+ cded67f0c09bdaa40bd996880ba79119b1503596 370298 lair-dbgsym_9.1-1_amd64.deb
+ adda6cae9a7ae141784bb1af9d7124aa2e1366b0 10820 lair_9.1-1_amd64.buildinfo
+ d878ae938fe54228e4f5d4f5cb31976af3cb20c0 63994 lair_9.1-1_amd64.deb
+Checksums-Sha256:
+ 7ebdfbeb5ba428ef0df6b8c07a0ccda95bbcb97cba1871d41f0252b91ece7a96 875 lair_9.1-1.dsc
+ b0a9e767513645fcdce37b1a3e9b52e7d5d2712460843c85043a8ed2e7ac0f68 1872391 lair_9.1.orig.tar.gz
+ ad2d4cd6de749cdf2893a8a5abe7abba6fcbcdb24df8cc939589771c65eacfd5 9316 lair_9.1-1.debian.tar.xz
+ aa5dcaef55b58ea4a5f80e72375a318f31d9f8de2f269b5809bac750740dd5e2 370298 lair-dbgsym_9.1-1_amd64.deb
+ 5e2d6b053c5fc839c43cc36356071e7bfc26be874fd3fb338593fee1face6589 10820 lair_9.1-1_amd64.buildinfo
+ 55f60e03af4fad205e8c507276ceebb71fa5b7ae9b65459524f8da4d277abf99 63994 lair_9.1-1_amd64.deb
+Files:
+ 596ebeb17b9d72b5293e709d9728a5c9 875 games extra lair_9.1-1.dsc
+ cb7a3b471fcff5464271d5befe19ee87 1872391 games extra lair_9.1.orig.tar.gz
+ a24266ad061c2463f9a07748500c9a7c 9316 games extra lair_9.1-1.debian.tar.xz
+ 057d481566e99ab75e7c5844af2109ae 370298 debug extra lair-dbgsym_9.1-1_amd64.deb
+ 24fb793134a13814535c1bc95593517f 10820 games extra lair_9.1-1_amd64.buildinfo
+ 0ff2db4aef94f30aaadef71d138a0d55 63994 games extra lair_9.1-1_amd64.deb
