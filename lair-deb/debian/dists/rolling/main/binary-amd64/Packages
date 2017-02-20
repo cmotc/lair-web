@@ -75,15 +75,15 @@ Package: lairart
 Installed-Size: 1604
 Maintainer: idk@fireaxe
 Architecture: amd64
-Version: 20170113-1
+Version: 20170220-1
 Provides: lairart
 Priority: extra
 Section: checkinstall
-Filename: pool/main/l/lairart/lairart_20170113-1_amd64.deb
-Size: 72644
-SHA256: 152fb89cb59aec411df3d423fa807b14e9efe6b97814df8223ef18fb4b85aa4f
-SHA1: d8726521d73a508f5cb7660dd056e10a009994f5
-MD5sum: 9d2170cec1af575b01e45b1ff36ecbee
+Filename: pool/main/l/lairart/lairart_20170220-1_amd64.deb
+Size: 72634
+SHA256: 109c6e378dc7b5282df575712dc458be52930d6ad6d4616c55eb0d01e49b0636
+SHA1: 996e270943b9bb307f41ccac5cf8630ee62d882d
+MD5sum: a48676be8bb26d00866848f04f70a54a
 Description: artistic assets for free dungeon crawler
 
 Package: pkpage
