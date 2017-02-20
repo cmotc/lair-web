@@ -4,20 +4,20 @@ Binary: lair
 Architecture: amd64 source
 Version: 9.1-1
 Checksums-Md5:
- a48bd6d799f66234041ff52693fdcf37 961 lair_9.1-1.dsc
+ d1993cef2b1246a946eb634b06d0cf7c 961 lair_9.1-1.dsc
  192b140129dfa1bbe15780747c3a8fa4 370320 lair-dbgsym_9.1-1_amd64.deb
  871e616c350b37764706b42a2e911a60 64110 lair_9.1-1_amd64.deb
 Checksums-Sha1:
- 53fa30293088508ec68dd94b9de601b2c014fe42 961 lair_9.1-1.dsc
+ 44695ffb24a094a9b709c644da19fd09a8459f4a 961 lair_9.1-1.dsc
  da72e9547ac1bccfc938ef14b0d008821e1eaa01 370320 lair-dbgsym_9.1-1_amd64.deb
  ea5ef6184d6b369dca080634b38c5868c05fba91 64110 lair_9.1-1_amd64.deb
 Checksums-Sha256:
- a6c13bf38e78651459cd20dfa62167e5a76307e6f847399a14278f071dc4a52d 961 lair_9.1-1.dsc
+ 1e564d2fa5ad9e594e3380b591cba8d3b1d40550d28d9fa108a0156cbd091fd1 961 lair_9.1-1.dsc
  2c7f1c730153fb224d691e0f8fd2eb95da0f6666398f6e2f3bdc5e6de5f4353b 370320 lair-dbgsym_9.1-1_amd64.deb
  4e09d1e78cd0a3b6ebd37ece2d9f2a79fc3b4c5765e3d703332648e709923749 64110 lair_9.1-1_amd64.deb
 Build-Origin: Devuan
 Build-Architecture: amd64
-Build-Date: Mon, 20 Feb 2017 00:55:04 -0500
+Build-Date: Mon, 20 Feb 2017 01:30:04 -0500
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
