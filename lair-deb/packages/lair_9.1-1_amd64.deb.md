@@ -12,7 +12,7 @@ LAIR is a Procedurally Generated Mutliplayer Rogue-Like Game.
 It uses a library of content and a set of Lua scripts to
 generate a random map according to a more-or-less detailed and
 flexible environment to play in.
-Homepage:[ https://cmotc.github.io/lair-web ](https://cmotc.github.io/lair-web)
+Homepage:[ https://cmotc.github.io/lair-web/ ](https://cmotc.github.io/lair-web/)
 ###Provides:
   * lair
 ####Section: games

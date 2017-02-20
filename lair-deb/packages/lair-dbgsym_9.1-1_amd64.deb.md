@@ -13,6 +13,6 @@ Source: lair
 ###Description:
  Debug symbols for lair
 Build-Ids: 633ff0485bbce76759f65109092ff01e351a07ca
-Homepage:[ https://cmotc.github.io/lair-web ](https://cmotc.github.io/lair-web)
+Homepage:[ https://cmotc.github.io/lair-web/ ](https://cmotc.github.io/lair-web/)
 ####Section: debug
 ####Priority: extra
