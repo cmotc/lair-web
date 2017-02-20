@@ -4,7 +4,7 @@ Hash: SHA256
 Origin: cmotc.github.io/lair-web/lair-deb
 Label: cmotc.github.io/lair-web/lair-deb
 Codename: rolling
-Date: Mon, 20 Feb 2017 02:24:51 UTC
+Date: Mon, 20 Feb 2017 02:37:44 UTC
 Architectures: amd64 i386
 Components: main
 MD5Sum:
@@ -39,12 +39,12 @@ SHA256:
  e4f506bd982fabce38f8c27a1842a757146b0a7074d8870c461da3aa30edc792 120 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAliqU3MACgkQ8F+F+kRs
-BCsWNQgA5B9bJ6xrhpFRTUFsYX8q8VCRQNgtz8p+LZrWBn7q4P+tHKSCkhu3MTBN
-T3QA1/6h2eJdtdLb9bvZ72jbGelvTdgQeOZXaUQ4RWGm88x0zeSxIfWAr1vrNTHZ
-u36SJuhN+mGAEvfRFtc7GhskfPcZqzs7Ieu4mjgOt+EcrnqHVrM+eLNe8tgYxnaO
-jRjk2ZDqT5iNEQpcc7fxfxgqujNf78M6MIzY6Lq6GNR3apq+9IPzEp8MULArJJ60
-BP9QGKWHIbKGp1Pqu6CN72ezWHFwFrQaeM/zE7+rsgTZCEPfO9fztLgZ7CmRCJUb
-2/CYRfIeSXpcNUoQ1xK/sUZO8ZUZuA==
-=/l4T
+iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAliqVngACgkQ8F+F+kRs
+BCtCzgf/ZyUGlj5vpUHg5R0tKYhXG0wutkVH55lFWhPSprunjuq2VtZTyR2bNlDM
+2TNh9PZmakNdMxCEVkrhoHeiB5OKH9rY7J9BQJk1i9ZCH/T60Cx2mucRq8Ez+kFD
+8A6w8NYM5VoSxduA/niE9X7T+EjY1oCI7PJAzovi6v2qRkJkw+oluTOvkts/A9J0
+doEVvhgwd8dXB2YIf5GNBdLBib4Zj9CpLHThH8PjnGYKOaxeql/MezfyttuXL6e7
+gCxOGwpBjCUhnHj07rhOVheEE+R56vIoKnACFR4eQIwQbe/yg73PZqmVRB72iaog
++7S1mSdjOZG7/6Ynu8pW/Kol6DrfLA==
+=FOXY
 -----END PGP SIGNATURE-----
