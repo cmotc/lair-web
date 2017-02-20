@@ -132,22 +132,3 @@ Description: Generates a Markdown-formatted description of a software package
  contents of your debian package, grep and sed, and doesn't need bash, so it
  should run fine on any Debian-based system.
 
-Package: valair
-Installed-Size: 268
-Maintainer: problemsolver@openmailbox.org
-Architecture: amd64
-Version: 0.9-1
-Provides: valair
-Priority: extra
-Section: checkinstall
-Filename: pool/main/v/valair/valair_0.9-1_amd64.deb
-Size: 54668
-SHA256: 93f2c8370407331a592ff28257e671e16659042dadd45ae77f35cead20034c7d
-SHA1: 02975ef7753d37140b0e0e28923746218e8d02c1
-MD5sum: f86688a6fb6e9b9e8ebda2389aa1ff8e
-Description: LAIR! Roguelike Game, version 0.9
- LAIR is a Procedurally Generated Mutliplayer Rogue-Like Game.
- It uses a library of content and a set of Lua scripts to
- generate a random map according to a more-or-less detailed and
- flexible environment to work in.
-
