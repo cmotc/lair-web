@@ -4,17 +4,17 @@ Binary: lairart
 Architecture: amd64 source
 Version: 9.1-1
 Checksums-Md5:
- 1eb16502251e3e539edf36509a680e20 828 lairart_9.1-1.dsc
- c497f2dfcad96f00dea23f745525a890 67282 lairart_9.1-1_amd64.deb
+ 498aeacbcf2a0bb44607908762b0d59d 828 lairart_9.1-1.dsc
+ fbe590fd0bac9ee1e5d2f2d588f2d97e 67580 lairart_9.1-1_amd64.deb
 Checksums-Sha1:
- f77a8b016576e8f0f40d735f37ab874323168b0d 828 lairart_9.1-1.dsc
- 83816d3eb136257804ecee47b57a7db332be1549 67282 lairart_9.1-1_amd64.deb
+ 5b16b745a9d08146d3a71d499267e410473f4cf2 828 lairart_9.1-1.dsc
+ 2dab60d8bdf696f623c1e1f0ecf8ce751cb29133 67580 lairart_9.1-1_amd64.deb
 Checksums-Sha256:
- 1e9dfad921f9b97b8ab0feaa260416854bba97e3ffd506a429c441c73bc21a86 828 lairart_9.1-1.dsc
- ce6acb4eceb366659fd8385effa2cc76d3ec7c6f03263529a7d4637bb0af7395 67282 lairart_9.1-1_amd64.deb
+ 65514de34f740e5306fd8ca4a3a24837310c72f7ea58f9e2fe9a5a1e91909385 828 lairart_9.1-1.dsc
+ df78c5aa5a99f295b6cba9ba5b2463afaec2ba01dc0073302f98688591bb0ca9 67580 lairart_9.1-1_amd64.deb
 Build-Origin: Devuan
 Build-Architecture: amd64
-Build-Date: Mon, 20 Feb 2017 10:18:30 -0500
+Build-Date: Mon, 20 Feb 2017 14:04:36 -0500
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),

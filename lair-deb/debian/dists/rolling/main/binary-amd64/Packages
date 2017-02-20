@@ -42,10 +42,10 @@ Homepage: https://cmotc.github.io/lair-web/
 Priority: extra
 Section: games
 Filename: pool/main/l/lair/lair_9.1-1_amd64.deb
-Size: 64136
-SHA256: 56fbc12b00a3b60a926e82f706dfc631b57b36db37f16978476c529e020436de
-SHA1: a92afba22d925db754327abbc997f3822abcdec0
-MD5sum: 907bed32ab324ee1df59c97e2ef3e074
+Size: 64188
+SHA256: 1d6d7c91fa0fba826f8f8148758092742d8ebaff7bcdaa3b4544658b300168c8
+SHA1: 04369bc1087baaf1f1f43d7bd90388ddda586785
+MD5sum: be312525222ff8283eb4400d5ea4f523
 Description: LAIR! Roguelike Game, version 0.9
  LAIR is a Procedurally Generated Mutliplayer Rogue-Like Game.
  It uses a library of content and a set of Lua scripts to
@@ -64,12 +64,12 @@ Homepage: https://cmotc.github.io/lair-web/
 Priority: extra
 Section: debug
 Filename: pool/main/l/lair/lair-dbgsym_9.1-1_amd64.deb
-Size: 370320
-SHA256: 51b3939d07a1a971b738fd889a0fe6521ba0ac6f4c173704af29dc3ed894ebcf
-SHA1: f1874a699af70d99a1336c05510b21d10a93e69b
-MD5sum: 563dc9dca21b549ce9a986bc271f6d8c
+Size: 370344
+SHA256: 8a232672253323e605205d732db1329e6fa109f42e044444dacb7c1653ac2ea8
+SHA1: 9f661f49df067eb3ce0977213578345af70c2f39
+MD5sum: 19bdb6652d11e7ad3cf64e2badd6e3dc
 Description: Debug symbols for lair
-Build-Ids: 633ff0485bbce76759f65109092ff01e351a07ca
+Build-Ids: 6b5419850e68babe05c638d1db4e4a9481e152a3
 
 Package: lairart
 Version: 9.1-1
@@ -82,10 +82,10 @@ Homepage: https://cmotc.github.io/lairart/
 Priority: extra
 Section: games
 Filename: pool/main/l/lairart/lairart_9.1-1_amd64.deb
-Size: 67282
-SHA256: ce6acb4eceb366659fd8385effa2cc76d3ec7c6f03263529a7d4637bb0af7395
-SHA1: 83816d3eb136257804ecee47b57a7db332be1549
-MD5sum: c497f2dfcad96f00dea23f745525a890
+Size: 67580
+SHA256: df78c5aa5a99f295b6cba9ba5b2463afaec2ba01dc0073302f98688591bb0ca9
+SHA1: 2dab60d8bdf696f623c1e1f0ecf8ce751cb29133
+MD5sum: fbe590fd0bac9ee1e5d2f2d588f2d97e
 Description: LAIR! Roguelike Game(Artistic Assets), version 0.9
  LAIR! Roguelike Game(Artistic Assets), version 0.9
  This package contains artistic assets for LAIR!.

@@ -12,7 +12,7 @@ Source: lair
   * lair (= 9.1-1)
 ###Description:
  Debug symbols for lair
-Build-Ids: 633ff0485bbce76759f65109092ff01e351a07ca
+Build-Ids: 6b5419850e68babe05c638d1db4e4a9481e152a3
 Homepage:[ https://cmotc.github.io/lair-web/ ](https://cmotc.github.io/lair-web/)
 ####Section: debug
 ####Priority: extra

@@ -18,36 +18,36 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- 938ff4c9238e0dfe00301d11b6e67a2fc119244c 1540 lair_9.1-1.dsc
- abc7600d4f4078d0efb97e2008c44fcb11592f28 4735824 lair_9.1.orig.tar.gz
- 28620d9f840729dee6f320a04aaff29ac048bb2a 9836 lair_9.1-1.debian.tar.xz
- f1874a699af70d99a1336c05510b21d10a93e69b 370320 lair-dbgsym_9.1-1_amd64.deb
- 1f7bd41248c3839c6e2edaee7c1842d97474ce89 10820 lair_9.1-1_amd64.buildinfo
- a92afba22d925db754327abbc997f3822abcdec0 64136 lair_9.1-1_amd64.deb
+ 0c6f05a61dd63ae2719ab60ce2a7f59b3996dae5 1540 lair_9.1-1.dsc
+ d6dcf7c6e439489b365f5ff30f7996753b8e1bb8 2324940 lair_9.1.orig.tar.gz
+ 6ce569b8f65546d40655df8b3f60decb74474143 9840 lair_9.1-1.debian.tar.xz
+ 9f661f49df067eb3ce0977213578345af70c2f39 370344 lair-dbgsym_9.1-1_amd64.deb
+ ffd0a68510118409928c2fef520322518264af39 10820 lair_9.1-1_amd64.buildinfo
+ 04369bc1087baaf1f1f43d7bd90388ddda586785 64188 lair_9.1-1_amd64.deb
 Checksums-Sha256:
- f2a9ddd24833c4bd048ede30dda35fff31cb00574ad4787d4cf0b45c3d0e2a7d 1540 lair_9.1-1.dsc
- d073ee2ea762562a98185de07923555e0b18add71e1b8bd0447b1ed21d191a9b 4735824 lair_9.1.orig.tar.gz
- 91dba9236efafb38894cb5fbea7aeb84cd64bb25350b444360efb0856013d0f0 9836 lair_9.1-1.debian.tar.xz
- 51b3939d07a1a971b738fd889a0fe6521ba0ac6f4c173704af29dc3ed894ebcf 370320 lair-dbgsym_9.1-1_amd64.deb
- 145cc14db7652eaa0ccb07d333a972b7cc47282273ffbd1ca74168ff4e9b7cfc 10820 lair_9.1-1_amd64.buildinfo
- 56fbc12b00a3b60a926e82f706dfc631b57b36db37f16978476c529e020436de 64136 lair_9.1-1_amd64.deb
+ 7e8a26318bd0ad80c9f07ff9d0076a8602a1bca09d9fadbefa7faf6152a188ca 1540 lair_9.1-1.dsc
+ 9b0d95062a6962d0b10c714602f7a0d7a36e8e277c0abd1c8f5c6ab2eeeeb34d 2324940 lair_9.1.orig.tar.gz
+ 9788610fa70db0e39cc5ca899b62c6ce2b845c3343b16b959a562736675432d9 9840 lair_9.1-1.debian.tar.xz
+ 8a232672253323e605205d732db1329e6fa109f42e044444dacb7c1653ac2ea8 370344 lair-dbgsym_9.1-1_amd64.deb
+ 7db9c83f923988e542658ea81fa980831fd35d72f38ce19b3bf45a6777c12652 10820 lair_9.1-1_amd64.buildinfo
+ 1d6d7c91fa0fba826f8f8148758092742d8ebaff7bcdaa3b4544658b300168c8 64188 lair_9.1-1_amd64.deb
 Files:
- 503a135f93abb821dca896d3bcd3ac1a 1540 games extra lair_9.1-1.dsc
- a5e267745979cfb9409ad9c222e4f00a 4735824 games extra lair_9.1.orig.tar.gz
- 601eacf8682ae29e7cb7869a2a23aa55 9836 games extra lair_9.1-1.debian.tar.xz
- 563dc9dca21b549ce9a986bc271f6d8c 370320 debug extra lair-dbgsym_9.1-1_amd64.deb
- 34aa69651e18f54873a977d24a26924d 10820 games extra lair_9.1-1_amd64.buildinfo
- 907bed32ab324ee1df59c97e2ef3e074 64136 games extra lair_9.1-1_amd64.deb
+ ad5e0a382e4f96209c62a284711fd222 1540 games extra lair_9.1-1.dsc
+ b233103e6e7ffd21baade0702c3add8c 2324940 games extra lair_9.1.orig.tar.gz
+ 92ba09887418b3bc97a02bece0ed0317 9840 games extra lair_9.1-1.debian.tar.xz
+ 19bdb6652d11e7ad3cf64e2badd6e3dc 370344 debug extra lair-dbgsym_9.1-1_amd64.deb
+ fe6014b11bdae9009010505eb3b7550a 10820 games extra lair_9.1-1_amd64.buildinfo
+ be312525222ff8283eb4400d5ea4f523 64188 games extra lair_9.1-1_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlirCI0eHHByb2JsZW1z
-b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrNXAH/1Vx0XvvuKZHy6iN
-0sIh/MKX0FyfvwUmOqt3wLFmtH3qReTmGsswOMTTYciiOcjXia4ul3MFOFPFEvQV
-vs28+0IakOPo3tM0YGYkBRlbUt7pBJ0puA09uris9Ywp9vZbqsPPXPpqzo6N/qUV
-iuOwoLQcGmw3nyd7aZuQDdRnLhOq/U5o/pEgDzD21d43NRkCs9wEtHOsnKNM+pMo
-oxp6zVFORzYINCxE6th69I6iPPOfFV9PIONKw+Q6Ciensk0rQWX/Pobt1wbbAkDA
-dTlFeoxyCaR/KIsWw428fLztLrOsNWDfbF/G6wlEzxo0HbXMBo6qIglvikgdf6sA
-ZP/qgJ8=
-=Spo4
+iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlirPYoeHHByb2JsZW1z
+b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrylgH/12Jma49OVcSIVHA
+CnAOk3e70sZDG/MLEkCwnUBv+34RaBVKg5zKUlbiZqzQFkhSMTuHxKNPObBCg6RX
+g21/rfxLsLepaUduMWZ2W2QQkcJx4GwYW9pqvP8YFUf6r0l2uKvep7ZDZrvPmx1f
+bSBkm7dKTEQvqRmcTzFyBpbpqdyX1xbzPRtmXhu/Iwmc8e1+RXqrvRlDku8RTxyX
+Nza4kaSq4kaLXjnSn0kCs2NxxR2o7W+LiBm2mzI8knUVZ4YCHuZEJX6RKhrwKQqo
+EOpT8qk7G289rBcF5Sy8GWUsuMJMZ3QYQzBbk45o8OgOoKuALdbO323WhVoaP5pT
+GIeOlRM=
+=EUrM
 -----END PGP SIGNATURE-----

@@ -13,24 +13,24 @@ Build-Depends: debhelper (>= 9), liblua5.2-dev, libsdl2-dev, libsdl2-gfx-dev, li
 Package-List:
  lair deb games extra arch=amd64
 Checksums-Sha1:
- abc7600d4f4078d0efb97e2008c44fcb11592f28 4735824 lair_9.1.orig.tar.gz
- 28620d9f840729dee6f320a04aaff29ac048bb2a 9836 lair_9.1-1.debian.tar.xz
+ d6dcf7c6e439489b365f5ff30f7996753b8e1bb8 2324940 lair_9.1.orig.tar.gz
+ 6ce569b8f65546d40655df8b3f60decb74474143 9840 lair_9.1-1.debian.tar.xz
 Checksums-Sha256:
- d073ee2ea762562a98185de07923555e0b18add71e1b8bd0447b1ed21d191a9b 4735824 lair_9.1.orig.tar.gz
- 91dba9236efafb38894cb5fbea7aeb84cd64bb25350b444360efb0856013d0f0 9836 lair_9.1-1.debian.tar.xz
+ 9b0d95062a6962d0b10c714602f7a0d7a36e8e277c0abd1c8f5c6ab2eeeeb34d 2324940 lair_9.1.orig.tar.gz
+ 9788610fa70db0e39cc5ca899b62c6ce2b845c3343b16b959a562736675432d9 9840 lair_9.1-1.debian.tar.xz
 Files:
- a5e267745979cfb9409ad9c222e4f00a 4735824 lair_9.1.orig.tar.gz
- 601eacf8682ae29e7cb7869a2a23aa55 9836 lair_9.1-1.debian.tar.xz
+ b233103e6e7ffd21baade0702c3add8c 2324940 lair_9.1.orig.tar.gz
+ 92ba09887418b3bc97a02bece0ed0317 9840 lair_9.1-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlirCI0eHHByb2JsZW1z
-b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrIt0H/144hzHYmEpVqIUv
-ZqTCXcXS2C7jvWTsvnelokgnQb6oZzYJbXWF4QS4sOEDOZjfo9nq3rUak043Sa63
-Ac/BbPDjsu4ofug5K32qOCdoY8Etfrx4H/ixA6DWAutCis9XuPdM670SHwHsTbvm
-7dORnnyQvjfdYvAGMlZ4FgNg0SFZ/z7CPRBnJvWlwk+NkYEKL4cpSQIfD1yaAz32
-mivKtWbTVwp0LqIJ1w/8BrcYQ+lNtbGzI+WiwE6NDeHLh+XS53n3Bd/wFBAdHjsL
-rp9gXAqgRMwW2aTaNp6YEFnCFyrYyLKHvPrEEsGzg4iYmYyZjCSMwhH9Ga3qeyuz
-F1aYo1Y=
-=4baB
+iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlirPYoeHHByb2JsZW1z
+b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrXnoIAJj8GGc8APlvrr5f
+STvhCdPNJ594SOm3MeT8XGSa+1FFqE/U7JBCjAqQ+Ld/Sfc0lac7uFptjXf48wEy
+kKTIy3b2rdDT+qe+43jjBwrVT/eH3QtWnI4Y9+Ib81BEtdSe90uE2ic8GPnWHCw1
+ZIc3cc962kpzZWXYQfmTYz6Jm4WPpv3j6PHYaZhis2WQl8PTpU5AaLnvky+QpkBP
+J0A2CWSI+FIq8A0ECafRKhmLQISy7/isZWF/V8i7oSXVYf+eV35rbbmUlXNzaZEJ
+6xEYptgAAgaeDl6RvRNRzyMF2zWHbEHXZOMwWnJu8u5W1DTN/MabxZ04cjRk9FDO
+diS5Uvk=
+=TKKu
 -----END PGP SIGNATURE-----

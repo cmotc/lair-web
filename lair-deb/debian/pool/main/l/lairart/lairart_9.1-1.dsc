@@ -13,24 +13,24 @@ Build-Depends: debhelper (>= 9)
 Package-List:
  lairart deb games extra arch=amd64
 Checksums-Sha1:
- 3285b4b0f97f4fee832895e10b12dc8602d6d78d 62416583 lairart_9.1.orig.tar.gz
- bdb056c3fe855bc670782aba1f7cf7155b9dfc87 7956 lairart_9.1-1.debian.tar.xz
+ 23cbd08d99c72b8c9fab998623555d9feb2639fb 62418298 lairart_9.1.orig.tar.gz
+ 1ef2960558399127d9d790440dec832ee75e6f6c 7956 lairart_9.1-1.debian.tar.xz
 Checksums-Sha256:
- 067e97c9c33a317c4cb0a315eaff34814178618c2758ebe5a601d411caa006f8 62416583 lairart_9.1.orig.tar.gz
- cb80b9dd59f4c6eb9d867427222d0a27a5d76c51365369fb1d47fddea11bce53 7956 lairart_9.1-1.debian.tar.xz
+ 4a9169de419edbb20f759ca6d4b054ef3083b59dca12220a4982e5225ee0ba82 62418298 lairart_9.1.orig.tar.gz
+ 1128865fc5d8cde9154e594de45a9e1d8a3fb431bfc953d2bd9e73cc4827e7e5 7956 lairart_9.1-1.debian.tar.xz
 Files:
- 3897c1f82220e881114d2f9fd4815c59 62416583 lairart_9.1.orig.tar.gz
- 03a89f7909c8de02c22a94a400e297a7 7956 lairart_9.1-1.debian.tar.xz
+ cd7fe0cd8400aa98cd77f3579888e765 62418298 lairart_9.1.orig.tar.gz
+ 7a099c792337c676b80f43aa9ca766f8 7956 lairart_9.1-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlirCMkeHHByb2JsZW1z
-b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQr8WQIAJjyJ24YyiBB89Qi
-buKoi5wyQiGHKL+8BjsUklaI9T/vQqAGvgwu1xTXCwIrERNOjoy/JWCvIU+66+Fx
-k4Rw12OEWOq6eNcJ4Q9DoIAqZk1wNjxEKyT9xP1df7TugC+33st137QMaMkrnttR
-/wqKJ74THyH1H6u7Oj8b36cO+y2y3MB9uNGXYq2zHCGBNEO8O+zPmrZj4Pmr6Klh
-Le+bk9h5jv34lcfTJCGrJfo7mJOZ/+ea4BavyrZbll/yxA5vey7PcVeve+HGxWyk
-wcL7NPM53EYldNi3hbkLTzy3YCnLYOYUY4H/tSFIvR+NIXoYmZi/CyTjSsQjrPBu
-ROISdBA=
-=lo/B
+iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlirPcgeHHByb2JsZW1z
+b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQr76cH/AwsQlzuieknAVvq
+iEHNRy+KK0RiDOLoKx7kQ1+85kwrHOV2yw/8MgqqEFFwjOjWU6ScBUoWEWoV+w4k
+bnUIjCcHatLSnxDtHa70ZjUe7lNEcgPxdZ+BbLHuShHiZwU1LYYBrkQiho1wziNv
+XQ1RQUrsx37cv5qDZ/DSaI3KTmlYXs3quD/pgAPqXG51UJ8aZld8EUXgkGcq8s+g
+jrptrniNImuHfmKOltPYr7JQ3Ly93F97N86tgDN1Cyc0fOZSWkAmqqwZv54lMHZL
+KdMv/U/WrwMJx23Oe5CzK2nxzmwwhOAFo/7ZYDbdgMru4M0kdt6N+CCOeFfLw5FP
+QtmPAlI=
+=NLyN
 -----END PGP SIGNATURE-----
