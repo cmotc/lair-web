@@ -155,3 +155,18 @@ SHA1: bd7d3ee2f4b53711adf928b5388282c0b19f8240
 MD5sum: 4addd59fef5e6b7b228c7ba6e7b6ca7a
 Description: Package created with checkinstall 1.6.2
 
+Package: tartrazine
+Installed-Size: 128
+Maintainer: idk@fireaxe
+Architecture: amd64
+Version: 0.9-1
+Provides: tartrazine
+Priority: extra
+Section: checkinstall
+Filename: pool/main/t/tartrazine/tartrazine_0.9-1_amd64.deb
+Size: 17932
+SHA256: c0a23d6556e1f0d204c052dcb3e6eeaf758b7dfbf7600125d65482c258f741d5
+SHA1: ee50826a19a54a52817363fd422e491efe4a396c
+MD5sum: 5b5cbc3d45dbc304e6802cbffbeba5df
+Description: Package created with checkinstall 1.6.2
+
