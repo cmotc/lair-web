@@ -146,10 +146,14 @@ to do:</p>
 <li>Implement AI class, which is similar to the move class but instead of doing
 actions on events it does actions based on the execution of Lua scripts
 <ol>
-<li>Right now it's born-but-blind. The guys will accept signals that make them
-walk and eventually run into walls.</li>
+<li>Now the AI's can see but it's not clear what the best way to use their
+senses are. Basically the mob gets a table containing all the nearby mobs
+and blocked particles and you can use that to make decisions.</li>
 </ol></li>
-<li>Write some example AI scripts</li>
+<li>Write some example AI scripts.
+<ol>
+<li>AI Common Lua Requirement is share/lair/lua/ai/common.lua</li>
+</ol></li>
 <li>Networked play support, with sub-tasks
 <ol>
 <li>Game Server as Group Chat?</li>

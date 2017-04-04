@@ -34,18 +34,18 @@ Description: A tool for setting up and hosting an apt repository using arbitrary
 Package: lair
 Version: 9.1-1
 Architecture: amd64
-Maintainer: idk <problemsolver@openmailbox.org>
-Installed-Size: 197
+Maintainer: lair repo key <problemsolver@openmailbox.org>
+Installed-Size: 199
 Depends: lua5.2, liblua5.2-0, libsdl2-2.0-0, libsdl2-gfx-1.0-0, libsdl2-image-2.0-0, libsdl2-mixer-2.0-0, libsdl2-ttf-2.0-0, libtoxav0, libtoxcore0, libtoxencryptsave0
 Provides: lair
 Homepage: https://cmotc.github.io/lair-web/
 Priority: extra
 Section: games
 Filename: pool/main/l/lair/lair_9.1-1_amd64.deb
-Size: 64188
-SHA256: 1d6d7c91fa0fba826f8f8148758092742d8ebaff7bcdaa3b4544658b300168c8
-SHA1: 04369bc1087baaf1f1f43d7bd90388ddda586785
-MD5sum: be312525222ff8283eb4400d5ea4f523
+Size: 64952
+SHA256: 70d3a86ef2dd62015bc5d56db30d4f35fef3d63d95e31cefa3843cefac2d5e55
+SHA1: 853ce85ffbc722a5d97a84bb12887ae7fd844534
+MD5sum: 3cf7a58739ef7bb323a59815f4918820
 Description: LAIR! Roguelike Game, version 0.9
  LAIR is a Procedurally Generated Mutliplayer Rogue-Like Game.
  It uses a library of content and a set of Lua scripts to
@@ -57,19 +57,19 @@ Source: lair
 Version: 9.1-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
-Maintainer: idk <problemsolver@openmailbox.org>
-Installed-Size: 411
+Maintainer: lair repo key <problemsolver@openmailbox.org>
+Installed-Size: 413
 Depends: lair (= 9.1-1)
 Homepage: https://cmotc.github.io/lair-web/
 Priority: extra
 Section: debug
 Filename: pool/main/l/lair/lair-dbgsym_9.1-1_amd64.deb
-Size: 370344
-SHA256: 8a232672253323e605205d732db1329e6fa109f42e044444dacb7c1653ac2ea8
-SHA1: 9f661f49df067eb3ce0977213578345af70c2f39
-MD5sum: 19bdb6652d11e7ad3cf64e2badd6e3dc
+Size: 372350
+SHA256: d3ed0ec6365582a060eb4205d0caf2a10c365949f8e710a48e34b641dafce1a8
+SHA1: c8f29c4463f7a5134586cbd479b98a704b0f1c5b
+MD5sum: 6df2261cc4c1ca95aa111bec5d216ca9
 Description: Debug symbols for lair
-Build-Ids: 6b5419850e68babe05c638d1db4e4a9481e152a3
+Build-Ids: e65058b164935806ef8f91ef341ddb1207636e9b
 
 Package: lairart
 Version: 9.1-1
@@ -139,4 +139,19 @@ Description: Generates a Markdown-formatted description of a software package
  redirecting it's output and processing that. It uses dpkg --info to read the
  contents of your debian package, grep and sed, and doesn't need bash, so it
  should run fine on any Debian-based system.
+
+Package: sdl2-vapi
+Installed-Size: 780
+Maintainer: idk@fireaxe
+Architecture: amd64
+Version: 2.0-1
+Provides: sdl2-vapi
+Priority: extra
+Section: checkinstall
+Filename: pool/main/s/sdl2-vapi/sdl2-vapi_2.0-1_amd64.deb
+Size: 33508
+SHA256: 6506ac393a4973f991ea679066dd434b368afce3125d51214d04759cc812568a
+SHA1: bd7d3ee2f4b53711adf928b5388282c0b19f8240
+MD5sum: 4addd59fef5e6b7b228c7ba6e7b6ca7a
+Description: Package created with checkinstall 1.6.2
 

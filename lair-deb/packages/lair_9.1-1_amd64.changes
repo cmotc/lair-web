@@ -9,7 +9,7 @@ Architecture: source amd64
 Version: 9.1-1
 Distribution: unstable
 Urgency: medium
-Maintainer: idk <problemsolver@openmailbox.org>
+Maintainer: lair repo key <problemsolver@openmailbox.org>
 Changed-By: lair repo key <problemsolver@openmailbox.org>
 Description:
  lair       - LAIR! Roguelike Game, version 0.9
@@ -18,36 +18,36 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- 0c6f05a61dd63ae2719ab60ce2a7f59b3996dae5 1540 lair_9.1-1.dsc
- d6dcf7c6e439489b365f5ff30f7996753b8e1bb8 2324940 lair_9.1.orig.tar.gz
- 6ce569b8f65546d40655df8b3f60decb74474143 9840 lair_9.1-1.debian.tar.xz
- 9f661f49df067eb3ce0977213578345af70c2f39 370344 lair-dbgsym_9.1-1_amd64.deb
- ffd0a68510118409928c2fef520322518264af39 10820 lair_9.1-1_amd64.buildinfo
- 04369bc1087baaf1f1f43d7bd90388ddda586785 64188 lair_9.1-1_amd64.deb
+ bc9727e2fa6350799a9ee0665a366a3469f3a789 1550 lair_9.1-1.dsc
+ 91fb7a80afb84c539c56ee79bd5e5301552ee685 5015365 lair_9.1.orig.tar.gz
+ 1bbc2be50823d109d091f2c84c59a9c52ea10ac8 9836 lair_9.1-1.debian.tar.xz
+ c8f29c4463f7a5134586cbd479b98a704b0f1c5b 372350 lair-dbgsym_9.1-1_amd64.deb
+ e303055e04dd2638090f88d3ec7727beffcca592 11710 lair_9.1-1_amd64.buildinfo
+ 853ce85ffbc722a5d97a84bb12887ae7fd844534 64952 lair_9.1-1_amd64.deb
 Checksums-Sha256:
- 7e8a26318bd0ad80c9f07ff9d0076a8602a1bca09d9fadbefa7faf6152a188ca 1540 lair_9.1-1.dsc
- 9b0d95062a6962d0b10c714602f7a0d7a36e8e277c0abd1c8f5c6ab2eeeeb34d 2324940 lair_9.1.orig.tar.gz
- 9788610fa70db0e39cc5ca899b62c6ce2b845c3343b16b959a562736675432d9 9840 lair_9.1-1.debian.tar.xz
- 8a232672253323e605205d732db1329e6fa109f42e044444dacb7c1653ac2ea8 370344 lair-dbgsym_9.1-1_amd64.deb
- 7db9c83f923988e542658ea81fa980831fd35d72f38ce19b3bf45a6777c12652 10820 lair_9.1-1_amd64.buildinfo
- 1d6d7c91fa0fba826f8f8148758092742d8ebaff7bcdaa3b4544658b300168c8 64188 lair_9.1-1_amd64.deb
+ 11ae1f108882574e517e711a8ac99f763bf6838ef98f0cc14abca6bbc37e2b83 1550 lair_9.1-1.dsc
+ dc6cadf2133c79c4f5cab17302bada19edf241cfc13fa0b08fdd06a3c1aa859a 5015365 lair_9.1.orig.tar.gz
+ 65a288ca916c22ce1e3880ceb69292f8319240a94c636e754292ca834b487718 9836 lair_9.1-1.debian.tar.xz
+ d3ed0ec6365582a060eb4205d0caf2a10c365949f8e710a48e34b641dafce1a8 372350 lair-dbgsym_9.1-1_amd64.deb
+ 858195e4598117f36906fb79c85fc5cd8dab662439f60c790946006ede08e43a 11710 lair_9.1-1_amd64.buildinfo
+ 70d3a86ef2dd62015bc5d56db30d4f35fef3d63d95e31cefa3843cefac2d5e55 64952 lair_9.1-1_amd64.deb
 Files:
- ad5e0a382e4f96209c62a284711fd222 1540 games extra lair_9.1-1.dsc
- b233103e6e7ffd21baade0702c3add8c 2324940 games extra lair_9.1.orig.tar.gz
- 92ba09887418b3bc97a02bece0ed0317 9840 games extra lair_9.1-1.debian.tar.xz
- 19bdb6652d11e7ad3cf64e2badd6e3dc 370344 debug extra lair-dbgsym_9.1-1_amd64.deb
- fe6014b11bdae9009010505eb3b7550a 10820 games extra lair_9.1-1_amd64.buildinfo
- be312525222ff8283eb4400d5ea4f523 64188 games extra lair_9.1-1_amd64.deb
+ 4d0cb36fc538862b455dd35984f2fb23 1550 games extra lair_9.1-1.dsc
+ 9c73c54df087b51140d91820c8271290 5015365 games extra lair_9.1.orig.tar.gz
+ 9ce4044a7b0094b4acfc2115fd1527e2 9836 games extra lair_9.1-1.debian.tar.xz
+ 6df2261cc4c1ca95aa111bec5d216ca9 372350 debug extra lair-dbgsym_9.1-1_amd64.deb
+ 37d72456ad687ff0f06e213cbdffde07 11710 games extra lair_9.1-1_amd64.buildinfo
+ 3cf7a58739ef7bb323a59815f4918820 64952 games extra lair_9.1-1_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlirPYoeHHByb2JsZW1z
-b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrylgH/12Jma49OVcSIVHA
-CnAOk3e70sZDG/MLEkCwnUBv+34RaBVKg5zKUlbiZqzQFkhSMTuHxKNPObBCg6RX
-g21/rfxLsLepaUduMWZ2W2QQkcJx4GwYW9pqvP8YFUf6r0l2uKvep7ZDZrvPmx1f
-bSBkm7dKTEQvqRmcTzFyBpbpqdyX1xbzPRtmXhu/Iwmc8e1+RXqrvRlDku8RTxyX
-Nza4kaSq4kaLXjnSn0kCs2NxxR2o7W+LiBm2mzI8knUVZ4YCHuZEJX6RKhrwKQqo
-EOpT8qk7G289rBcF5Sy8GWUsuMJMZ3QYQzBbk45o8OgOoKuALdbO323WhVoaP5pT
-GIeOlRM=
-=EUrM
+iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAljjHE0eHHByb2JsZW1z
+b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrqTYIAMg2ODs/B8rY43bP
+fsY+hHnkA5N8FIO3bwT+svtJ8p432ODo2/3XTwCiIEPxvbQhoKos6IAYhMCEvlZa
+tTas4+by0fyYmYeKrHxFte7iBZsIbhs1iXGfM3lgqUpru6LqSen2WQ9NFe+uR7qJ
+Up2RgL+jnARBrIM0i8v3BqkLCN/x1iUh5A+mtzF/58pjDMLSlGz7XdSsItKRQ0/p
+jgVgil6rjV3/Iby7xf/wpBIVULm8cUtVcRUjeE5bBl6zNnyQDvF4Yh18RfGORdgq
+5zILS8iHlRWbEeJoN11QraS5fpJkmXjZ86S9GesQ37SQxI85oPetC020IfjZqGV8
+pohbqww=
+=rPyL
 -----END PGP SIGNATURE-----

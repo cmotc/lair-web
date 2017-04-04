@@ -1,6 +1,3 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
-
 Format: 1.8
 Date: Sun, 19 Feb 2017 17:49:03 -0500
 Source: lairart
@@ -18,33 +15,20 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- 0cdb942fee1af04314de2d65bb2ce3e8b3b8ea90 1407 lairart_9.1-1.dsc
- 23cbd08d99c72b8c9fab998623555d9feb2639fb 62418298 lairart_9.1.orig.tar.gz
+ 0e0bcd99fd9883746ff02a4d8160941d8bc0a904 828 lairart_9.1-1.dsc
+ 96ae5b95092ed7d1d8547ed30fa640a673983905 62416596 lairart_9.1.orig.tar.gz
  1ef2960558399127d9d790440dec832ee75e6f6c 7956 lairart_9.1-1.debian.tar.xz
- 0eadf26f4c653b649205e3bc8d20079e76a93585 4663 lairart_9.1-1_amd64.buildinfo
+ 51d3d9f1b78bd27bb61d602ce49fff23b4c3f53b 4972 lairart_9.1-1_amd64.buildinfo
  2dab60d8bdf696f623c1e1f0ecf8ce751cb29133 67580 lairart_9.1-1_amd64.deb
 Checksums-Sha256:
- 23823f5bc543bab8e9abf3f95f72d3a6076266e2a268b3a2fb5fc75c54201929 1407 lairart_9.1-1.dsc
- 4a9169de419edbb20f759ca6d4b054ef3083b59dca12220a4982e5225ee0ba82 62418298 lairart_9.1.orig.tar.gz
+ cf07a201acad02bf800505b0fc7617f61fd2687f5c32499b448b26f815681536 828 lairart_9.1-1.dsc
+ 767dcf1f4b4ac54fcd117fe72f194399ca01ce0ac2851b4274b63c38b6af7465 62416596 lairart_9.1.orig.tar.gz
  1128865fc5d8cde9154e594de45a9e1d8a3fb431bfc953d2bd9e73cc4827e7e5 7956 lairart_9.1-1.debian.tar.xz
- 33f597dea4c3504ddb22274d17d773e9bf4a167c03d548d753f5c7e3fbb6396d 4663 lairart_9.1-1_amd64.buildinfo
+ 6e5b91fc4b39d9413cc54b7dcdc53e7bab5180466a02713bb9861dcd8e2254ad 4972 lairart_9.1-1_amd64.buildinfo
  df78c5aa5a99f295b6cba9ba5b2463afaec2ba01dc0073302f98688591bb0ca9 67580 lairart_9.1-1_amd64.deb
 Files:
- 6f37dd6008829e4f850911b3cd16ac12 1407 games extra lairart_9.1-1.dsc
- cd7fe0cd8400aa98cd77f3579888e765 62418298 games extra lairart_9.1.orig.tar.gz
+ a41d7ed796017f5d26a36f826b4d45cc 828 games extra lairart_9.1-1.dsc
+ 20dce9258147dcc102b91e2e28ff2bfc 62416596 games extra lairart_9.1.orig.tar.gz
  7a099c792337c676b80f43aa9ca766f8 7956 games extra lairart_9.1-1.debian.tar.xz
- f61dbf0d54c75d8e7cdb7a980d343f3e 4663 games extra lairart_9.1-1_amd64.buildinfo
+ e555307086111b573f879ecf6c13cef0 4972 games extra lairart_9.1-1_amd64.buildinfo
  fbe590fd0bac9ee1e5d2f2d588f2d97e 67580 games extra lairart_9.1-1_amd64.deb
-
------BEGIN PGP SIGNATURE-----
-
-iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlirPcgeHHByb2JsZW1z
-b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrdy0H/2cw6N/q8Ha6UmVG
-+ISR+5p46Pnh5srRudNorI9C1Z0idEKsGZRg1AyYsVGqocCgkmX3F0wwnenL2fb8
-uLJ4gT5h4cfWUDF2g0T6NNCXwzrsyf47IbXnuabbgthJiHVSepd/J0boMKGcKsVu
-XrvhxdcmJguS2eTkCoGb7KaHXrUZAHQkYy0FR6Q2mM6eEnyWOyveYNWL/V5865HD
-vLRjFe0tXsXLUnLX1EeNMqYXTC7p52fpdAM9l4qNEvsqlEkFzMzqnVyWQ9BaYqch
-87raI859krtvkPI/EdekEkwNkYSVe5qD50C7n+WFR0UI+5Jd/pvh4klfsoGO65Tj
-UySzSsQ=
-=REpz
------END PGP SIGNATURE-----

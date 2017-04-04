@@ -6,31 +6,31 @@ Source: lair
 Binary: lair
 Architecture: amd64
 Version: 9.1-1
-Maintainer: idk <problemsolver@openmailbox.org>
+Maintainer: lair repo key <problemsolver@openmailbox.org>
 Vcs-Browser: https://github.com/cmotc/valair
 Vcs-Git: git@github.com/cmotc/valair.git
 Build-Depends: debhelper (>= 9), liblua5.2-dev, libsdl2-dev, libsdl2-gfx-dev, libsdl2-image-dev, libsdl2-mixer-dev, libsdl2-ttf-dev, libtox-dev, libtoxav-dev, libtoxcore-dev, libtoxencryptsave-dev
 Package-List:
  lair deb games extra arch=amd64
 Checksums-Sha1:
- d6dcf7c6e439489b365f5ff30f7996753b8e1bb8 2324940 lair_9.1.orig.tar.gz
- 6ce569b8f65546d40655df8b3f60decb74474143 9840 lair_9.1-1.debian.tar.xz
+ 91fb7a80afb84c539c56ee79bd5e5301552ee685 5015365 lair_9.1.orig.tar.gz
+ 1bbc2be50823d109d091f2c84c59a9c52ea10ac8 9836 lair_9.1-1.debian.tar.xz
 Checksums-Sha256:
- 9b0d95062a6962d0b10c714602f7a0d7a36e8e277c0abd1c8f5c6ab2eeeeb34d 2324940 lair_9.1.orig.tar.gz
- 9788610fa70db0e39cc5ca899b62c6ce2b845c3343b16b959a562736675432d9 9840 lair_9.1-1.debian.tar.xz
+ dc6cadf2133c79c4f5cab17302bada19edf241cfc13fa0b08fdd06a3c1aa859a 5015365 lair_9.1.orig.tar.gz
+ 65a288ca916c22ce1e3880ceb69292f8319240a94c636e754292ca834b487718 9836 lair_9.1-1.debian.tar.xz
 Files:
- b233103e6e7ffd21baade0702c3add8c 2324940 lair_9.1.orig.tar.gz
- 92ba09887418b3bc97a02bece0ed0317 9840 lair_9.1-1.debian.tar.xz
+ 9c73c54df087b51140d91820c8271290 5015365 lair_9.1.orig.tar.gz
+ 9ce4044a7b0094b4acfc2115fd1527e2 9836 lair_9.1-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlirPYoeHHByb2JsZW1z
-b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrXnoIAJj8GGc8APlvrr5f
-STvhCdPNJ594SOm3MeT8XGSa+1FFqE/U7JBCjAqQ+Ld/Sfc0lac7uFptjXf48wEy
-kKTIy3b2rdDT+qe+43jjBwrVT/eH3QtWnI4Y9+Ib81BEtdSe90uE2ic8GPnWHCw1
-ZIc3cc962kpzZWXYQfmTYz6Jm4WPpv3j6PHYaZhis2WQl8PTpU5AaLnvky+QpkBP
-J0A2CWSI+FIq8A0ECafRKhmLQISy7/isZWF/V8i7oSXVYf+eV35rbbmUlXNzaZEJ
-6xEYptgAAgaeDl6RvRNRzyMF2zWHbEHXZOMwWnJu8u5W1DTN/MabxZ04cjRk9FDO
-diS5Uvk=
-=TKKu
+iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAljjHE0eHHByb2JsZW1z
+b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrt7gH/iXTZ3b4DhCpl6ss
+tFiQIPG2NkQUFJ3GPMRaLc9bBjmrAxQXE22Pf6YY9hE3YsSwXm33Hn0f0CLbOB+8
+xDxG/Ps6tRIp6ZcEv9Qx8hYBEAxc1KL7nPUlKqtd0X8ssiGUzvq06r3lOHsrhnNj
+x+hyc4WWTl1CawOAgvnhtWT0TivxTh139aGWzUjqTVn76vXDHHhNAJlej3/cFWX7
+eacVdNbD9hP6RHlszKfq8sQFxdt1feXmi77eTu421oMbCpueZxliapnJPlRXwxA+
+vwZPIRU8yhdOZ54MSWmQADNsC6Kf1KFocK+tvT0icRZrFUJ+/8loYR39v9tJqyTV
+lkosejA=
+=JWSQ
 -----END PGP SIGNATURE-----
