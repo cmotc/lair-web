@@ -170,3 +170,18 @@ SHA1: a7744c0de9e280c46ed09ae45c8b5b1cc8840e4a
 MD5sum: ebf77e67a354b73f98f679c98ccaac0b
 Description: Package created with checkinstall 1.6.2
 
+Package: tox-vapi
+Installed-Size: 400
+Maintainer: idk@fireaxe
+Architecture: amd64
+Version: 0.9-1
+Provides: tox-vapi
+Priority: extra
+Section: checkinstall
+Filename: pool/main/t/tox-vapi/tox-vapi_0.9-1_amd64.deb
+Size: 18970
+SHA256: ac2ed56bd9fa4f9a0d6e824de36342370dee192c68c8d4ec4730ac3c3e70ac6a
+SHA1: c67b9f8cad47df36066821ec5477137d0bccdb39
+MD5sum: 1beb02c6a8be705efe6eb406316d0106
+Description: Package created with checkinstall 1.6.2
+
