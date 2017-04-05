@@ -5,7 +5,7 @@ Package: tox-vapi
 ####Maintainer: idk@fireaxe
 ####Installed-Size: 400
 new debian package, version 2.0.
-size 18970 bytes: control archive=302 bytes.
+size 18968 bytes: control archive=303 bytes.
 0 bytes,     0 lines      conffiles            
 207 bytes,     9 lines      control              
 Package: tox-vapi

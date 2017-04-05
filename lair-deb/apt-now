@@ -396,9 +396,9 @@ if [ "$DRY_RUN" = "NO" ]; then
                         fi
                         cd $CURDIR
 			if [ "$ORG" = "YES" ]; then
-				git add . && git commit -am "Repository update: $MESSAGE $DATE" && git push origin master
+				git add . && git commit -am "Repository update: $MESSAGE $DATE" && git push $FORK master
 			else
-				git add . && git commit -am "Repository update: $MESSAGE $DATE" && git push origin gh-pages
+				git add . && git commit -am "Repository update: $MESSAGE $DATE" && git push $FORK gh-pages
 			fi
 		else
 			echo "Fatal Error, this is not a git repository. Please create a git repository and enable github pages to use this script."
