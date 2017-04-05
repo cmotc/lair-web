@@ -1,5 +1,5 @@
 
-export PROJECT_PATH:= ${HOME}/Projects
+export PROJECT_PATH:= ${HOME}/Projects/lair-manifest
 export WEB_PATH := ${PROJECT_PATH}/lair-web
 export BLOG_PATH := ${WEB_PATH}/blog
 export SOURCECODE_PATH := ${PROJECT_PATH}/valair

@@ -42,10 +42,10 @@ Homepage: https://cmotc.github.io/lair-web/
 Priority: extra
 Section: games
 Filename: pool/main/l/lair/lair_9.1-1_amd64.deb
-Size: 64952
-SHA256: 70d3a86ef2dd62015bc5d56db30d4f35fef3d63d95e31cefa3843cefac2d5e55
-SHA1: 853ce85ffbc722a5d97a84bb12887ae7fd844534
-MD5sum: 3cf7a58739ef7bb323a59815f4918820
+Size: 65172
+SHA256: 2dd0b9ee00f732b2fe9a3abd17b3cac5d45f1ab4bbfb7f914a525bbb1c0566ed
+SHA1: 0b99931fad12bc23ec73490452d12fde26b19500
+MD5sum: c9b31119d03f40564eeebdd5d92c3f69
 Description: LAIR! Roguelike Game, version 0.9
  LAIR is a Procedurally Generated Mutliplayer Rogue-Like Game.
  It uses a library of content and a set of Lua scripts to
@@ -58,23 +58,23 @@ Version: 9.1-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: lair repo key <problemsolver@openmailbox.org>
-Installed-Size: 413
+Installed-Size: 415
 Depends: lair (= 9.1-1)
 Homepage: https://cmotc.github.io/lair-web/
 Priority: extra
 Section: debug
 Filename: pool/main/l/lair/lair-dbgsym_9.1-1_amd64.deb
-Size: 372350
-SHA256: d3ed0ec6365582a060eb4205d0caf2a10c365949f8e710a48e34b641dafce1a8
-SHA1: c8f29c4463f7a5134586cbd479b98a704b0f1c5b
-MD5sum: 6df2261cc4c1ca95aa111bec5d216ca9
+Size: 373244
+SHA256: 0e518bc81a0ff16efe6be85cfe4edc3f13e4d80c3b40ed84fc516bbcdabca648
+SHA1: aefda437c429a80ac27c392b666af4243cc86f5b
+MD5sum: f3a4ea298c723a147e3be3aed0923e50
 Description: Debug symbols for lair
-Build-Ids: e65058b164935806ef8f91ef341ddb1207636e9b
+Build-Ids: 02232c9c952ed181a98c7235ec3b965829780036
 
 Package: lairart
 Version: 9.1-1
 Architecture: amd64
-Maintainer: idk <problemsolver@openmailbox.org>
+Maintainer: lair repo key <problemsolver@openmailbox.org>
 Installed-Size: 548
 Depends: libpng-tools
 Provides: lairart
@@ -82,10 +82,10 @@ Homepage: https://cmotc.github.io/lairart/
 Priority: extra
 Section: games
 Filename: pool/main/l/lairart/lairart_9.1-1_amd64.deb
-Size: 67580
-SHA256: df78c5aa5a99f295b6cba9ba5b2463afaec2ba01dc0073302f98688591bb0ca9
-SHA1: 2dab60d8bdf696f623c1e1f0ecf8ce751cb29133
-MD5sum: fbe590fd0bac9ee1e5d2f2d588f2d97e
+Size: 67586
+SHA256: 1a8d462f6ab486d7f552ac11a9f8c223e3e4aed2b3c035aa6f5458fa0c06febd
+SHA1: 5552cc8c92bff80d96fddd990cbc1e5c9bdb7bf9
+MD5sum: 2de49f9c648b2dead2f97a226dd8ee07
 Description: LAIR! Roguelike Game(Artistic Assets), version 0.9
  LAIR! Roguelike Game(Artistic Assets), version 0.9
  This package contains artistic assets for LAIR!.
@@ -149,10 +149,10 @@ Provides: sdl2-vapi
 Priority: extra
 Section: checkinstall
 Filename: pool/main/s/sdl2-vapi/sdl2-vapi_2.0-1_amd64.deb
-Size: 33508
-SHA256: 6506ac393a4973f991ea679066dd434b368afce3125d51214d04759cc812568a
-SHA1: bd7d3ee2f4b53711adf928b5388282c0b19f8240
-MD5sum: 4addd59fef5e6b7b228c7ba6e7b6ca7a
+Size: 33504
+SHA256: 9e6d63c197b888711832fad373ee4a085020c326692cb49c80ada5f9a07f0c3c
+SHA1: 333482307b4b691975f547838b5086dd85258015
+MD5sum: 94737fe56f334d1d2ce86dc19001b320
 Description: Package created with checkinstall 1.6.2
 
 Package: tartrazine
@@ -164,10 +164,10 @@ Provides: tartrazine
 Priority: extra
 Section: checkinstall
 Filename: pool/main/t/tartrazine/tartrazine_0.9-1_amd64.deb
-Size: 18086
-SHA256: 0e492677fd1535ee4623915ef48a7128722915eb15f8f3da79a9629d5021c6cd
-SHA1: a7744c0de9e280c46ed09ae45c8b5b1cc8840e4a
-MD5sum: ebf77e67a354b73f98f679c98ccaac0b
+Size: 18042
+SHA256: cff8e0276f252a1c098cad42d6167e0f7d694e4f4e41f7ec911d3b41dd34d734
+SHA1: 3181ee5876e19a64098c5f2d9cd336a34a1bca36
+MD5sum: 2d76305055c7b077228e6bbaf801be38
 Description: Package created with checkinstall 1.6.2
 
 Package: tox-vapi
@@ -179,9 +179,9 @@ Provides: tox-vapi
 Priority: extra
 Section: checkinstall
 Filename: pool/main/t/tox-vapi/tox-vapi_0.9-1_amd64.deb
-Size: 18970
-SHA256: ac2ed56bd9fa4f9a0d6e824de36342370dee192c68c8d4ec4730ac3c3e70ac6a
-SHA1: c67b9f8cad47df36066821ec5477137d0bccdb39
-MD5sum: 1beb02c6a8be705efe6eb406316d0106
+Size: 18998
+SHA256: 6698396a032e87cc1a47dff43e53f9b48081c9480cbcaedcc3969053e167f110
+SHA1: 9a5a67a7365958758b8d6b6c49393cf43766ac4b
+MD5sum: 14aef1bc14267cd729b700ebfad227a2
 Description: Package created with checkinstall 1.6.2
 

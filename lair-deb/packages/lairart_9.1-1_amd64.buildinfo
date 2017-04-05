@@ -1,20 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 Format: 1.0
 Source: lairart
 Binary: lairart
 Architecture: amd64 source
 Version: 9.1-1
 Checksums-Md5:
- a41d7ed796017f5d26a36f826b4d45cc 828 lairart_9.1-1.dsc
- fbe590fd0bac9ee1e5d2f2d588f2d97e 67580 lairart_9.1-1_amd64.deb
+ 1349e6f5fe2c985cabe629d8a0b072dd 1417 lairart_9.1-1.dsc
+ 2de49f9c648b2dead2f97a226dd8ee07 67586 lairart_9.1-1_amd64.deb
 Checksums-Sha1:
- 0e0bcd99fd9883746ff02a4d8160941d8bc0a904 828 lairart_9.1-1.dsc
- 2dab60d8bdf696f623c1e1f0ecf8ce751cb29133 67580 lairart_9.1-1_amd64.deb
+ 793cb1dd592aeffa537f2531001f407327647fd6 1417 lairart_9.1-1.dsc
+ 5552cc8c92bff80d96fddd990cbc1e5c9bdb7bf9 67586 lairart_9.1-1_amd64.deb
 Checksums-Sha256:
- cf07a201acad02bf800505b0fc7617f61fd2687f5c32499b448b26f815681536 828 lairart_9.1-1.dsc
- df78c5aa5a99f295b6cba9ba5b2463afaec2ba01dc0073302f98688591bb0ca9 67580 lairart_9.1-1_amd64.deb
+ be1882b615e219c707051c19892641f6066851dba07abd5b6e371bf1d29ba764 1417 lairart_9.1-1.dsc
+ 1a8d462f6ab486d7f552ac11a9f8c223e3e4aed2b3c035aa6f5458fa0c06febd 67586 lairart_9.1-1_amd64.deb
 Build-Origin: Devuan
 Build-Architecture: amd64
-Build-Date: Tue, 04 Apr 2017 00:09:43 -0400
+Build-Date: Wed, 05 Apr 2017 01:36:56 -0400
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -178,3 +181,16 @@ Environment:
  DEB_BUILD_OPTIONS="parallel=2"
  LANG="en_US.UTF-8"
  SOURCE_DATE_EPOCH="1487544543"
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAljkgnweHHByb2JsZW1z
+b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrEPgIALAzZuwKLinn8YTC
+6ZP2bXiyQOR4TWgqyvF21ZQAz8hnX3UsJ32739U4yMhZqfNa7yJ2upmTlMPBLsvk
+5PW/QQs1jpQ7Ea3Lp2tbpG8xMah4WYGVFoRhBDYjNK1bVnsr/Zl5TezWFbnvEVe4
+w7X18vkEni3FzjBSrDygF5p+KpdYsuAaL/6eSdCTLxh8GGhm6ilPqra5sYeoGtiK
+M01yPZpVSAPk87gvSfO+YAkKoKJsbVIvaHtKiq1oH+a28WPYam4iSFMciNlnwZVE
+c+G0Y9aCzkL2XlbL+BJ4ALEJnkSATvnZpmXsh6jx89/u/1hp5JypHV4q3QtS81FV
+wRsjLg0=
+=ozAm
+-----END PGP SIGNATURE-----
