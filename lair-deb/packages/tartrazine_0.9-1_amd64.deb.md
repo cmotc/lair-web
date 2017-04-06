@@ -5,7 +5,7 @@ Package: tartrazine
 ####Maintainer: idk@fireaxe
 ####Installed-Size: 152
 new debian package, version 2.0.
-size 18046 bytes: control archive=301 bytes.
+size 18058 bytes: control archive=302 bytes.
 0 bytes,     0 lines      conffiles            
 211 bytes,     9 lines      control              
 Package: tartrazine
