@@ -7,20 +7,20 @@ Binary: lair
 Architecture: amd64 source
 Version: 0.9-1
 Checksums-Md5:
- 489db4ae5c310e2e9e107145ac5ce83c 1550 lair_0.9-1.dsc
+ c5fd0387bcb3968f38c0247e66dfbbae 1550 lair_0.9-1.dsc
  6f376eafc6e3fc823005e510f0374dac 373112 lair-dbgsym_0.9-1_amd64.deb
  bef627fdcd38cb5dfb160821158acbfb 65188 lair_0.9-1_amd64.deb
 Checksums-Sha1:
- b2b438738d20b3efb83254084c6def4a8aec5805 1550 lair_0.9-1.dsc
+ c7aae1e768c43469cc1544fb26b9025f454dd1de 1550 lair_0.9-1.dsc
  ab47a976b524659e642f1a9052af210b9c2e0cb0 373112 lair-dbgsym_0.9-1_amd64.deb
  53b4230a304614d9634fc6ce8810e0ed650abf87 65188 lair_0.9-1_amd64.deb
 Checksums-Sha256:
- edde9823190cb64e306c6ff1d6ce6796b00b3ba550fc76e11ceddddc078309ec 1550 lair_0.9-1.dsc
+ 2c16b945c6b761ab6b87311b7d9ab39063c60077cce93d789e649810f7298853 1550 lair_0.9-1.dsc
  941382ac48d5103f77ef253f4ebc8be81c14c2b052723cad1f85ceb7a4867698 373112 lair-dbgsym_0.9-1_amd64.deb
  dea1b29845595b437159d38326cc0f89bd7208a94db2b5273090724eb3c84b48 65188 lair_0.9-1_amd64.deb
 Build-Origin: Devuan
 Build-Architecture: amd64
-Build-Date: Thu, 06 Apr 2017 00:09:42 -0400
+Build-Date: Thu, 06 Apr 2017 00:30:02 -0400
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -385,13 +385,13 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAljlv4keHHByb2JsZW1z
-b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrZ9YH/0xvuCdRglm72Ebw
-oHUkirTNSdJAU7oxl1a/QBdIDn0wkCFueOSj79Lo+PK4ezcEuFwP0rXSuMtLsziY
-pdiu+A+eYqyEZeRchYeFAV90QeJ+RhclBNOGSJ6o8vFyzAYzhIQzo75k5Pu3ZCqi
-fo/OyHUJMX9E/EWSnNOBEcLi9f+wGFZ/Ry7gnGydwJjXBS9U9sf+iwixkDpxhpeZ
-BprhML708cQ8IY4NIu4HGUg2/xzvx+SuVVDMvg1DNel2kFr4BtoZOtxqXLgkGqEf
-3Z6QucnbzcJcPP6EsvEcTHvOh4o+frF+OJzOvZ1gWMkLo/DlndkkTDBvs+bfwqYt
-kwcvBhA=
-=FuNa
+iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAljlxE0eHHByb2JsZW1z
+b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQr5/0IAI7EDVFP7pkDlreN
+Q0FrXgtTj1zoxgLQmPKJt4UemWkLCkdn1gdpDruhfHRTJlukTiIwtPswlc706HG7
+4SmyGPGvwPhkxitfmL4qhSsEwCN8XEFwlcvWP3kKqbSD3gTNOP2Wporxpu5x3mK1
+L5bO6OChbAwLJB739E6zFX94e3ak3sSLPdQPBVWzJHcLT5a72X/wyGrmNOec9F85
+Telwk61sPuoSL2v3hVgVfmzgREbiQvBzNd/3l4WvIneAGPo5D4nmc0T6KQL79K1v
+FQWToU+yAPhIGMClB9A1YOSseIPlr28weeUAJkOZbM5heEuhKQu99cIG2QqAmqOI
+9Qotp7k=
+=HYXS
 -----END PGP SIGNATURE-----
