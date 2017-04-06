@@ -7,20 +7,20 @@ Binary: lair
 Architecture: amd64 source
 Version: 0.9-1
 Checksums-Md5:
- a335ded5262d080c26b87c2e44839788 1550 lair_0.9-1.dsc
+ 489db4ae5c310e2e9e107145ac5ce83c 1550 lair_0.9-1.dsc
  6f376eafc6e3fc823005e510f0374dac 373112 lair-dbgsym_0.9-1_amd64.deb
  bef627fdcd38cb5dfb160821158acbfb 65188 lair_0.9-1_amd64.deb
 Checksums-Sha1:
- 7c1e010aa4333540ed7f5fe0fc27da3ae586e89a 1550 lair_0.9-1.dsc
+ b2b438738d20b3efb83254084c6def4a8aec5805 1550 lair_0.9-1.dsc
  ab47a976b524659e642f1a9052af210b9c2e0cb0 373112 lair-dbgsym_0.9-1_amd64.deb
  53b4230a304614d9634fc6ce8810e0ed650abf87 65188 lair_0.9-1_amd64.deb
 Checksums-Sha256:
- 7377db93c560cb591223a6650ef67b35b52538ddaddfa706d5a4e04a6c3c7497 1550 lair_0.9-1.dsc
+ edde9823190cb64e306c6ff1d6ce6796b00b3ba550fc76e11ceddddc078309ec 1550 lair_0.9-1.dsc
  941382ac48d5103f77ef253f4ebc8be81c14c2b052723cad1f85ceb7a4867698 373112 lair-dbgsym_0.9-1_amd64.deb
  dea1b29845595b437159d38326cc0f89bd7208a94db2b5273090724eb3c84b48 65188 lair_0.9-1_amd64.deb
 Build-Origin: Devuan
 Build-Architecture: amd64
-Build-Date: Wed, 05 Apr 2017 22:22:46 -0400
+Build-Date: Thu, 06 Apr 2017 00:09:42 -0400
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -385,13 +385,13 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAljlpoYeHHByb2JsZW1z
-b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrqOAIANtYmlYDKJRDTs2+
-4ZImP+4HsiEYNizdPaXiBGfABm8WKLF26v+UgmsqYbdmEw7QU9jNuHAdQX0P/mNG
-tpl7GalaYPx6ZHWs2g18k1VXXwhwMplB+uZOLmIVnWQ48AptIqSi9oMlV+1RiLiz
-8SYdW1h4F+jTMVOE4TT19vetnVIsmyNEpz2vkjpiGpVTxdtW/2XMykVe+rnLQ6to
-05GM8Jd28GDYbTySGZZUC4KBq/Mca9hjAk+3ZNu5IA4tXVbKXMkXzVjfCmGhgsAf
-9yKnUHdwDZnq+1N1AsaAAfGIkv4l8WpB6lNdqjm3BkRxvrm//ilUzfy/jSkpsSQP
-qTfhcdE=
-=uXH1
+iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAljlv4keHHByb2JsZW1z
+b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrZ9YH/0xvuCdRglm72Ebw
+oHUkirTNSdJAU7oxl1a/QBdIDn0wkCFueOSj79Lo+PK4ezcEuFwP0rXSuMtLsziY
+pdiu+A+eYqyEZeRchYeFAV90QeJ+RhclBNOGSJ6o8vFyzAYzhIQzo75k5Pu3ZCqi
+fo/OyHUJMX9E/EWSnNOBEcLi9f+wGFZ/Ry7gnGydwJjXBS9U9sf+iwixkDpxhpeZ
+BprhML708cQ8IY4NIu4HGUg2/xzvx+SuVVDMvg1DNel2kFr4BtoZOtxqXLgkGqEf
+3Z6QucnbzcJcPP6EsvEcTHvOh4o+frF+OJzOvZ1gWMkLo/DlndkkTDBvs+bfwqYt
+kwcvBhA=
+=FuNa
 -----END PGP SIGNATURE-----
