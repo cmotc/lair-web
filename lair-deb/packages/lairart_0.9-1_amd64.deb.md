@@ -2,8 +2,8 @@ Package: lairart
 ============= 
 
 ###Version: 0.9-1
-####Maintainer: problemsolver@openmailbox.org
-####Installed-Size: 1604
+####Maintainer: lair repo key problemsolver@openmailbox.org
+####Installed-Size: 548
 ###Depends:
   * libpng-tools
 ###Description:
@@ -14,7 +14,7 @@ LAIR is a Procedurally Generated Mutliplayer Rogue-Like Game.
 It uses a library of content and a set of Lua scripts to
 generate a random map according to a more-or-less detailed and
 flexible environment to play in.
-]()
+Homepage:[ https://cmotc.github.io/lairart/ ](https://cmotc.github.io/lairart/)
 ###Provides:
   * lairart
 ####Section: games

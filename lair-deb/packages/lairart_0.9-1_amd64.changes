@@ -1,0 +1,50 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Wed, 05 Apr 2017 21:07:53 -0400
+Source: lairart
+Binary: lairart
+Architecture: source amd64
+Version: 0.9-1
+Distribution: unstable
+Urgency: medium
+Maintainer: lair repo key <problemsolver@openmailbox.org>
+Changed-By: lair repo key <problemsolver@openmailbox.org>
+Description:
+ lairart    - LAIR! Roguelike Game(Artistic Assets), version 0.9
+Changes:
+ lairart (0.9-1) unstable; urgency=medium
+ .
+   * One more try getting all these things to use the same number
+Checksums-Sha1:
+ debefc500ccfd4488530745c981b71d2825bedb4 1417 lairart_0.9-1.dsc
+ 29f0c02a392b212d73db3fa30c87bff48f12899a 62056444 lairart_0.9.orig.tar.gz
+ c88525edc32b90fe6b509e2ef8a094826b002eed 8092 lairart_0.9-1.debian.tar.xz
+ edb49fa25c0880a331284ef65b3fc182948b3919 5554 lairart_0.9-1_amd64.buildinfo
+ 84e4d0be81dcdffbd478c89fbc831e2152f2afe7 67472 lairart_0.9-1_amd64.deb
+Checksums-Sha256:
+ 85e15c0944be81a7ca8a2f760fa5691a93f1cc0cfe895393eeda49fafd9f9b0c 1417 lairart_0.9-1.dsc
+ 1ca65a2998068f05a07a8a3d3ab6d882c58ee2a0f2f5524c252ed19632710a78 62056444 lairart_0.9.orig.tar.gz
+ 6ef0846b5ea6cb2eed56f6cfa56777f4ea8fcc0100b7c05484cb4e058af94ff3 8092 lairart_0.9-1.debian.tar.xz
+ f01b131cbc67b444ef9156e8850a083b93660e4b7f49ed10371d1f1f465ccd7b 5554 lairart_0.9-1_amd64.buildinfo
+ 9c546885f0bfd68bb37f49846d8d1ca43aa0f3189e13940d8161c8cb2d619238 67472 lairart_0.9-1_amd64.deb
+Files:
+ 7e30afcfb9b274ede886806ea18a5533 1417 games extra lairart_0.9-1.dsc
+ 223c25d7892114f64af0856603775716 62056444 games extra lairart_0.9.orig.tar.gz
+ c403b9ef5574cc5459f9e5da1e90f432 8092 games extra lairart_0.9-1.debian.tar.xz
+ d9337771a14388b1ebc69bb6d8d3eb81 5554 games extra lairart_0.9-1_amd64.buildinfo
+ ddd28f20657c76c650b8402a025af8c3 67472 games extra lairart_0.9-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAljlmh0eHHByb2JsZW1z
+b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrgysH/R+4wyQOZBN/xm8W
+dFoAQs/WX3MZhQDQaQhXnAI8+o57iEq5PSIqhGgylnNuDk0MRWGTc2JdPpwJi9Cs
+Hb7AOQrEU9OvdewNzLiUE/6DPj/IYQyX/Z2kUCPkpX42jur/8UphokBWW0mzOkOI
+LffuSFFbu/ixFMfZZWPFGal9q6sXi9svLzdHuz3IR9uO9goybYEXp/1mE2JqAlBR
+Ows7/2pyruiOjpMyXePv2a2OhsHtvbXe0ss0MEIV00Rbxu/NVxdE4kgQp5mcfAG4
+Ey0b865sgLrxzf69HNNl1sI27jMWiEDM3BI0KlQWmNBTkdNnXoFyDdW77QJZW8ex
+Dd3M+OA=
+=Tv1h
+-----END PGP SIGNATURE-----

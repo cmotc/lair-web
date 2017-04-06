@@ -1,0 +1,53 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Wed, 05 Apr 2017 20:12:46 -0400
+Source: lair
+Binary: lair
+Architecture: source amd64
+Version: 0.9-1
+Distribution: unstable
+Urgency: medium
+Maintainer: lair repo key <problemsolver@openmailbox.org>
+Changed-By: lair repo key <problemsolver@openmailbox.org>
+Description:
+ lair       - LAIR! Roguelike Game, version 0.9
+Changes:
+ lair (0.9-1) unstable; urgency=medium
+ .
+   * shaping up the changelogs
+Checksums-Sha1:
+ 7136de62ff2b8572d0c06b05b90e6a0e5b325ad7 1550 lair_0.9-1.dsc
+ 595536f27c5d737dc0213436d3aeaaf09fdcc380 5019445 lair_0.9.orig.tar.gz
+ 9bd86dd6c4cd277b1d8bf6def097edea04636684 9896 lair_0.9-1.debian.tar.xz
+ ab47a976b524659e642f1a9052af210b9c2e0cb0 373112 lair-dbgsym_0.9-1_amd64.deb
+ c49c9097fdca047e9e6413e6b1c12469ab60650e 11710 lair_0.9-1_amd64.buildinfo
+ 53b4230a304614d9634fc6ce8810e0ed650abf87 65188 lair_0.9-1_amd64.deb
+Checksums-Sha256:
+ d4ad1739a241b9e44e67afd5a04b2b8febec00e8539af063733d646520e690d2 1550 lair_0.9-1.dsc
+ 118e5c723cd87575aefb34c8fd86f83bafda1f5cd3e27d8db7e83f07005a263c 5019445 lair_0.9.orig.tar.gz
+ 153e3cfd2da387ff142fdd18f503a9d1c7b6ffedd5e6c37d318f7afa9cf3d110 9896 lair_0.9-1.debian.tar.xz
+ 941382ac48d5103f77ef253f4ebc8be81c14c2b052723cad1f85ceb7a4867698 373112 lair-dbgsym_0.9-1_amd64.deb
+ f552cdd65d8aa98388719a8c8607d540ac07c2a507545ba6d3a3140f7b7b42cf 11710 lair_0.9-1_amd64.buildinfo
+ dea1b29845595b437159d38326cc0f89bd7208a94db2b5273090724eb3c84b48 65188 lair_0.9-1_amd64.deb
+Files:
+ de84f9685fabdb2af794aaafee7b2781 1550 games extra lair_0.9-1.dsc
+ 5b97b9a20419bd4132b88bae6d3e3e45 5019445 games extra lair_0.9.orig.tar.gz
+ a5e4cf202e4ce88e183851505e75ff65 9896 games extra lair_0.9-1.debian.tar.xz
+ 6f376eafc6e3fc823005e510f0374dac 373112 debug extra lair-dbgsym_0.9-1_amd64.deb
+ beb476c023fa60b64c378b306f9436f3 11710 games extra lair_0.9-1_amd64.buildinfo
+ bef627fdcd38cb5dfb160821158acbfb 65188 games extra lair_0.9-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAljlmdkeHHByb2JsZW1z
+b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrtIMH/1upKMvP0PDrCnqa
++PwnXlN1Qh+yYmjmL7PcIKygDZrHd1OYZbvplnP7AZX3qmbKaSFO7bPBeJGGrUmU
+BeIYwSs4ZNSKRZc6FdYIGl35o44ofyWdAb66iBA0Mpr5LJYI183IZCpfOnqVlNvn
+WC8F/hP3anprt3Nvp+qVFJ2L4CyzDXuwcd8K2V/09GlTVnx1vBhpy6uveaE/0vYI
+j8aW18hvyTWh0/KAo5ubPcvgMGsEE41qQy0A8T+KY3WEj6K+TFlzI/2JKpKrZbr7
+84lg35iUNT9CexCRw+tNvc9nM1632ssOL2S8nS3/HeTsPEFWPFWoWC+w2cebaVr7
+fCCmZOI=
+=efBw
+-----END PGP SIGNATURE-----
