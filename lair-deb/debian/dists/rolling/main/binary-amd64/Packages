@@ -9,10 +9,10 @@ Homepage: https://cmotc.github.io/lair-web/
 Priority: extra
 Section: games
 Filename: pool/main/l/lair/lair_0.9-1_amd64.deb
-Size: 65022
-SHA256: 76b689fc264bcd7b665ac796e3d52533fa158c5339039edaba77a5e9631d780d
-SHA1: f77e81260454b570049411824eda44ea570f5139
-MD5sum: 03053c7a55c4812931aa624e52a6b4c9
+Size: 65018
+SHA256: 24ed2b51005095d606bbbe41b0ce4e041e6a1f4f83f8add90ec869611ca711a9
+SHA1: 182d936a9b9bbec7ed54a2265b85de443ca2d5e3
+MD5sum: f5682dc3ad9f1ab4fb5d2ec7fb94d9d1
 Description: LAIR! Roguelike Game, version 0.9
  LAIR is a Procedurally Generated Mutliplayer Rogue-Like Game.
  It uses a library of content and a set of Lua scripts to
@@ -31,12 +31,12 @@ Homepage: https://cmotc.github.io/lair-web/
 Priority: extra
 Section: debug
 Filename: pool/main/l/lair/lair-dbgsym_0.9-1_amd64.deb
-Size: 372562
-SHA256: ea1eb862587a42e8e32cfca893a88f8a1211d5b775fc7f5747fd30e516a991e7
-SHA1: 598ef36b3ad5afeb7c3ef1392db8e5efd349319b
-MD5sum: 246f92f73bb2186b21fb1e20bf94a4f7
+Size: 372508
+SHA256: 96d00c1853b1e2248f4ebeeb8bd7db78dbe254260768722cb35630d71b442984
+SHA1: c836cef4747519e360ec7d31f2fe137735dd707b
+MD5sum: 2cc865cc7dcc1498a2c1931f14c0cb9b
 Description: Debug symbols for lair
-Build-Ids: fee8a8c045a8953151ee61b7c393094f642150c5
+Build-Ids: f369fe76845891503f7e18d7dfdbfbc1dc567a35
 
 Package: lairart
 Version: 0.9-1
@@ -70,10 +70,10 @@ Provides: sdl2-vapi
 Priority: extra
 Section: checkinstall
 Filename: pool/main/s/sdl2-vapi/sdl2-vapi_2.0-1_amd64.deb
-Size: 33488
-SHA256: b110b459d0a68a372e7c98e1d2cbd5e2e1a464b02ca494b602d83cf40ee02951
-SHA1: 914fb028838c3385792aca9a9b67c5e621608bd0
-MD5sum: a5261e546d1bbdf406501582a6ba83aa
+Size: 33510
+SHA256: fd7497d677cf3ca186b5c549b001fcb045b9f3049a22ea5f0fdb63bc54dd07fe
+SHA1: 121eae822ee0d4c392da8f1248dc0ad8b12ae3ae
+MD5sum: 5ce81a78f5a87f8c24d11472e831c14b
 Description: Package created with checkinstall 1.6.2
 
 Package: tartrazine
@@ -85,10 +85,10 @@ Provides: tartrazine
 Priority: extra
 Section: checkinstall
 Filename: pool/main/t/tartrazine/tartrazine_0.9-1_amd64.deb
-Size: 18066
-SHA256: 31f0993681719013495c258ac0ff726c6edd13e7de141e9cdd30ce17e5e3338c
-SHA1: a85ede0266d7dc257e99450aeabec2277cefe56a
-MD5sum: 4a03b5b5b4deab3c8f339078a7abd6a3
+Size: 18058
+SHA256: 4e917297f5f96639d9b233ddf527dfc430dcabdcd4741fb0bf0626bbcb5b8eb5
+SHA1: e9185af7e559852520e507d52e98799b58472d86
+MD5sum: 087fcfc3ea9c8450c40ee819649c8cf0
 Description: Package created with checkinstall 1.6.2
 
 Package: tox-vapi
@@ -100,9 +100,9 @@ Provides: tox-vapi
 Priority: extra
 Section: checkinstall
 Filename: pool/main/t/tox-vapi/tox-vapi_0.9-1_amd64.deb
-Size: 18964
-SHA256: f31a99846172a27cadb43db4148c23aa43983a0f82518654919ce7ba44c1d169
-SHA1: 0a6c826b1cc4469e87d09082cf1b2acf2dfa5706
-MD5sum: 7cdf32852664721d700d61dd1413a5a1
+Size: 18958
+SHA256: 623b934437e602b4ea2105b747f61dbf1acdf010eead19979681c58913058083
+SHA1: cccd665ed2822c5c2552d246adb720ede0e28c0e
+MD5sum: 68adcd15fe165f5c38e35ec8ebc64479
 Description: Package created with checkinstall 1.6.2
 

@@ -7,17 +7,17 @@ Binary: lairart
 Architecture: amd64 source
 Version: 0.9-1
 Checksums-Md5:
- 9111313105d00d9630e67d47c83cec4d 1417 lairart_0.9-1.dsc
+ e07211f92e239a85c16c72c5b96f59bc 1417 lairart_0.9-1.dsc
  ddd28f20657c76c650b8402a025af8c3 67472 lairart_0.9-1_amd64.deb
 Checksums-Sha1:
- f4fed5fa09188e3053f1a24837013687f293f486 1417 lairart_0.9-1.dsc
+ 1b161c0658eadca9b32fd3b9c03eb193f1901a43 1417 lairart_0.9-1.dsc
  84e4d0be81dcdffbd478c89fbc831e2152f2afe7 67472 lairart_0.9-1_amd64.deb
 Checksums-Sha256:
- 065881b8577e781abae317174230c8ece707a3c637756e528795c898b176ab0c 1417 lairart_0.9-1.dsc
+ ca6493b6989f2235436349465fbb1b5bde916afc4a3149fe3ec733e42eabf86c 1417 lairart_0.9-1.dsc
  9c546885f0bfd68bb37f49846d8d1ca43aa0f3189e13940d8161c8cb2d619238 67472 lairart_0.9-1_amd64.deb
 Build-Origin: Devuan
 Build-Architecture: amd64
-Build-Date: Thu, 06 Apr 2017 10:19:28 -0400
+Build-Date: Thu, 06 Apr 2017 18:35:51 -0400
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -184,13 +184,13 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAljmTnQeHHByb2JsZW1z
-b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrR3YH/3UdohvquagYdDHf
-Z39PZOPIQKEHCpze93c8eMCfx2WclOtyc5Fdet3oQzv66j0tVYDSqISHeqfcf5sN
-+csJLwNqrr4QlZ8N3ho/7rpBgO2bcHaEaYui6xh21Z5JN0CohXzFQolkc3wrAZZb
-1sWPW+wtFQpa+1gY1SBwDHav69AvLKOiKDLEvag/Fjt2X+i16+/3oVW+F6kSAR+g
-W9B0jOcBTl2WpVRV7zCcTwJ5dX8onnx5R76dKZ5P+TVWMoESMwuB7KrwuprjvYHE
-wyepiLiKk1LlrsbrsYaAnFJdGbpby0n9Fm8xqaTA17/YrSHiEk4t2fVz86LN3C8c
-/SId3qY=
-=7TBO
+iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAljmwsseHHByb2JsZW1z
+b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrM7IH/1PDmhQZVKWSYy/j
+/WA+BDTlWYuWfwnXVyrjrVNJMQvnikwo2+NmLI/JM4rus05HaxijeTlmqDfYEGaB
+0WWIGEWxlKj7hlMUnUALowsdrleIeIkAMiv7Y0kiZL+XncaCcjmNOZQY7cIs2ZHV
+eyEyI4dhcVi3Owhxvmwdx5GBGEg0DZt9+xqCsfx7jD2iG4q5eDB8Fyqi+V8i7zxT
+LHkc3OT0S5E9d6WdkTtD0OM2u9ZZzhW26VziL+6ovacL0x6Qrfe6VLtyy9FjJ272
+dkk8l/DR7NjNvJIXZZ+vCgPOdHn7qDSblaN77LWX+WT/lDIC/BTgsXvDflz0kfIy
+/y2R3f8=
+=sKZA
 -----END PGP SIGNATURE-----
