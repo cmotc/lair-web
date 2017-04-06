@@ -1,38 +1,5 @@
-Package: apt-now
-Version: 20160809-1
-Architecture: all
-Maintainer: idk <eyedeekay@i2pmail.org>
-Installed-Size: 43
-Depends: markdown | discount, reprepro
-Homepage: https://cmotc.github.io/apt-now/
-Priority: optional
-Section: admin
-Filename: pool/main/a/apt-now/apt-now_20160809-1_all.deb
-Size: 6368
-SHA256: 6fa8e38938ed144d692b0cbc404e123be5da45c29aeb7500e4b202763148ef4c
-SHA1: 78cb76e8842ffc71e0cdc81ab991a642b628ffb8
-MD5sum: 218abca884a56f20ff9cffe8046a53ba
-Description: A tool for setting up and hosting an apt repository using arbitrary
- http/s hosts to make files accessible with extra features for git-enabled
- hosting sites.
- .
- This tool, currently called apt-now but soon to be changed to repo-now, is
- essentially a static site generator geared toward generating and formatting a
- specific type of content in a specific type of way, the content being GNU/Linux
- or Android/Linux binary packages, and the format being a signed repository
- accessible from the web or something like  it  (It can also, for instance, be
- used to statically host software  repositories over i2p with no substantial
- modification.) It does this by taking  advantage of the structural regularity
- of these types of resources and  constructs the whole site on the client side,
- transmitting content to the  server only after a valid repository has been
- built. This means that the server  doesn't have to run any code at all to
- present the site to the end-user taking advantage of the resource over the web,
- doesn't need to support ssh or remote desktop, and doesn't even technically
- need to support ftp or git, as long as a way of transferring the repository to
- the remote storage service can be included in the program.
-
 Package: lair
-Version: 9.1-1
+Version: 0.9-1
 Architecture: amd64
 Maintainer: lair repo key <problemsolver@openmailbox.org>
 Installed-Size: 199
@@ -41,11 +8,11 @@ Provides: lair
 Homepage: https://cmotc.github.io/lair-web/
 Priority: extra
 Section: games
-Filename: pool/main/l/lair/lair_9.1-1_amd64.deb
-Size: 65094
-SHA256: dc7363bd2b14ac5f0ccc8b8fef1997164577c12cdf4d7fb3447ed47a64b6acbc
-SHA1: fddb4c0286c9cb88dbb5f1bc2fed728386c73ee8
-MD5sum: 173b4a1246f7bf3b1330f0f7e062ae88
+Filename: pool/main/l/lair/lair_0.9-1_amd64.deb
+Size: 65188
+SHA256: dea1b29845595b437159d38326cc0f89bd7208a94db2b5273090724eb3c84b48
+SHA1: 53b4230a304614d9634fc6ce8810e0ed650abf87
+MD5sum: bef627fdcd38cb5dfb160821158acbfb
 Description: LAIR! Roguelike Game, version 0.9
  LAIR is a Procedurally Generated Mutliplayer Rogue-Like Game.
  It uses a library of content and a set of Lua scripts to
@@ -54,25 +21,25 @@ Description: LAIR! Roguelike Game, version 0.9
 
 Package: lair-dbgsym
 Source: lair
-Version: 9.1-1
+Version: 0.9-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: lair repo key <problemsolver@openmailbox.org>
 Installed-Size: 414
-Depends: lair (= 9.1-1)
+Depends: lair (= 0.9-1)
 Homepage: https://cmotc.github.io/lair-web/
 Priority: extra
 Section: debug
-Filename: pool/main/l/lair/lair-dbgsym_9.1-1_amd64.deb
+Filename: pool/main/l/lair/lair-dbgsym_0.9-1_amd64.deb
 Size: 373112
-SHA256: a77cc35a9cff70b4fc3131f12cd3d69240a19dc83f429fbdb13192e3655bb7ac
-SHA1: 61c9bd1a416c09b13f9168416fd6839b887939be
-MD5sum: 1c1df57da8207257a799efdc8880910e
+SHA256: 941382ac48d5103f77ef253f4ebc8be81c14c2b052723cad1f85ceb7a4867698
+SHA1: ab47a976b524659e642f1a9052af210b9c2e0cb0
+MD5sum: 6f376eafc6e3fc823005e510f0374dac
 Description: Debug symbols for lair
 Build-Ids: 0bcd246042aeb858fe1cba0a625c3f866fffad4c
 
 Package: lairart
-Version: 9.1-1
+Version: 0.9-1
 Architecture: amd64
 Maintainer: lair repo key <problemsolver@openmailbox.org>
 Installed-Size: 548
@@ -81,11 +48,11 @@ Provides: lairart
 Homepage: https://cmotc.github.io/lairart/
 Priority: extra
 Section: games
-Filename: pool/main/l/lairart/lairart_9.1-1_amd64.deb
-Size: 67586
-SHA256: 1a8d462f6ab486d7f552ac11a9f8c223e3e4aed2b3c035aa6f5458fa0c06febd
-SHA1: 5552cc8c92bff80d96fddd990cbc1e5c9bdb7bf9
-MD5sum: 2de49f9c648b2dead2f97a226dd8ee07
+Filename: pool/main/l/lairart/lairart_0.9-1_amd64.deb
+Size: 67472
+SHA256: 9c546885f0bfd68bb37f49846d8d1ca43aa0f3189e13940d8161c8cb2d619238
+SHA1: 84e4d0be81dcdffbd478c89fbc831e2152f2afe7
+MD5sum: ddd28f20657c76c650b8402a025af8c3
 Description: LAIR! Roguelike Game(Artistic Assets), version 0.9
  LAIR! Roguelike Game(Artistic Assets), version 0.9
  This package contains artistic assets for LAIR!.
@@ -93,52 +60,6 @@ Description: LAIR! Roguelike Game(Artistic Assets), version 0.9
  It uses a library of content and a set of Lua scripts to
  generate a random map according to a more-or-less detailed and
  flexible environment to play in.
-
-Package: pkpage
-Version: 20160727-1
-Architecture: all
-Maintainer: idk <eyedeekay@i2pmail.org>
-Installed-Size: 34
-Depends: markdown | discount
-Homepage: https://cmotc.github.io/pkpage/
-Priority: optional
-Section: admin
-Filename: pool/main/p/pkpage/pkpage_20160727-1_all.deb
-Size: 3636
-SHA256: 34aaa4784d0452d0e2500105de4cd67cae6f4855f4240187f1c4d9c7736442e8
-SHA1: e00383a41a834640e14e125545d03a7c31e465f9
-MD5sum: 30ae375a9acf29df34d8aa010e4fd94f
-Description: Generates a Markdown-formatted description of a software package
- and a corresponding html page. For use with my repo generator, apt-git so that
- it can generate package description pages automatically and make the
- repositories easier to browse. It's a very, very basic little script. I don't
- intend to expand it or make it smarter, instead I'm going to use it by
- redirecting it's output and processing that. It uses dpkg --info to read the
- contents of your debian package, grep and sed, and doesn't need bash, so it
- should run fine on any Debian-based system.
-
-Package: scpage
-Version: 20160727-1
-Architecture: all
-Maintainer: idk <eyedeekay@i2pmail.org>
-Installed-Size: 34
-Depends: markdown | discount
-Homepage: https://cmotc.github.io/scpage/
-Priority: optional
-Section: admin
-Filename: pool/main/s/scpage/scpage_20160727-1_all.deb
-Size: 3510
-SHA256: f6a2dc13f5f40a4732d7b1ce2ec8c8581fa9f9baabd963c577ff27cf1e393b6f
-SHA1: ab3f4f75ef02a31359aa9b4fb9e7246f0cf171ad
-MD5sum: c3e1bd6a2836423d8ffc18e90e1cf0f4
-Description: Generates a Markdown-formatted description of a software package
- and a corresponding html page. For use with my repo generator, apt-git so that
- it can generate package description pages automatically and make the
- repositories easier to browse. It's a very, very basic little script. I don't
- intend to expand it or make it smarter, instead I'm going to use it by
- redirecting it's output and processing that. It uses dpkg --info to read the
- contents of your debian package, grep and sed, and doesn't need bash, so it
- should run fine on any Debian-based system.
 
 Package: sdl2-vapi
 Installed-Size: 780
