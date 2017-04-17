@@ -7,20 +7,20 @@ Binary: lair
 Architecture: amd64 source
 Version: 0.9-1
 Checksums-Md5:
- 693f770d4713bab4bdf3818ae4f60de4 1550 lair_0.9-1.dsc
+ d9691a12c39713ab170fdaeadfbd5eba 1550 lair_0.9-1.dsc
  6e31c27ff4c3ee72870769410feafb75 372524 lair-dbgsym_0.9-1_amd64.deb
  d6bd33da1c44e8c06734a1ecf9f9f269 64990 lair_0.9-1_amd64.deb
 Checksums-Sha1:
- fe4574f14c92f5cb807e611192ce5ee3661966c1 1550 lair_0.9-1.dsc
+ 830c8fde03c43dd46c4433363d59d50d571a7c25 1550 lair_0.9-1.dsc
  a901cc04cef9790d41732670f3d48e954f33f5c0 372524 lair-dbgsym_0.9-1_amd64.deb
  a7befdf4a582c984a6ec354d632674e9c99247ab 64990 lair_0.9-1_amd64.deb
 Checksums-Sha256:
- 06ab5386589c2cd3a3138857e3ce0e9367a52883da5700ce44c3d7bc87c4f60a 1550 lair_0.9-1.dsc
+ 401693c580a73a1ff095d8dac77c43e7b1811759bde97b3cc615d234dae0e6d8 1550 lair_0.9-1.dsc
  375199a1366d942ed2e48d74ff03ebc70ffd73f9d1dafa1234909e639d3a8537 372524 lair-dbgsym_0.9-1_amd64.deb
  5ac3d73a80d41f8c456b719abe94970d8f0b3e50daabbfd2155ce48f46e4421f 64990 lair_0.9-1_amd64.deb
 Build-Origin: Devuan
 Build-Architecture: amd64
-Build-Date: Mon, 17 Apr 2017 03:29:15 -0400
+Build-Date: Mon, 17 Apr 2017 03:37:30 -0400
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -384,13 +384,13 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlj0bs4eHHByb2JsZW1z
-b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQr99cH/ja+2WIf9bBXOk8m
-ghyr7YmLP3Pib9X5JucHki9fTCxNpN71H+bWFtEQadqwxW12xnNjRUWWuIQLf42L
-wp9ItmejSnj4s+rcN5Af8OMqvaD4kD4CqX+EWctmihkIIw7MAE9f14wNzkps2pVe
-qLvoLBU4UTzDnwpqPZRz1XIqP5xTMUxTENTEdp7xwyZflEmmoRpkI8WOXASwsTxs
-2w9N4m4sHIyRLj0Qdy03q9yl49iVC4srOqKqmH0w1TVjbGMKc+cRAhntJhP+6bwI
-WF/VoNvbbky62oalaIsh/18iIx8VFLalJ+3dAORoYI3WberGYIu/KhKbfkEkYNNZ
-sWCFffY=
-=oG80
+iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlj0cL0eHHByb2JsZW1z
+b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrDe8IAL/GqbnmRzKJd7Yn
+xZCj+0fwgWuW97VRDpjvUIDutmiA5KvbA3JkUi7zuJDyDD52PTCu6YP16sSnB8+m
+s1rz7pgmt4NP6TNfmn8pgAZ6xaSa6U/y37tNVKDZqJ+djlE7+CCmIdUbIIYth+zY
+vZVBs/kg7RASZmwFLZMwCPpBHUCcWxB67txvG3ADMd6vUDEtj/RubZNB34rv39Y/
+AZPYsaymYVbTJbWUjxD5BRBnSbWqfUPIy1htmSqE1R1WJDB1sqRXAIM9AKCPAfup
+ZYZUncNCRjXBqghifMrlba5H6mnx62qou2bgSKPQbMaHszendSFU6J5YGmKEMYNV
+y5C82zg=
+=YXet
 -----END PGP SIGNATURE-----
