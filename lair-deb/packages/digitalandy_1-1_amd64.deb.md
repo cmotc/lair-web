@@ -3,15 +3,15 @@ Package: digitalandy
 
 ###Version: 1-1
 ####Maintainer: idk@fireaxe
-####Installed-Size: 1680
+####Installed-Size: 1684
 new debian package, version 2.0.
-size 477640 bytes: control archive=303 bytes.
+size 478674 bytes: control archive=302 bytes.
 0 bytes,     0 lines      conffiles            
 212 bytes,     9 lines      control              
 Package: digitalandy
 Priority: extra
 Section: checkinstall
-Installed-Size: 1680
+Installed-Size: 1684
 Maintainer: idk@fireaxe
 Architecture: amd64
 Version: 1-1
