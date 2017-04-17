@@ -7,20 +7,20 @@ Binary: lair
 Architecture: amd64 source
 Version: 0.9-1
 Checksums-Md5:
- a627dddbe60ee7e5cfaf069b7de54b08 1550 lair_0.9-1.dsc
+ e63e86363e1d33e768d99f163a082a5f 1550 lair_0.9-1.dsc
  6e31c27ff4c3ee72870769410feafb75 372524 lair-dbgsym_0.9-1_amd64.deb
  d6bd33da1c44e8c06734a1ecf9f9f269 64990 lair_0.9-1_amd64.deb
 Checksums-Sha1:
- fcb7aa615b2cdccfb31741b0a768a744c2f33b70 1550 lair_0.9-1.dsc
+ 28d32ec57ef1c6711a32c048d3e493557a37cf22 1550 lair_0.9-1.dsc
  a901cc04cef9790d41732670f3d48e954f33f5c0 372524 lair-dbgsym_0.9-1_amd64.deb
  a7befdf4a582c984a6ec354d632674e9c99247ab 64990 lair_0.9-1_amd64.deb
 Checksums-Sha256:
- d79397d49cd514b88bef7f5033327e95f529ee75e1b082652dc7a98a2a680582 1550 lair_0.9-1.dsc
+ 7c2ed5f480ae53955ea1161ad5b898a534f0b390714edcfa8ed3318578997561 1550 lair_0.9-1.dsc
  375199a1366d942ed2e48d74ff03ebc70ffd73f9d1dafa1234909e639d3a8537 372524 lair-dbgsym_0.9-1_amd64.deb
  5ac3d73a80d41f8c456b719abe94970d8f0b3e50daabbfd2155ce48f46e4421f 64990 lair_0.9-1_amd64.deb
 Build-Origin: Devuan
 Build-Architecture: amd64
-Build-Date: Mon, 17 Apr 2017 02:49:57 -0400
+Build-Date: Mon, 17 Apr 2017 03:15:37 -0400
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -384,13 +384,13 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlj0ZZgeHHByb2JsZW1z
-b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrRtQH/RELdKh62j3kJ9ul
-jW2IPUnj4GabUIS8kGeLwUcdU0/zNcfGJcC3R0LzEYTMeJBpD0ctkl/bCXoYskk8
-ojJJFCv9LcdRPRbnKOfnqkk/A/nX+lSPuM8Okxn2Wn4TAFl7C5+40BDvxCTAFTpL
-7iGV4qqIsrpmUk/ZwZ0lc4hpETU0oMBqL88suCMdbHbHonupmuTJNwrJFV9mpr4V
-QTzdAH1ZVqQVUXRsMccfIwFl9u6LDDEWNMTUkkPtjgLoqvRck6HJNvzA4uhLTtKv
-NgjW/CEvYotbqrlM7axK8bm3T5Ln+6fSQHbfCDBNqEehhbBzMxEVrLTWXEP6MA9v
-Z+/QVmU=
-=LWyF
+iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlj0a6EeHHByb2JsZW1z
+b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrbREH/2q7fafkFA82433O
+ngHbYqwsTldlr+OmYh/wUnqiRs+MVL8w8sJAQKwuMkdMS5G/PS1j7Ja7GpYw70GW
+IVrtiJqc7VPC6j9qHo75tvY96PEPSmgt17LPHzzXx8s88drXJPF9ZazFMfsPYjMv
+n0hOwum23LAqGDIafpMjRUYygwvQVSadkH+as10dLnrMkfcXdY4AqEQ7mpV/mj5R
+xz72tW4pTEv34gzY4iFI/tS0ORWE8m765yg5cmocac386fE32iQvLQfNuxAwNeHS
+i26TxBV/t91RcSBJspawOzpPsoKg8u7MpL6Xme6OAGUHICtu8HE/t0oZbUEBYHfK
+2Bc+tZY=
+=BOSS
 -----END PGP SIGNATURE-----
