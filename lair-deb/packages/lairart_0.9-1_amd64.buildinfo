@@ -7,17 +7,17 @@ Binary: lairart
 Architecture: amd64 source
 Version: 0.9-1
 Checksums-Md5:
- 2958ac0ee54e7b64ede1c989bbcb575a 1417 lairart_0.9-1.dsc
- ddd28f20657c76c650b8402a025af8c3 67472 lairart_0.9-1_amd64.deb
+ 24a6791d773729fd6a02676026025156 1417 lairart_0.9-1.dsc
+ fa4265fd41397cce07570e8a8736a242 67688 lairart_0.9-1_amd64.deb
 Checksums-Sha1:
- 09a24cd5e45ff465c21c4ff18f94c0638132578f 1417 lairart_0.9-1.dsc
- 84e4d0be81dcdffbd478c89fbc831e2152f2afe7 67472 lairart_0.9-1_amd64.deb
+ 0ed6ea833e0dbcd5da85a2254e97f7348e16de25 1417 lairart_0.9-1.dsc
+ ad4e91a6c575ffd98d9a1a51b9371c43305cb4f8 67688 lairart_0.9-1_amd64.deb
 Checksums-Sha256:
- 06622635c264740fdc0547ccf5a7ab1f619b7d7971e9f3360ae7422721463886 1417 lairart_0.9-1.dsc
- 9c546885f0bfd68bb37f49846d8d1ca43aa0f3189e13940d8161c8cb2d619238 67472 lairart_0.9-1_amd64.deb
+ 3fdfcb50214516a0ee5b9e5852954862d2afbe8f01ed0eadea8485e96fae6f6b 1417 lairart_0.9-1.dsc
+ 60f92e84b8732570500ab333987ccea1b77abbd42c7878c4dff54a065c8ecae8 67688 lairart_0.9-1_amd64.deb
 Build-Origin: Devuan
 Build-Architecture: amd64
-Build-Date: Mon, 17 Apr 2017 15:42:22 -0400
+Build-Date: Wed, 19 Apr 2017 19:05:19 -0400
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -187,13 +187,13 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlj1GqEeHHByb2JsZW1z
-b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrDb4H/ArlvP1FwFoPKBgY
-Qf2OLy6fjR0Hbvu351mPdSu/t/hKtPuaOAl0ESKkjOvu2NtrPBElBlLaJ2Ds9OIC
-aAVpLrWSgeUqzZ8w1aPchGcuCinWCmYxgo8NYeYKDKhx17D4tzm/qEOAFzn+nzPz
-n0vCOpQWz2w8Ervtwb9t9nsSJaJ2yzAxiUsr9hwrRr6hpcE9b3qakFHl2C7Bni2D
-oVnQcHfE2kpFsjYdbbEQ3uUkIQ9GMt70u2DiCD6m9aapzf6btAmiXZBdE5O2X1t0
-JsKS9kGVTPY62aAiM9LBivEXVZ1DqQNpPHYbAG3GBID83KHMAFgJeBEOk0HQeVDK
-BRNlN/M=
-=M7za
+iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlj37TIeHHByb2JsZW1z
+b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrjdYH/jOqwBxGC4ayciYn
+BTBBi40DvD7js2CY5AulxOyBJOcVFjjZ/hb/aU9u8I7KdAR7TQo3dS4fJ86nuU/+
+80sghct0CmCxqIs3V+iz9zq0sKxryvQv88v79xinaOLZkH8buIV/Hq9N87J/lTpL
+7+au6XRGpA4Y7rgHhRDRbmnx8gGmCh9eoPp7wbmap+o4E96Tvec32IGhgroJbDLJ
+0dBwANCNTjXOGE/zpns57A24svoSGO7JTvl970jJ+szMywngfYAY/5lOkhXHB4fY
+JzhN3EKTZTheGwwGo+9akUJP9EoWwThtfPNvkk9ms2tqeHZvGnRkmBsDlXVFfSmL
+kTJmLgE=
+=/Wqu
 -----END PGP SIGNATURE-----
