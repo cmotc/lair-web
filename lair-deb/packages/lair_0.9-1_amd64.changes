@@ -18,36 +18,36 @@ Changes:
  .
    * shaping up the changelogs
 Checksums-Sha1:
- d71cbe9e83419912cf19c12b9cd4757efe537c03 1550 lair_0.9-1.dsc
- 686057c934884bb837751edbdf207931fa7d9d31 5021985 lair_0.9.orig.tar.gz
+ 36d97274d2010368cc135996211e127f26313a4b 1550 lair_0.9-1.dsc
+ 53f9fe6b16038d813a77954ac1184815ba71cbb4 5018133 lair_0.9.orig.tar.gz
  b012fb583bc687199cac7fca8b5bf84b4826ba22 9896 lair_0.9-1.debian.tar.xz
  eab354aa94fa40cc0681a9b849992ad30b4531f5 372672 lair-dbgsym_0.9-1_amd64.deb
- c47f9f49e017c3c6ce1c16419b21f51ce9b0c542 11617 lair_0.9-1_amd64.buildinfo
+ ab1a9bfdca3e3236410d5ecb21030c89e5330565 11617 lair_0.9-1_amd64.buildinfo
  bbdf66166947efa21bfa3ec18c597b90e7fa0b04 65064 lair_0.9-1_amd64.deb
 Checksums-Sha256:
- f7f9650fa8f828fe4f2e8f634012c750541e115f981ac72ee6a337aa09fe279e 1550 lair_0.9-1.dsc
- 10b624232fcda2f8091aa4a658f7041ccb717163bcf114a3148eb27bc313cde2 5021985 lair_0.9.orig.tar.gz
+ a241ed19a19904aa1f0b1ca3ba457ae6cbe579fa8db78dc67331742ddf085b13 1550 lair_0.9-1.dsc
+ 9c8d2334de200bf5e7095a17b7d8d123aad9e4cf57c0eef702067afc61bf592a 5018133 lair_0.9.orig.tar.gz
  9998fdf07becf275692bbee95ddafb52a9c2c17a7f5af5e9b9246dfeb1158f0e 9896 lair_0.9-1.debian.tar.xz
  158fa57cf0209aef9df8a2ca92eae04b41acda5be8f166bbe0b6efbb006284b9 372672 lair-dbgsym_0.9-1_amd64.deb
- d36db46c88d0a65869fbebe31e957de607086df0b773abdc5732e35671578245 11617 lair_0.9-1_amd64.buildinfo
+ a91d94f6b8453d3125dab351d5c7ecb0f98c3c1310cd4ebb7571fb964cc85976 11617 lair_0.9-1_amd64.buildinfo
  fd9fc62b063b808badfb0381e766a61cd3e014caf9bb063ce8af01550e573323 65064 lair_0.9-1_amd64.deb
 Files:
- ced0f974af55296a8233473ff15cf753 1550 games extra lair_0.9-1.dsc
- 997ced29b8812c67dd846ec89f40e51d 5021985 games extra lair_0.9.orig.tar.gz
+ 32980059d2c6d4b72e379c42c79c054f 1550 games extra lair_0.9-1.dsc
+ 758c55b3f49b9a00b1d9b188566ccf9e 5018133 games extra lair_0.9.orig.tar.gz
  cf50c93e100d1cd7de4151812ae396f6 9896 games extra lair_0.9-1.debian.tar.xz
  51bd21792f9afcff3f40db6caaa4b8f0 372672 debug extra lair-dbgsym_0.9-1_amd64.deb
- 6f42b707cdb1cae16bbcc02a5a526ea7 11617 games extra lair_0.9-1_amd64.buildinfo
+ 6c06ccb2271d1eb3b2e0854fc362d416 11617 games extra lair_0.9-1_amd64.buildinfo
  904c58d5e7e31505385378236aae9bba 65064 games extra lair_0.9-1_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlj4JM0eHHByb2JsZW1z
-b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQr9TMIALm2W5vlMlL09ucB
-jY/NmdZFEEB2BMXs+neE64LdCOtV8mmSt05/k32nVhajXYLMMAch4/5lPbmW/evw
-Po9adzU4HllydPhrNreqx2OxOSHLY73gFrKDNYrbCmqDiW/dczWUsZyok2RMlCWE
-Y4Di5s6hYSKDkx61ieVt1NUhizGmi1hJRT5zSc1yCeMMylClQTN0A4gefBpWtAg/
-9VpZBE+FOZyQbR5MHLbDxCvSpSCyMWIfeqow6gTJ0IMfPd/7KL8MlLi6tdzWOxO4
-lfN/r93KQOd1O4gxvNB+TJ/3SDvIOfw8vSct46waKA/cUGEnod6dsXAdMuif/YMG
-h/EEdIk=
-=tKxq
+iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlj4KOIeHHByb2JsZW1z
+b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrg+4H/RtfBJQlk+3QJyVg
+txjumU51+GxeAfOJ+G5uVbsQxbw/jfIA0oKLCWvK3j7L4AJbv0QWnx8M6e/GoFdF
+2UeNXGsR9pFJn63/Udcw1AtmeCF2U3T4Dyd+yhaLNQvE46HA/zB1RJ0iw1QTpJ8J
+CC7QplBeOrxJfBjUanLD3V6t+Cuc89QAVAwhIOn1oItCGdUuFHy36PLJHAKAwGHP
+rAKIfDythSuidZsWGtgupW8UllX+dsSYn6xXnLeoQgMaJ/VO0WsH+eySe1o38CL5
+KcwCXtWoziQzI+3Ei+a6bIvdW+4S70AFD+5DtOyxWpebXq+SiLzVmYBvVLxkaEib
+4MxdvWE=
+=IWyA
 -----END PGP SIGNATURE-----

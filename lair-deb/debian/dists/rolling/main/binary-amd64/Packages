@@ -7,10 +7,10 @@ Provides: digitalandy
 Priority: extra
 Section: checkinstall
 Filename: pool/main/d/digitalandy/digitalandy_1-1_amd64.deb
-Size: 478904
-SHA256: 6d071bcd04a403c0f103044cb508c6dc4be6d8d739833eaf0e9716f93ddf8a16
-SHA1: eacdfe7d41d42198526b4923b3207cd707e46de3
-MD5sum: 43ff9fc93b4f30dbe49c18f357618491
+Size: 478676
+SHA256: ed87a2f2779ed61e2dc8ec48477f33bcba51b06acab64da45cd9bdf2d34c3b12
+SHA1: 9be7d1b61bc691288ecaa24f679a29f86fc7f466
+MD5sum: 644cd61c7a35e27d466b321559dd98d2
 Description: Package created with checkinstall 1.6.2
 
 Package: lair
@@ -85,10 +85,10 @@ Provides: sdl2-vapi
 Priority: extra
 Section: checkinstall
 Filename: pool/main/s/sdl2-vapi/sdl2-vapi_2.0-1_amd64.deb
-Size: 33508
-SHA256: a9dc3dd1c8473531bba7ccb5dfa46d0b997e42a486d1b6c1b3422baa9db06990
-SHA1: 1bb8960656f516c885bb78a287553d7ff39ba40a
-MD5sum: 9c7cfd0dd39acc2319ade6f5035fc1e4
+Size: 33488
+SHA256: 7854f8675f03e9338ff547bfcc1c5ee9fb05a92e27e175a5740949fabea1d28b
+SHA1: 85789ef2972a42e2e0c8605c34bbcde87910c456
+MD5sum: 2ec0213f948f84d2eac968085ba91396
 Description: Package created with checkinstall 1.6.2
 
 Package: tartrazine
@@ -100,10 +100,10 @@ Provides: tartrazine
 Priority: extra
 Section: checkinstall
 Filename: pool/main/t/tartrazine/tartrazine_0.9-1_amd64.deb
-Size: 18054
-SHA256: 07930dd1c64d3da9d15a5178481887efabee833bd80a531f6a03f649a94d22c0
-SHA1: 140ad15c2e6f32035101502dee9abe9578d1050a
-MD5sum: d489dafc46cc14a34d54b213fb9e0895
+Size: 18038
+SHA256: 052b31b84864fc85769bb75463d15852d9f556b939bc1963dac375596c7c3f32
+SHA1: 884d3aa85abbec5cfb5991260e7c2895bdf95764
+MD5sum: 983c890adaf98f76c91ea569d1c2aa7d
 Description: Package created with checkinstall 1.6.2
 
 Package: tox-vapi
@@ -115,9 +115,9 @@ Provides: tox-vapi
 Priority: extra
 Section: checkinstall
 Filename: pool/main/t/tox-vapi/tox-vapi_0.9-1_amd64.deb
-Size: 18976
-SHA256: ac069eea83fdb46ed2c73e1a350a4ff1b5f3e067179499f864d273fa8ab4b62a
-SHA1: aa6dd0aa28d4251d293b7e3180ac4dc10aa58167
-MD5sum: b289b0c83735994b4e3cc83caa1a8c08
+Size: 18964
+SHA256: c2c2be4b662b427cc3c8748156dfcf6bbf59d3acac0042ee473364ac6c2b152a
+SHA1: 524f69988f5ac3782a25adedbe2f613f599656e6
+MD5sum: 9fe69919d9ff41440d61e9f71de6b8c0
 Description: Package created with checkinstall 1.6.2
 
