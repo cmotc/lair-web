@@ -7,20 +7,20 @@ Binary: lair
 Architecture: amd64 source
 Version: 0.9-1
 Checksums-Md5:
- d9d41416fcdd4af80e8817c1b3cb3f06 1550 lair_0.9-1.dsc
+ ced0f974af55296a8233473ff15cf753 1550 lair_0.9-1.dsc
  51bd21792f9afcff3f40db6caaa4b8f0 372672 lair-dbgsym_0.9-1_amd64.deb
  904c58d5e7e31505385378236aae9bba 65064 lair_0.9-1_amd64.deb
 Checksums-Sha1:
- 9a56f21ecb0857894849f31115fdfcd6ab355739 1550 lair_0.9-1.dsc
+ d71cbe9e83419912cf19c12b9cd4757efe537c03 1550 lair_0.9-1.dsc
  eab354aa94fa40cc0681a9b849992ad30b4531f5 372672 lair-dbgsym_0.9-1_amd64.deb
  bbdf66166947efa21bfa3ec18c597b90e7fa0b04 65064 lair_0.9-1_amd64.deb
 Checksums-Sha256:
- 8aac8f82a3a584161691c8e1b959cd6cec4426a68e59d50d9f492bfe0c4ab8af 1550 lair_0.9-1.dsc
+ f7f9650fa8f828fe4f2e8f634012c750541e115f981ac72ee6a337aa09fe279e 1550 lair_0.9-1.dsc
  158fa57cf0209aef9df8a2ca92eae04b41acda5be8f166bbe0b6efbb006284b9 372672 lair-dbgsym_0.9-1_amd64.deb
  fd9fc62b063b808badfb0381e766a61cd3e014caf9bb063ce8af01550e573323 65064 lair_0.9-1_amd64.deb
 Build-Origin: Devuan
 Build-Architecture: amd64
-Build-Date: Wed, 19 Apr 2017 19:04:05 -0400
+Build-Date: Wed, 19 Apr 2017 23:02:34 -0400
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -384,13 +384,13 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlj37OgeHHByb2JsZW1z
-b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrkk8H/0x8Y4dlTCgy/+oV
-D4SuL8zNV/KiSkSvmO2Ki8bz8zc44/GULKJWXS7Z+QV1vLo+VcP7vdfMA4K16QK7
-GtG1WnmKcj1Tif/PAtOBriI2mRfEyXqrURxQPLxdle8dHBVw6T/eXx5f9imj88yg
-kCkmdnkl+v/K+lnIb17OZ+RU9/j56FO6PG7qHDp6Z69uREvKUv+7b2QaHtJ1m7Bq
-OqW54p39EVgoqnhsbmWW5PFMMsQM4jF+YL8pfMZVqM/GeODdL3FWlb6zfY3z/Xgk
-TR+X1v9Ppy81UaMXu0kw9U/ImYTCGk3hltj0vJjkEU8nnOdqBhEi5DXI3J+YxMkS
-awWtUCU=
-=w41w
+iQFSBAEBCAA8FiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlj4JM0eHHByb2JsZW1z
+b2x2ZXJAb3Blbm1haWxib3gub3JnAAoJEPBfhfpEbAQrMOAIAIIlQ6WMg7eRey3R
+9SNpOYcwl5huqrIR1sDuOW5XqIyi4H40Qu9ZD8FqY9zDvQRKz+9LfmZGxTRVmhVJ
+r0Qz4/EJAQVDLHzysTxOJ7jdOKsy33HskHIrIP3ByiqzkWYxJ1RaY7dxeI9XVTkj
+3Ko4iXiZoASgu7PB/qEDmLxw4vEfT0Fmqq44AA44wDlg1mkdGvjZd4g+UREUP0lG
+msidOnRqFf7djpgHicFRRNthN9yeYt+wWHXF13lTV2ngK3Fz/54titnkBj5JvJHO
+D/ubc8Qx3lfuRX1Y/BkG7bue4XSXL/PlwedMqrLuGyDu/LnPPEkBC+St4rQpUXoP
+zLCpcKk=
+=1Mrz
 -----END PGP SIGNATURE-----
