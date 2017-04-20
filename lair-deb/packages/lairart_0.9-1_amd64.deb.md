@@ -3,7 +3,7 @@ Package: lairart
 
 ###Version: 0.9-1
 ####Maintainer: lair repo key problemsolver@openmailbox.org
-####Installed-Size: 548
+####Installed-Size: 521
 ###Depends:
   * libpng-tools
 ###Description:
