@@ -7,20 +7,20 @@ Binary: lair
 Architecture: amd64 source
 Version: 0.9-1
 Checksums-Md5:
- 6ccd34d8d0ed4e51cf14213e27229cd5 1509 lair_0.9-1.dsc
+ 2262ed2de1bba3889a0534bc5f1d7322 1509 lair_0.9-1.dsc
  d37490d3b5ebeaed9d2c77e9e26a44b9 396830 lair-dbgsym_0.9-1_amd64.deb
  6334946d6657f9cd49646a41cefdb36a 70914 lair_0.9-1_amd64.deb
 Checksums-Sha1:
- 67caf89bda83b59e06cf8db1eac212fe644a552d 1509 lair_0.9-1.dsc
+ 465697ac9ab8c7034ca83175fd252f51bfdf2804 1509 lair_0.9-1.dsc
  56a90ebff099232529fd2443e882c896582f8ca6 396830 lair-dbgsym_0.9-1_amd64.deb
  7ae3c4eb128c8e6c209f83cb43a3317cc4cf7270 70914 lair_0.9-1_amd64.deb
 Checksums-Sha256:
- 97a6bcd531bdd0ad35b7fcccb462be486fe4c646ed804e81aaa8fc00c138d38f 1509 lair_0.9-1.dsc
+ f1b033a92bf097a6d0c1feed8bb18cb859c617d0f9f901c2edfbd26accee365a 1509 lair_0.9-1.dsc
  c92761f55d1949e29e804f4f320bcab30082845a28c79b7fe7cb2b0941d6dae2 396830 lair-dbgsym_0.9-1_amd64.deb
  8005079f2a5d2a95d185c19d030f4eab5f9ca2b2a6af46de91df7c5f969c8de7 70914 lair_0.9-1_amd64.deb
 Build-Origin: Devuan
 Build-Architecture: amd64
-Build-Date: Tue, 23 May 2017 22:02:54 -0400
+Build-Date: Tue, 23 May 2017 22:38:58 -0400
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -384,12 +384,12 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlkk6dIACgkQ8F+F+kRs
-BCtQ/ggAj9wNUFGmbLmCBGKxL+lmpUy1W1FSRUW6pbVzpons7wFMpi6bquPPUu1H
-lKnUa4+hwIeIlf2+fe0aS9c3s657RFrI4DqoKEMNDwHvD9vZh2T0hNB/fd3PJwCd
-ldGuT1N573y/7VnjNaMItQneMrdzVvU3uutasl1nGR/75Yh1290pRHUULeM2+sb8
-Ql88GMBmXEBFQzKmypEQKai/hgHyC8p84kX47c7ZVf5Mj1iG0ZCzrEfJqB16usWT
-WtEsxiUZjPUFtbOgYVfSAkmo/3xo8u9z3ZylOMDkfsXNsEC2t0Ggg10tUB2FKNnr
-tMFy15p2qOq8gQ/oP2y3w1TF0raoSQ==
-=jTg5
+iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlkk8kUACgkQ8F+F+kRs
+BCs5CQf/a1vUcjLMl8We5SBmKpAexKiLaKSV+iI/PDC37EyueC21Ljv0v767ePuS
+PXIdgoedvuycNO37fUqEIvOKPHNL5v4pTgGvTV10n1jLrAKms+8kJO8riI9wH0FY
+MhHguLYrKe0MaZRr1YOCHuwjPMIdprhm6dX0XGA0gP3W6sfkXkXf2A8u7w5JxZrI
+NX0/MECjcVCVgNMDPXKKQ8Ftz1T+cvWgo2QI6eGy60uDXljZ3gcFNGo8o+kgU6Il
+pE1M1RgbJJRrY/w/ozybCmwNf4E/MAbRigwpES6Gfq3BxnFgN3WAoIDUGIyGa2p3
+tJMlyGsDvOGfa8uHybQqAVTGa9PbRQ==
+=MgFx
 -----END PGP SIGNATURE-----
