@@ -5,7 +5,7 @@ Package: digitalandy
 ####Maintainer: idk@fireaxe
 ####Installed-Size: 1684
 new debian package, version 2.0.
-size 478728 bytes: control archive=304 bytes.
+size 478564 bytes: control archive=300 bytes.
 0 bytes,     0 lines      conffiles            
 212 bytes,     9 lines      control              
 Package: digitalandy
