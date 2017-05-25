@@ -7,20 +7,20 @@ Binary: lair
 Architecture: amd64 source
 Version: 0.9-1
 Checksums-Md5:
- 2262ed2de1bba3889a0534bc5f1d7322 1509 lair_0.9-1.dsc
- d37490d3b5ebeaed9d2c77e9e26a44b9 396830 lair-dbgsym_0.9-1_amd64.deb
- 6334946d6657f9cd49646a41cefdb36a 70914 lair_0.9-1_amd64.deb
+ a6bc6ff0f4cf591c262840b599ad35a7 1509 lair_0.9-1.dsc
+ c3925afa496cd1cdcd26dd18e6951973 397076 lair-dbgsym_0.9-1_amd64.deb
+ fe50ed0774257df584b13845ba8e2161 70928 lair_0.9-1_amd64.deb
 Checksums-Sha1:
- 465697ac9ab8c7034ca83175fd252f51bfdf2804 1509 lair_0.9-1.dsc
- 56a90ebff099232529fd2443e882c896582f8ca6 396830 lair-dbgsym_0.9-1_amd64.deb
- 7ae3c4eb128c8e6c209f83cb43a3317cc4cf7270 70914 lair_0.9-1_amd64.deb
+ b40e7520e9478cf44b7b71e9d8f0ae135369d153 1509 lair_0.9-1.dsc
+ 7d30ac19d772655030365320dfdb36f14509fe8d 397076 lair-dbgsym_0.9-1_amd64.deb
+ 81a0c49660ea55e107c5e3ae7f11dca2ec171548 70928 lair_0.9-1_amd64.deb
 Checksums-Sha256:
- f1b033a92bf097a6d0c1feed8bb18cb859c617d0f9f901c2edfbd26accee365a 1509 lair_0.9-1.dsc
- c92761f55d1949e29e804f4f320bcab30082845a28c79b7fe7cb2b0941d6dae2 396830 lair-dbgsym_0.9-1_amd64.deb
- 8005079f2a5d2a95d185c19d030f4eab5f9ca2b2a6af46de91df7c5f969c8de7 70914 lair_0.9-1_amd64.deb
+ 7a670128c610f084a2d54e41b74a6054b3845e93d429489f66572a0cee19caed 1509 lair_0.9-1.dsc
+ d050be93e23dcee1bc9c3787b7be29d13eb1061a0905a4910ac8167b5bd928df 397076 lair-dbgsym_0.9-1_amd64.deb
+ 3bfadfda9e21c587a2813476f2329dc3fa7e4495d6436bd52694796b60dc9f16 70928 lair_0.9-1_amd64.deb
 Build-Origin: Devuan
 Build-Architecture: amd64
-Build-Date: Tue, 23 May 2017 22:38:58 -0400
+Build-Date: Thu, 25 May 2017 17:34:15 -0400
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -47,8 +47,8 @@ Installed-Build-Depends:
  dh-python (= 2.20170125),
  dh-strip-nondeterminism (= 0.033-2),
  diffutils (= 1:3.5-3),
- dpkg (= 1.18.23),
- dpkg-dev (= 1.18.23),
+ dpkg (= 1.18.24),
+ dpkg-dev (= 1.18.24),
  e2fslibs (= 1.43.4-2),
  e2fsprogs (= 1.43.4-2),
  file (= 1:5.30-1),
@@ -105,7 +105,7 @@ Installed-Build-Depends:
  libdbus-1-3 (= 1.10.18-1),
  libdbus-1-dev (= 1.10.18-1),
  libdebconfclient0 (= 0.227),
- libdpkg-perl (= 1.18.23),
+ libdpkg-perl (= 1.18.24),
  libdrm-amdgpu1 (= 2.4.74-1),
  libdrm-dev (= 2.4.74-1),
  libdrm-intel1 (= 2.4.74-1),
@@ -233,7 +233,7 @@ Installed-Build-Depends:
  libstdc++-6-dev (= 6.3.0-18),
  libstdc++6 (= 6.3.0-18),
  libsystemd0 (= 232-23),
- libtiff5 (= 4.0.7-6),
+ libtiff5 (= 4.0.7-7),
  libtimedate-perl (= 2.3000-2),
  libtinfo-dev (= 6.0+20161126-1),
  libtinfo5 (= 6.0+20161126-1),
@@ -327,7 +327,7 @@ Installed-Build-Depends:
  libxxf86vm-dev (= 1:1.1.4-1+b2),
  libxxf86vm1 (= 1:1.1.4-1+b2),
  linux-libc-dev (= 4.9.25-1),
- login (= 1:4.4-4),
+ login (= 1:4.4-4.1),
  lsb-base (= 9.20161125),
  m4 (= 1.4.18-1),
  make (= 4.1-9.1),
@@ -339,7 +339,7 @@ Installed-Build-Depends:
  multiarch-support (= 2.24-10),
  ncurses-base (= 6.0+20161126-1),
  ncurses-bin (= 6.0+20161126-1),
- passwd (= 1:4.4-4),
+ passwd (= 1:4.4-4.1),
  patch (= 2.7.5-1+b2),
  perl (= 5.24.1-2),
  perl-base (= 5.24.1-2),
@@ -384,12 +384,12 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlkk8kUACgkQ8F+F+kRs
-BCs5CQf/a1vUcjLMl8We5SBmKpAexKiLaKSV+iI/PDC37EyueC21Ljv0v767ePuS
-PXIdgoedvuycNO37fUqEIvOKPHNL5v4pTgGvTV10n1jLrAKms+8kJO8riI9wH0FY
-MhHguLYrKe0MaZRr1YOCHuwjPMIdprhm6dX0XGA0gP3W6sfkXkXf2A8u7w5JxZrI
-NX0/MECjcVCVgNMDPXKKQ8Ftz1T+cvWgo2QI6eGy60uDXljZ3gcFNGo8o+kgU6Il
-pE1M1RgbJJRrY/w/ozybCmwNf4E/MAbRigwpES6Gfq3BxnFgN3WAoIDUGIyGa2p3
-tJMlyGsDvOGfa8uHybQqAVTGa9PbRQ==
-=MgFx
+iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlknTdoACgkQ8F+F+kRs
+BCsGhwf+LOEBOp3wecI4bsPo8vg8j1Uoyg1cBD0IasvKdFQvT2F8EbYjvMYI3byK
+wdJkyUv8p6V8EquGclTG8LeG7BYEpdpXYhEJJW/YFxi5O3z6+89Hi1pqvYjP6Qs+
+0lUqKshrvsNfVT7uO9PF7ypSDcHQIrXdIpodCwyqbCWIOIacZrvmBe9K5C2umBEQ
+8lRjMN7tOG4p+FRwhueESRt+8IrxC9nMLbZxNW++GhV1TLOgdEAYkVDDRtv/g9Ck
+LvhUFSPteEsyUtdjnZVUcAWN8z0qoy/Hq5qxWfyZEx3p+UHhO7Criit5FA0LWnwC
+xCBKlzjtMOSTsG151HGUTHXM6tlsHQ==
+=Yqq/
 -----END PGP SIGNATURE-----

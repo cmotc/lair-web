@@ -7,17 +7,17 @@ Binary: lairart
 Architecture: amd64 source
 Version: 0.9-1
 Checksums-Md5:
- 14583a2c63bc1b6278dc7cca5adb5bc0 1376 lairart_0.9-1.dsc
+ 4dccc5a7a8b93d4b0c2e7d9f0280a640 1376 lairart_0.9-1.dsc
  44edcd929356f5defb51d79078df62eb 66326 lairart_0.9-1_amd64.deb
 Checksums-Sha1:
- 80a876a786dbdc64d76f8aac8ecc815f994e7859 1376 lairart_0.9-1.dsc
+ b94f4457a02bed07cc23db8b1aa9b55c32df7e35 1376 lairart_0.9-1.dsc
  5d8b80e9cccf13d68ef64d72bd6d25626511ff21 66326 lairart_0.9-1_amd64.deb
 Checksums-Sha256:
- eaac6dc69db2a7d2128671ac98963dde1e733b4c36df0a511a05d7e11206fad7 1376 lairart_0.9-1.dsc
+ 7ccf8964fe9b0248751bfe2c20e2c8d6118b1d28320b8f070cab5ea42acc1ef6 1376 lairart_0.9-1.dsc
  17262add988da059bd41e25527a2208c0bb7a161d17008a3cf3d6d73a8bda70d 66326 lairart_0.9-1_amd64.deb
 Build-Origin: Devuan
 Build-Architecture: amd64
-Build-Date: Tue, 23 May 2017 22:40:20 -0400
+Build-Date: Thu, 25 May 2017 17:35:32 -0400
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -43,8 +43,8 @@ Installed-Build-Depends:
  dh-autoreconf (= 14),
  dh-strip-nondeterminism (= 0.033-2),
  diffutils (= 1:3.5-3),
- dpkg (= 1.18.23),
- dpkg-dev (= 1.18.23),
+ dpkg (= 1.18.24),
+ dpkg-dev (= 1.18.24),
  e2fslibs (= 1.43.4-2),
  e2fsprogs (= 1.43.4-2),
  file (= 1:5.30-1),
@@ -92,7 +92,7 @@ Installed-Build-Depends:
  libcroco3 (= 0.6.11-3),
  libdb5.3 (= 5.3.28-12+b1),
  libdebconfclient0 (= 0.227),
- libdpkg-perl (= 1.18.23),
+ libdpkg-perl (= 1.18.24),
  libedit2 (= 3.1-20160903-3),
  libfdisk1 (= 2.29.2-1),
  libffi6 (= 3.2.1-6),
@@ -157,7 +157,7 @@ Installed-Build-Depends:
  libuuid1 (= 2.29.2-1),
  libxml2 (= 2.9.4+dfsg1-2.2),
  linux-libc-dev (= 4.9.25-1),
- login (= 1:4.4-4),
+ login (= 1:4.4-4.1),
  m4 (= 1.4.18-1),
  make (= 4.1-9.1),
  man-db (= 2.7.6.1-2),
@@ -166,7 +166,7 @@ Installed-Build-Depends:
  multiarch-support (= 2.24-10),
  ncurses-base (= 6.0+20161126-1),
  ncurses-bin (= 6.0+20161126-1),
- passwd (= 1:4.4-4),
+ passwd (= 1:4.4-4.1),
  patch (= 2.7.5-1+b2),
  perl (= 5.24.1-2),
  perl-base (= 5.24.1-2),
@@ -187,12 +187,12 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlkk8poACgkQ8F+F+kRs
-BCuGZQgAhHepWE7S7TVYE78ITz3UPzijz1d1uRqUmE8hSinBi3BASZ3fwGlDY44j
-R64XUkaG5EDcTyKRaRPV10YenZVataCrmY3hhtYXh4/2eqdFGWn6Ndc1P6mTHwon
-ASYezQ94aULOxXalUkB1vBaguLTefX2udO4cdjiepXF3G6MKxhyjGLQxCpPtcteQ
-jLNObjS2PwWpzxknAqmd/Tbxp1Gm0X7d7K0Qu9qc/f0s0a3O46mUmTqxkfjWs7BX
-gq83fiepr9k2dPArM7kKYsbkS378uFFrHR9gRBGa9XFg7Qij8nBLyK6cThbHOIHA
-aXmIF1Sd1fMBOuUERoMqVDp7sET/cQ==
-=G0Da
+iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlknTicACgkQ8F+F+kRs
+BCv5DAgAmYQ1Rrr86GJ4tIwWU1Gg4ZJ6nXwx3WyN03XfNEqwLNEsDfqEH6BlfIXE
+iFOpjl5VGZw5zCYSbb+p7EqTfNA53FJ/fBdXy1X5MwzOQ8/wED975DpQK3wwgADA
+RaeEavmUO78sl1k9gEigF5V9aGtZlLqkHkUjk3qBVvlk4L5IpSWTSzL9MkLk7e9Z
+blUWX2w2k3yuwcPSCvxgUzVi8YNCuGQwV3duUxX45bqZWKVgQ8f0Uzf4T0SF6SJ+
+Sn49XWDlQhPAYG5lbc6vHRYpPVG0hdR11DD/mYsmYqRhG3+0dSn82CTszjSALKlK
+ueAhenYRBHblkq+zgMkWMddnaS+m8g==
+=H1SW
 -----END PGP SIGNATURE-----
