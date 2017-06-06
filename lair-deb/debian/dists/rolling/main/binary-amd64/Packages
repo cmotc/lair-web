@@ -7,10 +7,10 @@ Provides: digitalandy
 Priority: extra
 Section: checkinstall
 Filename: pool/main/d/digitalandy/digitalandy_1-1_amd64.deb
-Size: 478776
-SHA256: 1261c99f828def1625ba496f9fe792be88aa00bcbd880dd73e31d6c6f5702d12
-SHA1: 3deee0282ce1ddb88049c1840a126fc7ea50b9ff
-MD5sum: 7d980f966c410b2cff404d0b507e466f
+Size: 479258
+SHA256: 76ebea39d9762fed51b891b5c0a7ff2da0219a7ac8905035f524f99a2c2f3ea3
+SHA1: b4e11040b387a1d348d53a2e69504589066f2937
+MD5sum: 0a4d600764c542306ce6b02833f50152
 Description: Package created with checkinstall 1.6.2
 
 Package: lair
@@ -24,10 +24,10 @@ Homepage: https://cmotc.github.io/lair-web/
 Priority: extra
 Section: games
 Filename: pool/main/l/lair/lair_0.9-1_amd64.deb
-Size: 70338
-SHA256: f1dd8374f3b3f481a1d8beaf77197054869a684313fb94bbed389a22ca7207d2
-SHA1: b36e4ea68d10653bfdc34880fd54006f964292f0
-MD5sum: 59853402820222f8536af297d8a0e7fb
+Size: 70620
+SHA256: 9f7cf327e0dcda6145340f43761e2f0641e2300054492384eadd5e8cc1597560
+SHA1: f954a036ec61c5c69033b00ba96e7030f3574f7b
+MD5sum: 7efd4fc3ddf12657cd879ed719b4cf21
 Description: LAIR! Roguelike Game, version 0.9
  LAIR is a Procedurally Generated Mutliplayer Rogue-Like Game.
  It uses a library of content and a set of Lua scripts to
@@ -40,18 +40,18 @@ Version: 0.9-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: lair repo key <problemsolver@openmailbox.org>
-Installed-Size: 443
+Installed-Size: 447
 Depends: lair (= 0.9-1)
 Homepage: https://cmotc.github.io/lair-web/
 Priority: extra
 Section: debug
 Filename: pool/main/l/lair/lair-dbgsym_0.9-1_amd64.deb
-Size: 397464
-SHA256: 5db7e6217e82f38abb841964286d2114eb0bd15a8b25046f650f6096580a3d7b
-SHA1: 23a2ba1c9c8abc1893be6107cd00228b48106f25
-MD5sum: 11cc610d13ab8e6716937f9fbc21f0dc
+Size: 401382
+SHA256: fefe57cebe6938d24949828a0ab3b499a4814f0ed587147a31822633d670ae2a
+SHA1: b1d84746f2a7d2af7cd60d9c0217cfb2a864d9ac
+MD5sum: f2db912a25fa3786f593bf5c4604d012
 Description: Debug symbols for lair
-Build-Ids: a1039d71433e43ab1477a4c4759e945328a538e0
+Build-Ids: 801a50e9594121f2fe783ebae1f771139929dbef
 
 Package: lairart
 Version: 0.9-1
@@ -85,10 +85,10 @@ Provides: sdl2-vapi
 Priority: extra
 Section: checkinstall
 Filename: pool/main/s/sdl2-vapi/sdl2-vapi_2.0-1_amd64.deb
-Size: 33658
-SHA256: 0dc2dceb95c63f64908320c5b48513b6a98e906811761beaed5a138fce7f5cab
-SHA1: c407f06c4cca482344a426e25c2c85efe0a222ca
-MD5sum: 00d017eefd5a29650b080615c54ff201
+Size: 33672
+SHA256: 1142b13c0ed6439a202c8426190c83439a343eb472020d3f5212e0e0e9ade8a1
+SHA1: 2d1ed23cec5b63a94171a7cae311e705e06e1a9d
+MD5sum: 0952c58ba9ec45a14d0ed51a1dd519db
 Description: Package created with checkinstall 1.6.2
 
 Package: tartrazine
@@ -100,10 +100,10 @@ Provides: tartrazine
 Priority: extra
 Section: checkinstall
 Filename: pool/main/t/tartrazine/tartrazine_0.9-1_amd64.deb
-Size: 18034
-SHA256: c8263785e3803d26525691daa9c4a427efaa8a25f98a6d77e9b83942886666fb
-SHA1: aac1b927c7c52d6b0355994a7946aba501951bef
-MD5sum: 9207ab26835b652999e23c6bf43b8384
+Size: 18054
+SHA256: 66f4168d3a031b93f222399077424f993ab6905fd9c3fd918070e346193d8ace
+SHA1: 7c4dc904fe92110876f3e087e8165868313602d8
+MD5sum: 0ed2036c74794f1e1e8b2950fafee789
 Description: Package created with checkinstall 1.6.2
 
 Package: tox-vapi
@@ -115,9 +115,9 @@ Provides: tox-vapi
 Priority: extra
 Section: checkinstall
 Filename: pool/main/t/tox-vapi/tox-vapi_0.9-1_amd64.deb
-Size: 18964
-SHA256: be125c5920d5a354370b4db1b13dced63e2a157fb7a7f7faddb9264d69410b02
-SHA1: 3bf7223f63c538bd875c81aff5b0e40d758d758e
-MD5sum: fd6705bb7a0611da7ec7b07952f5fdda
+Size: 18976
+SHA256: dd171d8b1dde70c262a20fee7bfe024dad229e409d4d1b2f20330543e5fd48c4
+SHA1: 70037ac6f9f71446339f5dfeb4f5ade10f836dd4
+MD5sum: 9e4cea3245a5670e473b6c47ee962f8d
 Description: Package created with checkinstall 1.6.2
 
