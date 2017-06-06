@@ -7,20 +7,20 @@ Binary: lair
 Architecture: amd64 source
 Version: 0.9-1
 Checksums-Md5:
- 493f16d5a7dacebd1c82b7b4d34f95f5 1509 lair_0.9-1.dsc
+ 3777f45e3c924d61d41309fdc2fe96a0 1509 lair_0.9-1.dsc
  f2db912a25fa3786f593bf5c4604d012 401382 lair-dbgsym_0.9-1_amd64.deb
  7efd4fc3ddf12657cd879ed719b4cf21 70620 lair_0.9-1_amd64.deb
 Checksums-Sha1:
- c3a7c7a832d2cac1ffea7c9a7c727446626351be 1509 lair_0.9-1.dsc
+ 7ca87c9ef97aff9d9a46b49914472b174f11866d 1509 lair_0.9-1.dsc
  b1d84746f2a7d2af7cd60d9c0217cfb2a864d9ac 401382 lair-dbgsym_0.9-1_amd64.deb
  f954a036ec61c5c69033b00ba96e7030f3574f7b 70620 lair_0.9-1_amd64.deb
 Checksums-Sha256:
- 9a6734e411d9db08331a883f46a0363d2d38180b29516657fd7237f16cfcceed 1509 lair_0.9-1.dsc
+ def89f2ab43a012f0c46c9bd4843ebb61d206b1a4bdcfad2f35699b332d19349 1509 lair_0.9-1.dsc
  fefe57cebe6938d24949828a0ab3b499a4814f0ed587147a31822633d670ae2a 401382 lair-dbgsym_0.9-1_amd64.deb
  9f7cf327e0dcda6145340f43761e2f0641e2300054492384eadd5e8cc1597560 70620 lair_0.9-1_amd64.deb
 Build-Origin: Devuan
 Build-Architecture: amd64
-Build-Date: Tue, 06 Jun 2017 18:57:20 -0400
+Build-Date: Tue, 06 Jun 2017 19:30:56 -0400
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -384,12 +384,12 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlk3M1QACgkQ8F+F+kRs
-BCvXUQf/c04H26rUO0NLPFOcNho4MljUz6P7PvFBlkYUEdDbeIo8YA+uziMu6PvB
-QLuPpkj6vhf1hXh/NvwgXXyi6oAtsPazYfia6h1PIuwG+i6VyL7uxmWQewmsI/oV
-HwYRt2fMbsfMvAMNKDJgUuWNpBqNSsQkd5EyRuVApR99SfY0mqRh50mTqUsTfGy5
-dyln99r9TTw5PyZh4DRaFgnS2MlJzWvyGzhunzR9Gv//pcFdUNRsCzy2D7QeFy/C
-8U7ap7TKvZ0vH2nhGmVcxm/rlQW6YDrQl2XuZcTjCbZziNuKRMcy8zzP01JGvi78
-79lxBpP33hb4UPsM5kfXzuMPjXXgqg==
-=SAjZ
+iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlk3OzIACgkQ8F+F+kRs
+BCscXgf/XPEJNOg1WLciMZEnU9Hc0LNKD0tGlSYBye+hIomNg06RLipQ9zz7kKsn
+4Shqy5L/G35mqY3MIZ1TcS7dPfnl4Dy7GVCoYCuBTzkw1gqQXa/UaiI3AakgGcjY
+NAiTNun+apZhohOQ9zJ4uYCQakHxDoRb/YpzSn7wR0xC9x3SKbRNU7vjjgFBkNF2
+qmG/Rc7ae0WRELNY0juvxh+eF7mwDsqxlhnbemB9tvcJigySE63WS/z8xcAtkDVh
+5Uur7Z7xm9SmwgOSCdckeG2aLhYzgX16l+WMTQIptrq+o9FbxULdH2zAgAJMGqWF
+hYDjTLbl3v6DemHh+hDjSgNKTrvXXg==
+=OrPM
 -----END PGP SIGNATURE-----
