@@ -18,32 +18,32 @@ Changes:
  .
    * One more try getting all these things to use the same number
 Checksums-Sha1:
- 7795bc12d5eb2431941770bc501ed07db9ad861a 1376 lairart_0.9-1.dsc
- 769ecb83f26c958e8642b19d13d56c92b37959ad 62055812 lairart_0.9.orig.tar.gz
+ 9ea386630dc4aa7906a9d740551c3642d9d19fd2 1372 lairart_0.9-1.dsc
+ b869836695157d9cb7a9a0045bcea4d2cd63a7e9 62055877 lairart_0.9.orig.tar.gz
  21682a1d98ee8bf437ce6758a4e3bdb754ea8d67 8068 lairart_0.9-1.debian.tar.xz
- d98bcba1fdc3b8e57acaa1214ac90f92df8f4b4a 5537 lairart_0.9-1_amd64.buildinfo
+ 5d42344f6406278914176d2ec2df09ae9b6025aa 5537 lairart_0.9-1_amd64.buildinfo
  5d8b80e9cccf13d68ef64d72bd6d25626511ff21 66326 lairart_0.9-1_amd64.deb
 Checksums-Sha256:
- 5d77d7633ad8663e958a26fa236dc34c5bac7c935838bd84b102c8f99f711086 1376 lairart_0.9-1.dsc
- d8cec235620ac4a8c27f776107754bfc052814151d0897aa471c53084a35e5fb 62055812 lairart_0.9.orig.tar.gz
+ d63e6dac91ce11246888a064a6b0438ebc2bbb47509e9c3480407b928921bceb 1372 lairart_0.9-1.dsc
+ a3c99bf88fb302ccc31bd0addca47c2e26afef0add60de26de361c427c48c99f 62055877 lairart_0.9.orig.tar.gz
  43cc2703c91bacc7510278c538cebc81b2663bf867cd38dd1569a11b203a0933 8068 lairart_0.9-1.debian.tar.xz
- 0c4d85229d2753137366c2071377e3390594d5a2e45d97551492e8f7a54b079a 5537 lairart_0.9-1_amd64.buildinfo
+ 2034c7e4fea72c2c0303c0542870f03c8cf3191b6209eaa254e48e311b33d7d5 5537 lairart_0.9-1_amd64.buildinfo
  17262add988da059bd41e25527a2208c0bb7a161d17008a3cf3d6d73a8bda70d 66326 lairart_0.9-1_amd64.deb
 Files:
- bacabc1c5934769207d1d52dafe5d83d 1376 games extra lairart_0.9-1.dsc
- 515aee08c771f3e3c42896a646e5c36e 62055812 games extra lairart_0.9.orig.tar.gz
+ 31d7f6f4203b6fd710947c77832a5c14 1372 games extra lairart_0.9-1.dsc
+ 2bb81d2b255537024aa3682b90e55ad9 62055877 games extra lairart_0.9.orig.tar.gz
  ddb9d5b17283eeaa263c41cdcf0d2348 8068 games extra lairart_0.9-1.debian.tar.xz
- 53b9dc5f39d157112c3b595573bb585c 5537 games extra lairart_0.9-1_amd64.buildinfo
+ 5958d42474d40918185f3146c9a497a9 5537 games extra lairart_0.9-1_amd64.buildinfo
  44edcd929356f5defb51d79078df62eb 66326 games extra lairart_0.9-1_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlk3O4oACgkQ8F+F+kRs
-BCsfswf/RcLsofQGC56NScG8meySLFtKwVInpaE2ePgc6XB7FxEk7DFQjiow/BHQ
-PDaPUwJyZh+BSaces3rg/63S7JY1UgaxdLv1MPOkDYyh0migixqiXKvPEMeDkU2A
-b1V6MAT4vVkiznPG+RKaMLQg4DCA9f4ePcMQUuJmmHTrm/FCfBbg4/I5eu8jahWb
-6OVjxz5djHWnhJJD19L2hrq93I4WDRThziX8Gw7eUzDNY8d7ytW04Nj7pHafSUJX
-CLQ/idAjHtY0eEg2oyoI3VFmBuO99QCTPrcHPOjoov4sB6yTqm5VoWyUlGNgWF6A
-gRKZovTklXZ1kS/pAMIoNsof0+bJwQ==
-=wwG3
+iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlk3PTEACgkQ8F+F+kRs
+BCvcFAf+ILi6wRWx47rW6coOP5SUj4W6ow5j7PvWRTVPzjVY6N7AGrZJZU2wyb2F
+lmKVYHBR6pSUcd/dJy6v0974woAIJ2QSLpN1NyezXQZqQbpoFv4ePLpsrdAt+mLa
+Xne0mNMPW1yj8XKaW1qk9E+crZj3mYs6k1ynL2K9WC/mlYDeakIlnnpzAr5HZ8/0
+rCVYDx1t53tvf6m6VtSkGP+08JBrALF8WV6GOWTXvsWbv0FExE8QaPZAiA0Jz4Mr
+Uiz1/MB0GVpfDBuATJIbfDMCj2LSJ3AC9O2iciGFXYK2pfmjHhwfbLjMVbda6WHX
+UrTtlcvn4iOFC74XN451ch642OgJRw==
+=OwQu
 -----END PGP SIGNATURE-----
