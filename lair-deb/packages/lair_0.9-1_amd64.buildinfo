@@ -7,20 +7,20 @@ Binary: lair
 Architecture: amd64 source
 Version: 0.9-1
 Checksums-Md5:
- 0bb6d63d4dc41429811ec896e0ac97be 1509 lair_0.9-1.dsc
+ e48c8d4b49ba69ff84605cde89008148 1509 lair_0.9-1.dsc
  f2db912a25fa3786f593bf5c4604d012 401382 lair-dbgsym_0.9-1_amd64.deb
  17a4435dc3399237f5fc7e49e6f16f12 70630 lair_0.9-1_amd64.deb
 Checksums-Sha1:
- 2384b5d246756214a83619c84313a37be2391806 1509 lair_0.9-1.dsc
+ 2e311c00c52e3176994f7629c58ec55c70a7db13 1509 lair_0.9-1.dsc
  b1d84746f2a7d2af7cd60d9c0217cfb2a864d9ac 401382 lair-dbgsym_0.9-1_amd64.deb
  977511245812e47a2a611e9cd5aa96785161d82f 70630 lair_0.9-1_amd64.deb
 Checksums-Sha256:
- e984eb646f4e6da889ead4b07ba7c1237033581409c7dfd1651fb47224a986b7 1509 lair_0.9-1.dsc
+ 3afe69bc317cb4e32456cd8352077b580e40ff2f7b8b9eb75abeb988f9f17c90 1509 lair_0.9-1.dsc
  fefe57cebe6938d24949828a0ab3b499a4814f0ed587147a31822633d670ae2a 401382 lair-dbgsym_0.9-1_amd64.deb
  513ff2aa55cc2e469e4fadd280c77c5fc3bf6bb2a444f9cab05008ab7f510911 70630 lair_0.9-1_amd64.deb
 Build-Origin: Devuan
 Build-Architecture: amd64
-Build-Date: Tue, 06 Jun 2017 22:16:51 -0400
+Build-Date: Tue, 06 Jun 2017 22:25:15 -0400
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -384,12 +384,12 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlk3YhUACgkQ8F+F+kRs
-BCv0kgf9E43Pqlz2CnJxobs7QuMpUubwih5FMDGkG8ROUqjKTEH7YKORKeqNJUPv
-LThINwxAsl4vz9dZfh7r0JpiA47FpkdGIGxLMZl/PjOiYe3KlmooQGPieePD5WoT
-LHuU3COeJK4b+zbRyAvNBzqOnRtwnFDHqu0A2OQXaKmqVkduyZedq9Iq0QXjagDW
-hjGbnOhuXEkOxBnhf6EQviiQ4h9X3C0ZO3N35IUCqg5shFzRxWl4lZbbtRm0SJxU
-jyLPwFHG0cCF6A+2r30pSQZApgiNcJ8N0rUcOPR/viUhODTN6Xf+JJbUan3lOmFs
-1J2sINPADCxdYt4/vTdB7aSoLce8kQ==
-=gQJa
+iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlk3ZA0ACgkQ8F+F+kRs
+BCuDDAgA4eq2WDa8XKjLd2KyyjH8Ysc/hUoCru8o7UGPM8E+/Q8VrCWY0ASMuBMu
+bR+J6OJn9Qi4JfOAdl3GBngqUB8MIiTupAJ/Flc1Wn+4f5hRFwMMik8uw/JMsXQQ
+Q9qhohJNTjxoZO1aj6L5de8EC8EMEkwwAmAUptXZLUGpxG+Id7dzfdY7vhBIiZEH
+kTaJdvx5P2Qi7y6uZIitZq9MxDrQJRqfxLWqxQgRzuAzT+/gk5rWtL5sBHaLP9Nd
+zSxFv98APBMDieey/cE4fYa+loMDDlZWgH68Qzx7HuEE/cHt126yUTYKZ2Ff1ogV
+ddihEyBbaL9CElzu0A9B6yH0FfWD4w==
+=YFu6
 -----END PGP SIGNATURE-----
