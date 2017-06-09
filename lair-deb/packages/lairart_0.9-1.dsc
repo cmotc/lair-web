@@ -13,23 +13,23 @@ Build-Depends: debhelper (>= 9)
 Package-List:
  lairart deb games extra arch=amd64
 Checksums-Sha1:
- 0cc6fc03ec78a22cd5216e4fb4b7f132105c8b41 62054267 lairart_0.9.orig.tar.gz
+ 25bb97408d16a30e40c55cf7ddafc07992ec1e19 62053888 lairart_0.9.orig.tar.gz
  21682a1d98ee8bf437ce6758a4e3bdb754ea8d67 8068 lairart_0.9-1.debian.tar.xz
 Checksums-Sha256:
- d56ca3ca2879e9b8553c3dd0692024de7a9d8821f864c4d662c62b6230eb6451 62054267 lairart_0.9.orig.tar.gz
+ f8224fe8aba9405b4bb2f36e6014b956cc542135fdd757610124d66930de081d 62053888 lairart_0.9.orig.tar.gz
  43cc2703c91bacc7510278c538cebc81b2663bf867cd38dd1569a11b203a0933 8068 lairart_0.9-1.debian.tar.xz
 Files:
- 14be371cc1c2fdb7c6323cabc60826f9 62054267 lairart_0.9.orig.tar.gz
+ 543c46ba27b8c5531ae4436787a55b32 62053888 lairart_0.9.orig.tar.gz
  ddb9d5b17283eeaa263c41cdcf0d2348 8068 lairart_0.9-1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlk6Iw8ACgkQ8F+F+kRs
-BCtCVggAguLUKXe9Ol1ztcMe68bWtg/qr8Y+Dstw2te6MjTPKliu2uGprLUEm7Cr
-kqZ2wy5SrPjqNuN57wHtc2ZZXrdxN7JxORhKCDNVe+peCxSDrAL2hfjPw+K6yy1M
-qdD3afNNr1OL1VaDYxrYMxhLF1NG7qa8soICYTO5vmOwkW/SvqEuyEzYGY3vYEMY
-EMuxYLw7tYrJ+o4hfEgE25jwTRhT9E0c9dGyJ0hB0AcQsqIuAvYjl2206piEl1us
-GUu253n5u5051LRrYam0dt3z0l8caoQCLCS4LuIceQ+tnCcc7OvoysgKk50rki3y
-JqBoqQvBoZ6EcYxqSoPO60oZLMnm4Q==
-=JICj
+iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlk6NroACgkQ8F+F+kRs
+BCvFhwf+NPtD6KNonHJfIJs3JYAyrGMWrpe5TSim0B5kCXOgthok82tT0U0SC4wB
+m7KbJSFQPOr0AkJwvDS+h7KGJc49ka81VxmRe12JE10w6k0CRbXaRBRmAxARJXZ4
+ZJ3aygEhBLygc5Tz8UKFUJhScgNVQNHXyIaYa+4RxQkbK20lsvHbe92I0CwFVSNa
+XZnVV09KtPKRaKjbgk0wsg9Q77U3kjtqjcg3jYHrGPV3AwcPxra8B7IM91/zuW9Q
+bstY0JATPd0dZs2+7NwtvbKDJ8kk+1zpZ8W80WoK9GhaXesuplOw3bG7eOIYfjrp
++auYZw/0HNc95p1+wxjMnZO0GrE9gg==
+=wX9d
 -----END PGP SIGNATURE-----

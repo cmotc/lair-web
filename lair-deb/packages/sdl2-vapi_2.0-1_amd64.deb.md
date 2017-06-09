@@ -5,7 +5,7 @@ Package: sdl2-vapi
 ####Maintainer: idk@fireaxe
 ####Installed-Size: 1028
 new debian package, version 2.0.
-size 33630 bytes: control archive=305 bytes.
+size 33654 bytes: control archive=305 bytes.
 0 bytes,     0 lines      conffiles            
 210 bytes,     9 lines      control              
 Package: sdl2-vapi
