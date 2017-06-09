@@ -4,6 +4,10 @@ LAIR! Development Blog
 Getting there, little-by-little
 -------------------------------
 
+####by:idk
+
+###Fri Jun  9 15:19:54 EDT 2017
+
 I've been working on some much neglected basic stuff and killing some bugs
 recently. The game's much more performant and there are far fewer memory leaks.
 Switched to LuaJIT too, which is pretty nice. Broke a whole bunch of stuff, then
