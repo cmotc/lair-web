@@ -1,6 +1,16 @@
 LAIR! Development Blog
 ======================
 
+Getting there, little-by-little
+-------------------------------
+
+I've been working on some much neglected basic stuff and killing some bugs
+recently. The game's much more performant and there are far fewer memory leaks.
+Switched to LuaJIT too, which is pretty nice. Broke a whole bunch of stuff, then
+fixed it, collision detection is still pretty iffy but I hope to resolve that
+soon, probably tomorrow night but damn if I'm not busy like, all the time.
+Working on this game keeps me sane, though.
+
 I should just draw a picture
 ----------------------------
 
