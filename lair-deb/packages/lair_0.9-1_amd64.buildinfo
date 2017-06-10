@@ -7,20 +7,20 @@ Binary: lair
 Architecture: amd64 source
 Version: 0.9-1
 Checksums-Md5:
- c9fea95309bf94573cbd63518a542be2 1509 lair_0.9-1.dsc
+ cb2449084a83295c6b7702724ca28785 1509 lair_0.9-1.dsc
  881bb24d2d061db4b9b9a1398081a5aa 407644 lair-dbgsym_0.9-1_amd64.deb
- 868c3bad3e28bbcb41bd2b4ca96ef4dd 71312 lair_0.9-1_amd64.deb
+ 6e98a771a980b6c96668ca79b6af43ea 71272 lair_0.9-1_amd64.deb
 Checksums-Sha1:
- 774d6a6845d84770cbc32801e3121b64acb2f42b 1509 lair_0.9-1.dsc
+ f017dd7682cb893b09ea0f9a5d490e4e53e0b74e 1509 lair_0.9-1.dsc
  7e94a578a9a9015f8d303a79b8d0ec07256e2ca7 407644 lair-dbgsym_0.9-1_amd64.deb
- 31699bed031d1d8b30cf1f6a19a7e87f47ab2bba 71312 lair_0.9-1_amd64.deb
+ dfaa28f19971f350eab43a35eded58f0ccd7b4f3 71272 lair_0.9-1_amd64.deb
 Checksums-Sha256:
- 58802ebd43baf32ed7b90efd43494a16e02094905f6191e8161a038705b9ebd6 1509 lair_0.9-1.dsc
+ 6dce901d37f81ff189f3ec545f3132af9a045eaebe94a306431d2e7305b8887d 1509 lair_0.9-1.dsc
  601db29023bff50f4288df4429a7e154c11749341abd00959dbbd10f52eccf51 407644 lair-dbgsym_0.9-1_amd64.deb
- f28749159aaf59be9bf494905db8bc57307460b137861bfd37969380e21b7ca0 71312 lair_0.9-1_amd64.deb
+ c4c53893d525f010a15daf2f9031fdc28bab19e3505f993f24b04e059c5ca5bf 71272 lair_0.9-1_amd64.deb
 Build-Origin: Devuan
 Build-Architecture: amd64
-Build-Date: Sat, 10 Jun 2017 03:52:46 -0400
+Build-Date: Sat, 10 Jun 2017 04:03:44 -0400
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -384,12 +384,12 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlk7pVAACgkQ8F+F+kRs
-BCtbxAf/U3cFZraTsyLdw9J0HFeNAmt5GtF4Z5weT03nCpWsFhIGWu/vszQ/h8Q2
-XJGOFKuHJUxAP/sgkUNgP26BryTLws22HHN4JWvTFQmOxVw1Wvm/LXNSD1skYe/2
-0WBwE3col+35NcijmJzLLpRYM5hQmAb14fxIG5BJZdFt1SQKXeZiiuFHUYjsN6C7
-n0go4WE8OML79HicU72F5SF+vKhu3BQfsJibPlKlO1gJ4mLanGofvApsdKOr4xCU
-c6HyPC/I0uOBoOAmrOrt+jNRt18PmTc9LObsKlTaBOx5PhWJKDF3EM1ZbaWce6tx
-OccysfIeCdQKW/2S8md0lylys8Iniw==
-=0BZU
+iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlk7p+IACgkQ8F+F+kRs
+BCtJjAf/XqIYOM4BawsN5ekIc5rYfnS0TAk+HGrzNFuTPTXOr7xRMK9ahWlzpzDl
+9h3RbiLn3XggFwg60OkAbLZeGEvPNrVjoqbLY+kjJxjfwF7tAzg8yID4Gvl5sfyb
++Z/vjRNivAg8Bt+xkkL38OHw55wUy3aeWeqHvDD7KZbxckBTB0UuzC8IQa/3ccSN
+1I6cweHPYtB9vD8cJlWQdW+8XbgaGIimkDOeJEeXlW+1mPXaoFIBjHvVnR1ayrOZ
+FuXyoRiN3vOFtsCCjfev1YwBb5dwW/gWFlNU9xuHkjYma+5F08C7fR+LykWf1Kyn
+7j6MreIanLD9tPP55nO49sLWh5TUQg==
+=Wj8V
 -----END PGP SIGNATURE-----
