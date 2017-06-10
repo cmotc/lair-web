@@ -7,12 +7,12 @@ Source: lair
 
 ###Version: 0.9-1
 ####Maintainer: lair repo key problemsolver@openmailbox.org
-####Installed-Size: 453
+####Installed-Size: 454
 ###Depends:
   * lair (= 0.9-1)
 ###Description:
  Debug symbols for lair
-Build-Ids: c3fceec27cfac5c7627644f0f5bf4923ba001ed3
+Build-Ids: 1538687611adf0ed8a195285fea5ff7912299f74
 Homepage:[ https://cmotc.github.io/lair-web/ ](https://cmotc.github.io/lair-web/)
 ####Section: debug
 ####Priority: extra
