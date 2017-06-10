@@ -7,20 +7,20 @@ Binary: lair
 Architecture: amd64 source
 Version: 0.9-1
 Checksums-Md5:
- 6994285938181c93a4282ca07d3959c8 1509 lair_0.9-1.dsc
+ e6ed5cd6d63c9876a31856f2b74007ac 1509 lair_0.9-1.dsc
  4e6473433e6a7718e98b90acb19c0006 407940 lair-dbgsym_0.9-1_amd64.deb
  2f739547903b40ba1a55c84528d320d2 71368 lair_0.9-1_amd64.deb
 Checksums-Sha1:
- a8ebcb6450d026a170a11b2f6c1bd854efaf4d13 1509 lair_0.9-1.dsc
+ 84e13735ddd7449c740709db44dc3485e571601b 1509 lair_0.9-1.dsc
  beb4df9c873804ef5486aedee78659fa8d305856 407940 lair-dbgsym_0.9-1_amd64.deb
  0b001fa37efafe78cc94269f163dc44256a55a04 71368 lair_0.9-1_amd64.deb
 Checksums-Sha256:
- 9747852db4af0967deb46e8eb2c9fe485bc2c9f48b8951ee6b4f63fdfd84bfb3 1509 lair_0.9-1.dsc
+ f8a8c3318ead32a98c81683eea95356cce4e6158d3c030d1aaab0fdcc0275f27 1509 lair_0.9-1.dsc
  2a70b8a1951ad82a6aabb66be87ececc803a8f2dad13e9cfc2d8e23ec6d241cc 407940 lair-dbgsym_0.9-1_amd64.deb
  455daa1df2c22a9a8edc62f0b1a2e5de16e69e6945f9523a0c8d395d69dfca6a 71368 lair_0.9-1_amd64.deb
 Build-Origin: Devuan
 Build-Architecture: amd64
-Build-Date: Sat, 10 Jun 2017 01:20:59 -0400
+Build-Date: Sat, 10 Jun 2017 01:32:44 -0400
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -384,12 +384,12 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlk7gb4ACgkQ8F+F+kRs
-BCvHrwf/aO4EVMLh+Jq8OpY30JTdM/2/EgWLouHdZeNVrqXBXgTFZ+M7WLj+r6rq
-mes42EaDzfjQmYHwy52eALqsyIHAVuX/18/0lCg6dDnTUAUJuB2QNdi0NX3QdlF3
-RhRzI3w/Me5FPpH6wiZCwrZdTfVcDwgba9tuGBGjLVeVMnN70yWMFQfBaIo+B9hm
-FfB9++wyCGZ7QY9knaWGtv127RORlPIwKT3XGQp2QQUi7aI0T+xJ9E8TWBgoqCCR
-EoXbTdHhLV8fc5cNzLeaYxiri4lPVxOyENAg5rvg9SKuVPcuxbdfmerP7Z8YyroL
-9ySt6Rz7UOhtPP46YkoEJAUGQR8q2Q==
-=OBqT
+iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlk7hH8ACgkQ8F+F+kRs
+BCuN2Af/XlQaUDZUVypvIBlTguEaPN5bCQWYAndAxwg2nZytS7RRj0J1ppKm0PYU
+kqfnOWg/y8bT1u5ZbGir89sePkURHApsGvXka7N5Rqo/uWVaZSpqisD8QNp/Ixrd
+iawkKVdrQeS4Ln7c+wT8nV8Rwoem1+U/USwKY5DwmWZ7HtT8HUbVf9aIqP897w1O
+tr5JrkN3mQnNier5oWFzEUOSZsTrwFma33oxtYo+Aat7EdMN0g2GjC0Wwahw/6za
+1/gbniorJ+J55BfX2jg3DEBeCGZEaz0rJmxuSxkKfdEEoDuwXssAJlS3ty1PMIij
+BEV2Znt64tdDFGtCCFFkU3ww0rdVzg==
+=dzvr
 -----END PGP SIGNATURE-----

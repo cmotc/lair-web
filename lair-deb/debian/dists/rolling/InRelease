@@ -4,47 +4,47 @@ Hash: SHA256
 Origin: cmotc.github.io/lair-web/lair-deb
 Label: cmotc.github.io/lair-web/lair-deb
 Codename: rolling
-Date: Sat, 10 Jun 2017 05:22:40 UTC
+Date: Sat, 10 Jun 2017 05:34:25 UTC
 Architectures: amd64 i386
 Components: main
 MD5Sum:
- 10c2c81de20b79a8bf6443b3abb79b9e 4099 main/binary-amd64/Packages
- 6fa20a2d8621e50e002f30077879ac2d 1548 main/binary-amd64/Packages.gz
+ 5e33f4f57ad0a71b30fe5566ca368bce 4099 main/binary-amd64/Packages
+ d6a1a30e6078afbe2894100db14aa020 1550 main/binary-amd64/Packages.gz
  4e4ce72dcd691f383a6f537709488b05 119 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/binary-i386/Packages.gz
  df3c43484a2c6b566c5d2495b40229d0 118 main/binary-i386/Release
- e50d4d4001fb72a0c873eeb02945b95b 2353 main/source/Sources
- e473c5631119b19c5fb2c819deea5dea 1023 main/source/Sources.gz
+ 2d48f1fd69abc755c143213a2cffd3a2 2353 main/source/Sources
+ 8c6a037c1b1bab68b0a063ccc26398ee 1026 main/source/Sources.gz
  7aecc170d29fdeab20d54b0cdd092eea 120 main/source/Release
 SHA1:
- cc8c10082a0499ffb5838224768ae0c5ffe2a669 4099 main/binary-amd64/Packages
- 28e271f86c1ef19500614b47e233f4d56d747b1a 1548 main/binary-amd64/Packages.gz
+ 99f3cb9e986dac6621fdaa43f6c718ff7e2f39e4 4099 main/binary-amd64/Packages
+ b068bc824449723283247ab5abf6a87527a61ddb 1550 main/binary-amd64/Packages.gz
  84aaaa2d513d2d8b0dd1f6b03578b8533abd9b5b 119 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-i386/Packages.gz
  3050e77fad9efac2b2de1a363c9ebb0ea4cf2928 118 main/binary-i386/Release
- deefc04d9099bd33eff2dbd97b302dcdddcf0841 2353 main/source/Sources
- 2ef06ea0bb9e9cbadd21f6e9c6fbc76daa802d67 1023 main/source/Sources.gz
+ d83c1451e04289a88b8ecbaec9df6343c8c8b626 2353 main/source/Sources
+ 62bc13b5d2f107e90d561386732ebbb49809738d 1026 main/source/Sources.gz
  a5894301c52fcc84a32df7c5ac0ed536adedc3fd 120 main/source/Release
 SHA256:
- ea35292dd677c950b47842afaeddb081b9a725706c06afd8c0f751b2fc89fbb3 4099 main/binary-amd64/Packages
- 28e2679ff80ddf75327e83787de0ed9e0ee4c2cd368bd376b5601fb3f2725646 1548 main/binary-amd64/Packages.gz
+ 0e7c0479460dcb38105cc2c7fa541d4a524cafface5f8e9d86e137bd8e71044a 4099 main/binary-amd64/Packages
+ 7fa7cc88e4200cb7eb1e0a843383d071d8bf728d52721600f99658baa9c16ffd 1550 main/binary-amd64/Packages.gz
  f63c36bd2dda349507c67edd65736b16c05b39eb77d5a63dfc34b19a3071155d 119 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-i386/Packages.gz
  15623991a9f16a15fb22cae30b67b078db21badefc49f459bb9272d5e6ea6e1d 118 main/binary-i386/Release
- 13993c0a51560f69c3fd61dd24620cae3f22ada33e8edcb6fae1f6cda1643fb9 2353 main/source/Sources
- 14092b1471d9b1396af896d1b85d9bfc975b6a697abe769ce6e21cf6430502c2 1023 main/source/Sources.gz
+ 1cacea081bb7bb4824d2972f7a4663bf00d85bb994b2148f85f4e810be77138c 2353 main/source/Sources
+ b00dce0d335ded85c5dc51ebe17f6c3d2d5ce7bfe67fd6f2edfdf7f88dde22b1 1026 main/source/Sources.gz
  e4f506bd982fabce38f8c27a1842a757146b0a7074d8870c461da3aa30edc792 120 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlk7giEACgkQ8F+F+kRs
-BCtgkwf+OlB9rViQzOaxG6PWzY38oGZzX4yS0S0gKAhD3HZe0Otb9w9q71NmrQf1
-NGbY5HZpHOpDPzNpZelbTSvbxjNI/n29+JrxiNLGebl+0l3m4bhFASmWWoLpwN1h
-4kE95Xuo7I+fhgco4DlD1C8wGToeCsvaMwK2qVmWxUSAWTwgWfPbWJZ91YH6xc2L
-JzZHbJyVGEZfADzPKyqCgWsUXVblhjmFo0B8pkF5+ZDuAi7t0JoBwATQfeejwaJX
-BG7MY+bhTG2Dc59a5Urw4ZGNsySXj89XyDCSUkbfjMRmRvVMMg/ZRFZ8V6yHW3aK
-s/Wp5MYoIuSrLuD1ACuzQdD9Wxw67w==
-=mhhc
+iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlk7hOEACgkQ8F+F+kRs
+BCuoDAf9GBdaj/n06IiHcVStAAdiauNEWo/eEvv0ACYVgyE+mzBqrlrwOTvNcPm4
+B58uV3PGywS6yWRD14QJvAETKphoMOeHDRDu4UVtP38t6Qw1wvoqR2PXI1pR/Ydw
+SMLzaGFnjZapEYbsvnV1B+jR+qJAp0Gn88m7lm+j1unMP14t8PyBw71iDt/cRVXD
+y2vFVrzzOe2WfQvHXqv82UYP2V63Gr+0MwNhHvn9iyvU3IjCxUnt0PVPHw2qi71K
+GKS9ustn3yO2489JCSdSvaD6n2Eh62+hfpx8QtWPElfRUVw28KUC/S986TRDF1GU
+G6enY3T0RfSHBXWm+Ku0/3IFk2lp2w==
+=Y6sQ
 -----END PGP SIGNATURE-----
