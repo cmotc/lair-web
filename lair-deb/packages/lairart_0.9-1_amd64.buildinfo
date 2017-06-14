@@ -7,17 +7,17 @@ Binary: lairart
 Architecture: amd64 source
 Version: 0.9-1
 Checksums-Md5:
- 3f8cf8f17d248a902c61b667f6614665 1376 lairart_0.9-1.dsc
+ ca064a8657772b5377133463fe57ed5b 1376 lairart_0.9-1.dsc
  44edcd929356f5defb51d79078df62eb 66326 lairart_0.9-1_amd64.deb
 Checksums-Sha1:
- bb46d0d87a724ed018745a732281f0551678bc4d 1376 lairart_0.9-1.dsc
+ 24371069b2d186ed17c930a5e856ba2f2a29d5a4 1376 lairart_0.9-1.dsc
  5d8b80e9cccf13d68ef64d72bd6d25626511ff21 66326 lairart_0.9-1_amd64.deb
 Checksums-Sha256:
- 1b0616a0dcf9757eedbd153e8f627fe2199adaf44e9ceabf9c75a022297facb7 1376 lairart_0.9-1.dsc
+ ef02a6aa9e7a4616e604d73d8d8c581f2727b786a9c58953e0407884f75819a3 1376 lairart_0.9-1.dsc
  17262add988da059bd41e25527a2208c0bb7a161d17008a3cf3d6d73a8bda70d 66326 lairart_0.9-1_amd64.deb
 Build-Origin: Devuan
 Build-Architecture: amd64
-Build-Date: Sat, 10 Jun 2017 05:17:41 -0400
+Build-Date: Wed, 14 Jun 2017 00:00:16 -0400
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -187,12 +187,12 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAlk7uTkACgkQ8F+F+kRs
-BCt1qwgAtvZRrfKO9C54WWhZRserfmxG71WTo+oItk1nhBbEMvjpbB5aj2bWgLlZ
-u2uvwRiVu0ycdPweHTaTgXbD61YvG4CHgeZok8huzV2vk/5FApwkQEVUa27ww0pq
-4FV7Enp+EgK1sWXuB5CWR0veNxJIMPNYx52Et49Wv+SKPza3XuOgLVv54jnh7J3J
-MrNHQQoeFqZb3iFQ3f13ebJbuXUM1U6/5KD48bcT6bDpStu4A5Yn0ma+3hf66QKm
-vwFUEeXfYiuxAzSvaGJFl8x4OMqELB1KtYiEfFoJBio5iKFqdr6tKKv1CVgepU7z
-ZZyahXtuPcJs8DM2Pe8SwuNZFpQvQQ==
-=F1Al
+iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAllAtNQACgkQ8F+F+kRs
+BCt/OAf8DCO+X+GnB4xo3Q93FPcFvKmT15xqmoLsQNyONorwB+d0QZpXBCuApj5I
+bvV+/2dY/KDI/MTZvYZl8O0Ov9Zp0DMB8g8JMcdp1/KmsJuzxotSSiITk0Dm9dKv
+nr3z7va1Z9i9FXiF5VbscnHAJanUPFIycsjoz0lxp6o6L3RrhBOgcJ0wPKnDakN8
+unBsAX3HlHMBiE+PrchVNgPYZEmHm7+RNStVFrIALtdZevG34wQsp/ZttD8R0S16
+TpZLU/iO6ODizj5HNmheTYeQsGFRVXAOusf+9nhUXQ4hPbgRpIQvQ5fnBBZQjy8F
+A+5YtH1PxTv163bd/Xv8cgNjciittQ==
+=qZDx
 -----END PGP SIGNATURE-----
