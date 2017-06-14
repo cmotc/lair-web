@@ -7,27 +7,27 @@ Provides: digitalandy
 Priority: extra
 Section: checkinstall
 Filename: pool/main/d/digitalandy/digitalandy_1-1_amd64.deb
-Size: 479568
-SHA256: 33351fc3978c6bc6e1916f73576681cb5c1fb83d22bd7b925f72b6274fefa2ef
-SHA1: 50e0c186af2d2d9d2638dd053f165c2edd279799
-MD5sum: e9396668494c0fd6455ec859a58ea941
+Size: 478616
+SHA256: 01259fea778860dec08693078f7fafc1d81b7498691fd0615eb5a98a973a610c
+SHA1: af2f91849b3d366387cad601c42ec18086676b9b
+MD5sum: 27165028d3e212f5abc9129c392e3202
 Description: Package created with checkinstall 1.6.2
 
 Package: lair
 Version: 0.9-1
 Architecture: amd64
 Maintainer: lair repo key <problemsolver@openmailbox.org>
-Installed-Size: 249
+Installed-Size: 245
 Depends: lua5.2, liblua5.2-0, libsdl2-2.0-0, libsdl2-gfx-1.0-0, libsdl2-image-2.0-0, libsdl2-mixer-2.0-0, libsdl2-ttf-2.0-0, libtoxav0, libtoxcore0, libtoxencryptsave0
 Provides: lair
 Homepage: https://cmotc.github.io/lair-web/
 Priority: extra
 Section: games
 Filename: pool/main/l/lair/lair_0.9-1_amd64.deb
-Size: 71060
-SHA256: fd4df62b7a0430e58231c00ec6547f870d2fe7581f17bf0468ae05ef30e7722a
-SHA1: dd7dd052fe4577bbec0cb9c11950406c12252421
-MD5sum: 5541cd806ae07ee394ec038342a72b22
+Size: 70124
+SHA256: c4a5baa7ff3721635348a38c5c4c1e3c22195c81248c50ca6993d2d577770dd6
+SHA1: 7993201dcd58b40b606277f49fbcf0e41b1b3733
+MD5sum: 9aef2d366935d667a87037b6c34bd13d
 Description: LAIR! Roguelike Game, version 0.9
  LAIR is a Procedurally Generated Mutliplayer Rogue-Like Game.
  It uses a library of content and a set of Lua scripts to
@@ -40,18 +40,18 @@ Version: 0.9-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: lair repo key <problemsolver@openmailbox.org>
-Installed-Size: 454
+Installed-Size: 452
 Depends: lair (= 0.9-1)
 Homepage: https://cmotc.github.io/lair-web/
 Priority: extra
 Section: debug
 Filename: pool/main/l/lair/lair-dbgsym_0.9-1_amd64.deb
-Size: 407596
-SHA256: 6828bc35b72e1e3b63a1fe85fd568a81da4896335e47b3ccf87686ca361d13ae
-SHA1: 240998274e4fd314b657920e87ac96e6866bc239
-MD5sum: 0026de089bf560a62960cf735b457bbf
+Size: 404912
+SHA256: 01b301c21feca9e4f9125d7b76d77ca29091bfebc4184e665218e094c8a7d480
+SHA1: 860da2781722214850cb3cee0d7283bfda33afcc
+MD5sum: f1bbaca96e0f77281d20443ce78d50ed
 Description: Debug symbols for lair
-Build-Ids: 415d3193c8042ae7294948a78a6635376ff6ca18
+Build-Ids: 8dfb218bd5a97801a71f375e8dbecdb207b156db
 
 Package: lairart
 Version: 0.9-1
@@ -85,10 +85,10 @@ Provides: sdl2-vapi
 Priority: extra
 Section: checkinstall
 Filename: pool/main/s/sdl2-vapi/sdl2-vapi_2.0-1_amd64.deb
-Size: 33634
-SHA256: 2c41285f27e497799d0ec57805347abfaf3c898f0b1529cc14ab6e8792120dd5
-SHA1: eb7137d1d0423d6e0899b408a4e2b76f36c0e88d
-MD5sum: 7b6087765b274c4cc33a9e5bef543019
+Size: 33636
+SHA256: 51ac5a253e2ab2cfe019bd554a1029a3bcd07d04629905d4d21ee8357f676875
+SHA1: 778817437210e96d6f999ad8a13a65aec7a55bb3
+MD5sum: 27b00bb84e1cdf256d8c3630543ad8d5
 Description: Package created with checkinstall 1.6.2
 
 Package: tartrazine
@@ -100,10 +100,10 @@ Provides: tartrazine
 Priority: extra
 Section: checkinstall
 Filename: pool/main/t/tartrazine/tartrazine_0.9-1_amd64.deb
-Size: 18018
-SHA256: e54ac2689d76ab229cb0626a8bdfac455137d121e5c783aef87847a64eb7b646
-SHA1: 995109eb20ae4770526b3e034e744dd01da49bde
-MD5sum: 5f60f6f59c5a2a223d4f4952f64fcabc
+Size: 18062
+SHA256: 5b81a50e756973e0ba2779bc8c28f9bba86e576a071051ce2e545f3c398b55ab
+SHA1: e6bb9aac7a0b67667bb01bb5dcd922ad33d354d8
+MD5sum: c2c92d4ffc14e82b37d93778778e603f
 Description: Package created with checkinstall 1.6.2
 
 Package: tox-vapi
@@ -115,9 +115,9 @@ Provides: tox-vapi
 Priority: extra
 Section: checkinstall
 Filename: pool/main/t/tox-vapi/tox-vapi_0.9-1_amd64.deb
-Size: 18968
-SHA256: 5c9f38506982313748dfacdc7f066defd4c7cc2b3d194c369b0a8e1d979c9016
-SHA1: e04a4d145bc5b1bfb1bd99268215679d5a3d622e
-MD5sum: 880b030288dcd54c6444cd5f3028fd2b
+Size: 18958
+SHA256: 4fdc636da6522917381c79cfb21300f227227b589d7d263d123312cf6d1f3035
+SHA1: 04e35e138c1de3fe692fdb4712917715b7c6200c
+MD5sum: c59ba9078d95e796cee7906afe9f65d2
 Description: Package created with checkinstall 1.6.2
 
