@@ -7,17 +7,17 @@ Binary: lairart
 Architecture: amd64 source
 Version: 0.9-1
 Checksums-Md5:
- 660acbbc2bc322cf13c9613d86ec88de 1376 lairart_0.9-1.dsc
+ bd6b79db3131f768c4b5ae02483b0b97 1376 lairart_0.9-1.dsc
  44edcd929356f5defb51d79078df62eb 66326 lairart_0.9-1_amd64.deb
 Checksums-Sha1:
- e27f97c53526be8ba79b22755372a3b5da2d273c 1376 lairart_0.9-1.dsc
+ abd562da467cabc0a0edae68606e5a02b140d383 1376 lairart_0.9-1.dsc
  5d8b80e9cccf13d68ef64d72bd6d25626511ff21 66326 lairart_0.9-1_amd64.deb
 Checksums-Sha256:
- ca0a69275bb19d2adb378b6e0f3b857fc6fc3c97fc9d7c81e204161aee0e1134 1376 lairart_0.9-1.dsc
+ 1e696b3baee268da9ae0b166bbd76e2aca159443ee9bee73d87a3b12cada25fb 1376 lairart_0.9-1.dsc
  17262add988da059bd41e25527a2208c0bb7a161d17008a3cf3d6d73a8bda70d 66326 lairart_0.9-1_amd64.deb
 Build-Origin: Devuan
 Build-Architecture: amd64
-Build-Date: Wed, 14 Jun 2017 14:49:36 -0400
+Build-Date: Wed, 14 Jun 2017 18:23:40 -0400
 Installed-Build-Depends:
  autoconf (= 2.69-10),
  automake (= 1:1.15-6),
@@ -30,18 +30,18 @@ Installed-Build-Depends:
  bsdmainutils (= 9.0.12+nmu1),
  bsdutils (= 1:2.29.2-1),
  bzip2 (= 1.0.6-8.1),
- clang-3.8 (= 1:3.8.1-23),
+ clang-3.8 (= 1:3.8.1-24),
  coreutils (= 8.26-3),
  cpp (= 4:6.3.0-4),
  cpp-4.9 (= 4.9.2-10),
  cpp-5 (= 5.4.1-8),
  cpp-6 (= 6.3.0-18),
  dash (= 0.5.8-2.4),
- debconf (= 1.5.60),
+ debconf (= 1.5.61),
  debhelper (= 10.2.5),
- debianutils (= 4.8.1),
+ debianutils (= 4.8.1.1),
  dh-autoreconf (= 14),
- dh-strip-nondeterminism (= 0.033-2),
+ dh-strip-nondeterminism (= 0.034-1),
  diffutils (= 1:3.5-3),
  dpkg (= 1.18.24),
  dpkg-dev (= 1.18.24),
@@ -78,15 +78,15 @@ Installed-Build-Depends:
  libblkid1 (= 2.29.2-1),
  libbsd0 (= 0.8.3-1),
  libbz2-1.0 (= 1.0.6-8.1),
- libc-bin (= 2.24-10),
- libc-dev-bin (= 2.24-10),
- libc6 (= 2.24-10),
- libc6-dev (= 2.24-10),
+ libc-bin (= 2.24-11),
+ libc-dev-bin (= 2.24-11),
+ libc6 (= 2.24-11),
+ libc6-dev (= 2.24-11),
  libcap-ng0 (= 0.7.7-3+b1),
  libcc1-0 (= 6.3.0-18),
  libcilkrts5 (= 6.3.0-18),
- libclang-common-3.8-dev (= 1:3.8.1-23),
- libclang1-3.8 (= 1:3.8.1-23),
+ libclang-common-3.8-dev (= 1:3.8.1-24),
+ libclang1-3.8 (= 1:3.8.1-24),
  libcloog-isl4 (= 0.18.4-1+b1),
  libcomerr2 (= 1.43.4-2),
  libcroco3 (= 0.6.11-3),
@@ -96,13 +96,13 @@ Installed-Build-Depends:
  libedit2 (= 3.1-20160903-3),
  libfdisk1 (= 2.29.2-1),
  libffi6 (= 3.2.1-6),
- libfile-stripnondeterminism-perl (= 0.033-2),
+ libfile-stripnondeterminism-perl (= 0.034-1),
  libgc1c2 (= 1:7.4.2-8),
  libgcc-4.9-dev (= 4.9.2-10),
  libgcc-5-dev (= 5.4.1-8),
  libgcc-6-dev (= 6.3.0-18),
  libgcc1 (= 1:6.3.0-18),
- libgcrypt20 (= 1.7.6-1),
+ libgcrypt20 (= 1.7.6-2),
  libgdbm3 (= 1.8.3-14),
  libglib2.0-0 (= 2.50.3-2),
  libgmp10 (= 2:6.1.2+dfsg-1),
@@ -112,7 +112,7 @@ Installed-Build-Depends:
  libisl10 (= 0.12.2-2),
  libisl15 (= 0.18-1),
  libitm1 (= 6.3.0-18),
- libllvm3.8 (= 1:3.8.1-23),
+ libllvm3.8 (= 1:3.8.1-24),
  liblsan0 (= 6.3.0-18),
  liblz4-1 (= 0.0~r131-2+b1),
  liblzma5 (= 5.2.2-1.2+b1),
@@ -127,12 +127,12 @@ Installed-Build-Depends:
  libncursesw5 (= 6.0+20161126-1),
  libobjc-6-dev (= 6.3.0-18),
  libobjc4 (= 6.3.0-18),
- libpam-modules (= 1.1.8-3.5),
- libpam-modules-bin (= 1.1.8-3.5),
- libpam-runtime (= 1.1.8-3.5),
- libpam0g (= 1.1.8-3.5),
+ libpam-modules (= 1.1.8-3.6),
+ libpam-modules-bin (= 1.1.8-3.6),
+ libpam-runtime (= 1.1.8-3.6),
+ libpam0g (= 1.1.8-3.6),
  libpcre3 (= 2:8.39-3),
- libperl5.24 (= 5.24.1-2),
+ libperl5.24 (= 5.24.1-3),
  libpipeline1 (= 1.4.1-2),
  libquadmath0 (= 6.3.0-18),
  libreadline7 (= 7.0-3),
@@ -145,32 +145,32 @@ Installed-Build-Depends:
  libss2 (= 1.43.4-2),
  libstdc++-6-dev (= 6.3.0-18),
  libstdc++6 (= 6.3.0-18),
- libsystemd0 (= 232-23),
+ libsystemd0 (= 232-25),
  libtimedate-perl (= 2.3000-2),
  libtinfo5 (= 6.0+20161126-1),
  libtool (= 2.4.6-2),
  libtsan0 (= 6.3.0-18),
  libubsan0 (= 6.3.0-18),
- libudev1 (= 232-23),
+ libudev1 (= 232-25),
  libunistring0 (= 0.9.6+really0.9.3-0.1),
  libustr-1.0-1 (= 1.0.4-6),
  libuuid1 (= 2.29.2-1),
  libxml2 (= 2.9.4+dfsg1-2.2),
- linux-libc-dev (= 4.9.25-1),
+ linux-libc-dev (= 4.9.30-1),
  login (= 1:4.4-4.1),
  m4 (= 1.4.18-1),
  make (= 4.1-9.1),
  man-db (= 2.7.6.1-2),
  mawk (= 1.3.3-17+b3),
  mount (= 2.29.2-1),
- multiarch-support (= 2.24-10),
+ multiarch-support (= 2.24-11),
  ncurses-base (= 6.0+20161126-1),
  ncurses-bin (= 6.0+20161126-1),
  passwd (= 1:4.4-4.1),
  patch (= 2.7.5-1+b2),
- perl (= 5.24.1-2),
- perl-base (= 5.24.1-2),
- perl-modules-5.24 (= 5.24.1-2),
+ perl (= 5.24.1-3),
+ perl-base (= 5.24.1-3),
+ perl-modules-5.24 (= 5.24.1-3),
  po-debconf (= 1.0.20),
  readline-common (= 7.0-3),
  sed (= 4.4-1),
@@ -187,12 +187,12 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAllBhUQACgkQ8F+F+kRs
-BCvOgQgAuI9BROcaHLB7TpHkONpSz3UvnfkErwgbwhrvBtOnj69gKpMRByBp/TeE
-DN/6lEy2+Knei3imGtLkvmjHjeVRjtcQLRfbx1wltEOY0EdfFFGvkRNlhkEy3cVo
-Q77WjRTKsMh3Wgq3jeS6XouTmt8rznmYdjI78Z8eL28h1uk8vYzIyx8Le84UNq3A
-ScPsrLFwXnflX88F/35nkPTlFVXbccvTIdf4rmP+HbOvOZ900/fGn2POAgaoBCOc
-EVvruC9/YHpn3pJ0D6PHvnIEkytSYlg5i2lJd8VvJLFRKQxc9UmqsWAKbpx5O3re
-r3iNizvVI5qeTDL45qL+3uM07Clz0g==
-=IrEn
+iQEzBAEBCAAdFiEEwM7uKXtf5F/2EKrG8F+F+kRsBCsFAllBt3AACgkQ8F+F+kRs
+BCsPAAf7BBiCvfWDextJPzbw3eZJe6c1mw0F57s67AW2rRFgNzdlTAydlWDDaxZj
+IU8sqDl2P9tolUI6f4YcArYHdlc5Jh6V9CUA6oM8n65km3rf52YKCiOH6Yh3TYmO
+MRbzbhhfe2Ru7kIIUo6rMHVzGxX7ucCOZvwTuo0IijBSxn/FnE9iR7W1hCW96AGP
+Bnm+J/fMd/R+0Tym0VGIAZbDjiYjB3CwjoB2DlZ03ucB0nRUVpIUilJ5LFYuBsx+
+TL9nS0tyvr6dADOc195wZhxx6kzY8rW6XgPHpUokPd2SzTgoBvJi27IiPEYzp+Bq
+j4iCGW8hgZIvbJ8LdYsZUAIAx9QSIg==
+=fbSr
 -----END PGP SIGNATURE-----
